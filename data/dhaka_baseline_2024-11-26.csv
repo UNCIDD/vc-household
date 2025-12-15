@@ -1,0 +1,1266 @@
+"","household_id","individual_id","household_size","household_contact","age","age_group","sex","relation_to_index","drinking_water","soap_in_home","occupation","occupat_other","occupat_group","monthly_income"
+"1",1,1,5,0,19.9599990844727,"18-61","female","Self","Tubewell","Yes","Housewife","","AtHome",12000
+"2",1,2,5,1,55.9799995422363,"18-61","male","Parent","Tubewell","Yes",NA,"SCHOOL TEACHER","Outside",12000
+"3",74,3,5,0,21.9599990844727,"18-61","female","Self","Tubewell","Yes",NA,"STUDENT","Outside",11000
+"4",74,4,5,1,50.9799995422363,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",11000
+"5",85,5,4,0,39.0499992370605,"18-61","female","Self","Private tap","No","Housewife","","AtHome",7500
+"6",85,6,4,1,41.0499992370605,"18-61","male","Spouse","Private tap","No",NA,"BUSINESS","Outside",7500
+"7",96,7,5,0,20.1200008392334,"18-61","male","Self","Tubewell","Yes","Day laborer","","Outside",9000
+"8",96,8,5,1,46.1300010681152,"18-61","male","Parent","Tubewell","Yes","Day laborer","","Outside",9000
+"9",96,9,5,1,41.1300010681152,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",9000
+"10",107,10,5,0,33.1399993896484,"18-61","male","Self","Private tap","Yes","Rickshaw puller","","Outside",3000
+"11",107,11,5,1,26.1399993896484,"18-61","female","Spouse","Private tap","Yes","Housekeeper","","Outside",3000
+"12",118,12,4,0,24.1800003051758,"18-61","male","Self","Boiled water","Yes","Shopkeeper","","Outside",11000
+"13",118,13,4,1,46.189998626709,"18-61","female","Parent","Boiled water","Yes","Housewife","","AtHome",11000
+"14",118,14,4,1,29.1800003051758,"18-61","male","Sibling","Boiled water","Yes","Shopkeeper","","Outside",11000
+"15",129,15,6,0,22.2099990844727,"18-61","male","Self","Tubewell","Yes","Day laborer","","Outside",8700
+"16",129,16,6,1,41.2200012207031,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",8700
+"17",140,17,5,0,41.3199996948242,"18-61","female","Self","Boiled water","Yes",NA,"SERVICE","Outside",16000
+"18",140,18,5,1,24.3099994659424,"18-61","female","Unknown","Boiled water","Yes",NA,"HOUSE WORK","Outside",16000
+"19",140,19,5,1,7.30000019073486,"5-17","female","Child","Boiled water","Yes",NA,"","Under18",16000
+"20",140,20,5,1,25.3099994659424,"18-61","male","Sibling","Boiled water","Yes",NA,"STUDENT","Outside",16000
+"21",151,21,3,0,25.3199996948242,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",4200
+"22",151,22,3,1,36.3300018310547,"18-61","male","Spouse","Private tap","Yes","Rickshaw puller","","Outside",4200
+"23",2,52,5,0,46.3400001525879,"18-61","male","Self","Tubewell","Yes",NA,"BUSINESS","Outside",5000
+"24",2,53,5,1,41.3400001525879,"18-61","female","Spouse","Tubewell","Yes",NA,"BUSINESS","Outside",5000
+"25",2,54,5,1,15.3199996948242,"5-17","male","Child","Tubewell","Yes",NA,"","Under18",5000
+"26",2,55,5,1,9.31999969482422,"5-17","male","Child","Tubewell","Yes",NA,"","Under18",5000
+"27",13,56,5,0,43.3499984741211,"18-61","male","Self","Private tap","Yes",NA,"SERVICE","Outside",4200
+"28",13,57,5,1,37.3499984741211,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",4200
+"29",13,58,5,1,13.3299999237061,"5-17","male","Child","Private tap","Yes",NA,"","Under18",4200
+"30",13,59,5,1,8.32999992370605,"5-17","male","Child","Private tap","Yes",NA,"","Under18",4200
+"31",13,60,5,1,6.32999992370605,"5-17","male","Child","Private tap","Yes",NA,"","Under18",4200
+"32",24,61,7,0,18.3400001525879,"18-61","female","Self","Tubewell","Yes","Housewife","","AtHome",5000
+"33",24,62,7,1,36.3499984741211,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",5000
+"34",35,63,5,0,22.3500003814697,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",5000
+"35",35,64,5,1,41.3600006103516,"18-61","male","Spouse","Private tap","Yes","Driver","","Outside",5000
+"36",46,65,5,0,26.3799991607666,"18-61","female","Self","Tubewell","Yes","Housewife","","AtHome",3900
+"37",46,66,5,1,31.3799991607666,"18-61","male","Spouse","Tubewell","Yes","Rickshaw puller","","Outside",3900
+"38",46,67,5,1,9.36999988555908,"5-17","female","Child","Tubewell","Yes",NA,"","Under18",3900
+"39",46,68,5,1,6.3600001335144,"5-17","male","Child","Tubewell","Yes",NA,"","Under18",3900
+"40",57,69,3,0,46.3899993896484,"18-61","female","Self","Tubewell","Yes","Housewife","","AtHome",4500
+"41",57,70,3,1,26.3799991607666,"18-61","male","Child","Tubewell","Yes","Day laborer","","Outside",4500
+"42",68,71,4,0,29.5200004577637,"18-61","male","Self","Tubewell","Yes",NA,"SERVICE","Outside",17600
+"43",71,72,7,0,18.5300006866455,"18-61","male","Self","Boiled water","Yes",NA,"STUDENT","Outside",17000
+"44",72,73,8,0,25.5499992370605,"18-61","male","Self","Tubewell","Yes",NA,"BUSINESS","Outside",11700
+"45",73,74,4,0,48.5999984741211,"18-61","male","Self","Private tap","Yes",NA,"BUSINESS","Outside",7000
+"46",75,75,3,0,30.6000003814697,"18-61","male","Self","Tubewell","Yes",NA,"SERVICE","Outside",7500
+"47",76,76,6,0,18.6800003051758,"18-61","male","Self","Boiled water","Yes",NA,"STUDENT","Outside",14000
+"48",76,77,6,1,27.6900005340576,"18-61","male","Sibling","Boiled water","Yes",NA,"SERVICE","Outside",14000
+"49",77,78,7,0,21.7099990844727,"18-61","male","Self","Tubewell","Yes",NA,"SERVICE","Outside",9500
+"50",77,79,7,1,34.7200012207031,"18-61","male","Sibling","Tubewell","Yes",NA,"SERVICE","Outside",9500
+"51",78,80,6,0,10.6999998092651,"5-17","male","Self","Private tap","Yes",NA,"","Under18",7000
+"52",78,81,6,1,30.7199993133545,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",7000
+"53",79,82,7,0,14.7299995422363,"5-17","female","Self","Boiled water","Yes",NA,"","Under18",10000
+"54",79,83,7,1,32.75,"18-61","female","Unknown","Boiled water","Yes","Housewife","","AtHome",10000
+"55",80,84,4,0,7.75,"5-17","female","Self","Boiled water","Yes",NA,"","Under18",4000
+"56",80,85,4,1,27.7600002288818,"18-61","male","Parent","Boiled water","Yes","Rickshaw puller","","Outside",4000
+"57",81,86,3,0,14.8400001525879,"5-17","female","Self","Tubewell","Yes",NA,"","Under18",5000
+"58",81,87,3,1,50.8699989318848,"18-61","male","Parent","Tubewell","Yes",NA,"","Outside",5000
+"59",82,88,8,0,5.84999990463257,"5-17","female","Self","Public tap","Yes",NA,"","Under18",18500
+"60",82,89,8,1,28.8700008392334,"18-61","male","Parent","Public tap","Yes",NA,"BUSINESS","Outside",18500
+"61",83,90,6,0,11.8599996566772,"5-17","male","Self","Tubewell","Yes",NA,"","Under18",6000
+"62",83,91,6,1,35.8800010681152,"18-61","male","Parent","Tubewell","Yes",NA,"SMALL BUSINESS","Outside",6000
+"63",84,92,5,0,7.86999988555908,"5-17","female","Self","Boiled water","Yes",NA,"","Under18",5000
+"64",84,93,5,1,40.8899993896484,"18-61","male","Parent","Boiled water","Yes",NA,"BUSINESS","Outside",5000
+"65",86,94,4,0,35.8899993896484,"18-61","male","Self","Tubewell","No","Rickshaw puller","","Outside",2900
+"66",86,95,4,1,30.8799991607666,"18-61","female","Spouse","Tubewell","No","Housewife","","AtHome",2900
+"67",87,96,4,0,45.9599990844727,"18-61","female","Self","Tubewell","Yes","Housewife","","AtHome",14000
+"68",87,97,4,1,18.9400005340576,"18-61","male","Child","Tubewell","Yes",NA,"STUDENT","Outside",14000
+"69",88,98,5,0,31.0200004577637,"18-61","female","Self","Tubewell","Yes","Housewife","","AtHome",4500
+"70",88,99,5,1,54.0400009155273,"18-61","male","Spouse","Tubewell","Yes","Rickshaw puller","","Outside",4500
+"71",89,100,3,0,19.0499992370605,"18-61","female","Self","Tubewell","Yes","Housewife","","AtHome",5500
+"72",89,101,3,1,31.0499992370605,"18-61","male","Spouse","Tubewell","Yes",NA,"SERVICE","Outside",5500
+"73",90,102,6,0,41.0699996948242,"18-61","female","Self","Tubewell","Yes","Housewife","","AtHome",7000
+"74",90,103,6,1,23.0499992370605,"18-61","female","Child","Tubewell","Yes",NA,"STUDENT","Outside",7000
+"75",91,104,4,0,59.25,"18-61","male","Self","Private tap","Yes",NA,"NIGHT GARD","Outside",12500
+"76",91,105,4,1,46.2400016784668,"18-61","female","Spouse","Private tap","Yes",NA,"HOSPITAL MAID","Outside",12500
+"77",92,106,4,0,35.2700004577637,"18-61","male","Self","Public tap","Yes",NA,"BUSINESS","Outside",12000
+"78",92,107,4,1,6.25,"5-17","female","Child","Public tap","Yes",NA,"","Under18",12000
+"79",93,108,4,0,12.3000001907349,"5-17","male","Self","Tubewell","Yes",NA,"","Under18",7000
+"80",93,109,4,1,31.3099994659424,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",7000
+"81",94,110,4,0,30.3899993896484,"18-61","male","Self","Tubewell","Yes",NA,"SERVICE","Outside",5000
+"82",94,111,4,1,25.3799991607666,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",5000
+"83",95,112,7,0,9.39000034332275,"5-17","male","Self","Private tap","Yes",NA,"","Under18",5000
+"84",95,113,7,1,47.4199981689453,"18-61","male","Parent","Private tap","Yes","Day laborer","","Outside",5000
+"85",97,114,7,0,49.4300003051758,"18-61","female","Self","Boiled water","Yes","Housewife","","AtHome",47000
+"86",97,115,7,1,20.4099998474121,"18-61","male","Child","Boiled water","Yes",NA,"STUDENT","Outside",47000
+"87",98,116,3,0,36.4599990844727,"18-61","male","Self","Boiled water","Yes",NA,"BUSINESS","Outside",8000
+"88",98,117,3,1,29.4500007629395,"18-61","female","Spouse","Boiled water","Yes","Housewife","","AtHome",8000
+"89",99,118,4,0,30.5200004577637,"18-61","male","Self","Private tap","Yes",NA,"SMALL BUSINESS","Outside",3450
+"90",99,119,4,1,22.5100002288818,"18-61","female","Spouse","Private tap","Yes",NA,"SMALL BUSINESS","Outside",3450
+"91",100,120,5,0,40.6199989318848,"18-61","male","Self","Tubewell","Yes",NA,"BUSINESS","Outside",7000
+"92",100,121,5,1,32.6100006103516,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",7000
+"93",100,122,5,1,15.6000003814697,"5-17","male","Child","Tubewell","Yes",NA,"","Under18",7000
+"94",100,123,5,1,10.6000003814697,"5-17","male","Child","Tubewell","Yes",NA,"","Under18",7000
+"95",100,124,5,1,5.59000015258789,"5-17","male","Child","Tubewell","Yes",NA,"","Under18",7000
+"96",101,125,4,0,35.6599998474121,"18-61","male","Self","Private tap","Yes",NA,"SKILL WORKER","Outside",2600
+"97",101,126,4,1,26.6499996185303,"18-61","female","Spouse","Private tap","Yes",NA,"SKILL WORKER","Outside",2600
+"98",101,127,4,1,9.64000034332275,"5-17","female","Child","Private tap","Yes",NA,"","Under18",2600
+"99",101,128,4,1,7.6399998664856,"5-17","female","Child","Private tap","Yes",NA,"","Under18",2600
+"100",102,129,6,0,44.6699981689453,"18-61","female","Self","Boiled water","Yes","Housewife","","AtHome",16000
+"101",102,130,6,1,20.6499996185303,"18-61","female","Child","Boiled water","Yes",NA,"STUDENT","Outside",16000
+"102",103,131,4,0,40.810001373291,"18-61","male","Self","Tubewell","Yes",NA,"BUSINESS","Outside",5500
+"103",103,132,4,1,26.7999992370605,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",5500
+"104",103,133,4,1,12.789999961853,"5-17","male","Child","Tubewell","Yes",NA,"","Under18",5500
+"105",103,134,4,1,11.789999961853,"5-17","male","Child","Tubewell","Yes",NA,"","Under18",5500
+"106",104,135,5,0,42.8300018310547,"18-61","female","Self","Boiled water","Yes","Housewife","","AtHome",9500
+"107",104,136,5,1,52.8400001525879,"18-61","male","Spouse","Boiled water","Yes","Driver","","Outside",9500
+"108",104,137,5,1,19.8099994659424,"18-61","female","Child","Boiled water","Yes",NA,"","Outside",9500
+"109",104,138,5,1,13.8100004196167,"5-17","male","Child","Boiled water","Yes",NA,"","Under18",9500
+"110",105,139,6,0,40.8400001525879,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",9000
+"111",105,140,6,1,45.8400001525879,"18-61","male","Spouse","Private tap","Yes",NA,"","Outside",9000
+"112",105,141,6,1,12.8199996948242,"5-17","male","Child","Private tap","Yes",NA,"","Under18",9000
+"113",105,142,6,1,8.81999969482422,"5-17","female","Child","Private tap","Yes",NA,"","Under18",9000
+"114",106,143,3,0,32.8400001525879,"18-61","male","Self","Tubewell","Yes",NA,"TAILOR","Outside",10000
+"115",106,144,3,1,27.8400001525879,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",10000
+"116",108,145,5,0,50.8600006103516,"18-61","male","Self","Private tap","No",NA,"COBBLER","Outside",5400
+"117",109,146,3,0,35.8699989318848,"18-61","male","Self","Private tap","Yes",NA,"","Outside",7000
+"118",109,147,3,1,16.8600006103516,"5-17","female","Unknown","Private tap","Yes",NA,"","Under18",7000
+"119",110,148,4,0,25.8600006103516,"18-61","female","Self","Tubewell","Yes","Housewife","","AtHome",6000
+"120",110,149,4,1,28.8700008392334,"18-61","male","Spouse","Tubewell","Yes","Rickshaw puller","","Outside",6000
+"121",110,150,4,1,16.8600006103516,"5-17","male","Unknown","Tubewell","Yes",NA,"","Under18",6000
+"122",111,151,4,0,30.8799991607666,"18-61","male","Self","Tubewell","Yes",NA,"FISHERMAN","Outside",2000
+"123",111,152,4,1,20.8799991607666,"18-61","female","Spouse","Tubewell","Yes","Housekeeper","","Outside",2000
+"124",112,153,7,0,24.9799995422363,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",8000
+"125",112,154,7,1,27.9799995422363,"18-61","male","Spouse","Private tap","Yes",NA,"BUSINESS","Outside",8000
+"126",113,155,5,0,25.9799995422363,"18-61","female","Self","Tubewell","Yes","Housewife","","AtHome",6000
+"127",113,156,5,1,40.9900016784668,"18-61","male","Spouse","Tubewell","Yes",NA,"FARMER","Outside",6000
+"128",113,157,5,1,6.96999979019165,"5-17","female","Child","Tubewell","Yes",NA,"","Under18",6000
+"129",113,158,5,1,5.96999979019165,"5-17","male","Child","Tubewell","Yes",NA,"","Under18",6000
+"130",114,159,5,0,19.0599994659424,"18-61","male","Self","Tubewell","Yes","Unemployed","","AtHome",10000
+"131",114,160,5,1,50.0800018310547,"18-61","male","Parent","Tubewell","Yes",NA,"BUSINESS","Outside",10000
+"132",114,161,5,1,46.0800018310547,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",10000
+"133",115,162,5,0,13.0799999237061,"5-17","female","Self","Boiled water","Yes",NA,"","Under18",20000
+"134",115,163,5,1,51.1100006103516,"18-61","male","Parent","Boiled water","Yes",NA,"TEACHER","Outside",20000
+"135",115,164,5,1,33.0999984741211,"18-61","female","Parent","Boiled water","Yes","Housewife","","AtHome",20000
+"136",115,165,5,1,16.0799999237061,"5-17","male","Sibling","Boiled water","Yes",NA,"","Under18",20000
+"137",115,166,5,1,12.0799999237061,"5-17","female","Sibling","Boiled water","Yes",NA,"","Under18",20000
+"138",116,167,5,0,33.189998626709,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",6000
+"139",116,168,5,1,13.1800003051758,"5-17","male","Child","Private tap","Yes",NA,"","Under18",6000
+"140",116,169,5,1,6.17000007629395,"5-17","female","Child","Private tap","Yes",NA,"","Under18",6000
+"141",117,170,8,0,6.17999982833862,"5-17","male","Self","Private tap","Yes",NA,"","Under18",12000
+"142",117,171,8,1,44.2000007629395,"18-61","female","Parent","Private tap","Yes",NA,"PART TIME SERVICE","Outside",12000
+"143",119,172,5,0,47.2000007629395,"18-61","male","Self","Tubewell","Yes",NA,"","Outside",7000
+"144",119,173,5,1,33.189998626709,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",7000
+"145",119,174,5,1,11.1800003051758,"5-17","female","Child","Tubewell","Yes",NA,"","Under18",7000
+"146",119,175,5,1,8.18000030517578,"5-17","female","Child","Tubewell","Yes",NA,"","Under18",7000
+"147",120,176,4,0,30.2000007629395,"18-61","female","Self","Boiled water","Yes","Housewife","","AtHome",9000
+"148",120,177,4,1,8.1899995803833,"5-17","female","Child","Boiled water","Yes",NA,"","Under18",9000
+"149",121,178,7,0,7.21000003814697,"5-17","female","Self","Tubewell","No",NA,"","Under18",10000
+"150",121,179,7,1,46.2400016784668,"18-61","male","Parent","Tubewell","No",NA,"MASON","Outside",10000
+"151",121,180,7,1,41.2299995422363,"18-61","female","Parent","Tubewell","No","Housewife","","AtHome",10000
+"152",121,181,7,1,18.2199993133545,"18-61","male","Sibling","Tubewell","No","Garment worker","","Outside",10000
+"153",122,182,4,0,36.2299995422363,"18-61","female","Self","Boiled water","Yes","Housewife","","AtHome",8000
+"154",122,183,4,1,45.2400016784668,"18-61","male","Spouse","Boiled water","Yes",NA,"BUSINESS","Outside",8000
+"155",122,184,4,1,11.210000038147,"5-17","female","Child","Boiled water","Yes",NA,"","Under18",8000
+"156",122,185,4,1,10.210000038147,"5-17","male","Child","Boiled water","Yes",NA,"","Under18",8000
+"157",123,186,4,0,31.2299995422363,"18-61","male","Self","Private tap","No","Rickshaw puller","","Outside",5000
+"158",123,187,4,1,10.210000038147,"5-17","male","Child","Private tap","No",NA,"","Under18",5000
+"159",123,188,4,1,6.21000003814697,"5-17","female","Child","Private tap","No",NA,"","Under18",5000
+"160",124,189,4,0,21.2399997711182,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",4000
+"161",124,190,4,1,25.2399997711182,"18-61","male","Spouse","Private tap","Yes",NA,"BUTCHER","Outside",4000
+"162",124,191,4,1,7.23000001907349,"5-17","male","Child","Private tap","Yes",NA,"","Under18",4000
+"163",125,192,5,0,39.2799987792969,"18-61","male","Self","Private tap","Yes","Rickshaw puller","","Outside",9000
+"164",125,193,5,1,32.2700004577637,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",9000
+"165",125,194,5,1,9.26000022888184,"5-17","female","Child","Private tap","Yes",NA,"","Under18",9000
+"166",125,195,5,1,8.25,"5-17","female","Child","Private tap","Yes",NA,"","Under18",9000
+"167",126,196,5,0,46.2900009155273,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",9000
+"168",126,197,5,1,56.2999992370605,"18-61","male","Spouse","Private tap","Yes",NA,"PETTY BUSINESS","Outside",9000
+"169",126,198,5,1,27.2800006866455,"18-61","male","Child","Private tap","Yes",NA,"PETTY BUSINESS","Outside",9000
+"170",126,199,5,1,23.2800006866455,"18-61","male","Child","Private tap","Yes","Day laborer","","Outside",9000
+"171",127,200,3,0,26.2800006866455,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",7000
+"172",127,201,3,1,31.2800006866455,"18-61","male","Spouse","Private tap","Yes","Rickshaw puller","","Outside",7000
+"173",127,202,3,1,6.26999998092651,"5-17","male","Child","Private tap","Yes",NA,"","Under18",7000
+"174",128,203,6,0,5.30000019073486,"5-17","male","Self","Public tap","Yes",NA,"","Under18",7500
+"175",128,204,6,1,37.3300018310547,"18-61","male","Parent","Public tap","Yes",NA,"","Outside",7500
+"176",128,205,6,1,31.3199996948242,"18-61","female","Parent","Public tap","Yes","Housewife","","AtHome",7500
+"177",128,206,6,1,12.3100004196167,"5-17","male","Sibling","Public tap","Yes",NA,"","Under18",7500
+"178",128,207,6,1,7.30000019073486,"5-17","female","Sibling","Public tap","Yes",NA,"","Under18",7500
+"179",130,208,4,0,29.3299999237061,"18-61","male","Self","Private tap","Yes","Driver","","Outside",9500
+"180",130,209,4,1,23.3199996948242,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",9500
+"181",131,210,3,0,27.3400001525879,"18-61","male","Self","Tubewell","Yes",NA,"MASON","Outside",6500
+"182",131,211,3,1,26.3400001525879,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",6500
+"183",132,212,6,0,41.3499984741211,"18-61","male","Self","Private tap","Yes",NA,"PETTY BUSINESS","Outside",7000
+"184",132,213,6,1,36.3400001525879,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",7000
+"185",132,214,6,1,10.3299999237061,"5-17","male","Child","Private tap","Yes",NA,"","Under18",7000
+"186",132,215,6,1,7.32000017166138,"5-17","female","Child","Private tap","Yes",NA,"","Under18",7000
+"187",133,216,7,0,43.3499984741211,"18-61","female","Self","Tubewell","Yes","Housewife","","AtHome",12500
+"188",133,217,7,1,54.3600006103516,"18-61","male","Spouse","Tubewell","Yes","Driver","","Outside",12500
+"189",133,218,7,1,16.3299999237061,"5-17","male","Child","Tubewell","Yes",NA,"","Under18",12500
+"190",133,219,7,1,6.32000017166138,"5-17","female","Child","Tubewell","Yes",NA,"","Under18",12500
+"191",134,220,2,0,29.3799991607666,"18-61","male","Self","Tubewell","Yes","Garment worker","","Outside",5000
+"192",134,221,2,1,27.3799991607666,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",5000
+"193",135,222,6,0,37.3899993896484,"18-61","female","Self","Public tap","Yes",NA,"SKILL WORKER","Outside",7000
+"194",135,223,6,1,46.4000015258789,"18-61","male","Spouse","Public tap","Yes",NA,"SKILL WORKER","Outside",7000
+"195",135,224,6,1,23.3799991607666,"18-61","female","Child","Public tap","Yes",NA,"SKILL WORKER","Outside",7000
+"196",135,225,6,1,15.3800001144409,"5-17","female","Child","Public tap","Yes",NA,"","Under18",7000
+"197",136,226,10,0,20.3999996185303,"18-61","male","Self","Private tap","Yes","Garment worker","","Outside",12000
+"198",136,227,10,1,41.4099998474121,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",12000
+"199",136,228,10,1,16.3899993896484,"5-17","female","Sibling","Private tap","Yes",NA,"","Under18",12000
+"200",136,229,10,1,13.3900003433228,"5-17","male","Sibling","Private tap","Yes",NA,"","Under18",12000
+"201",136,230,10,1,11.3900003433228,"5-17","male","Sibling","Private tap","Yes",NA,"","Under18",12000
+"202",136,231,10,1,9.39000034332275,"5-17","female","Sibling","Private tap","Yes",NA,"","Under18",12000
+"203",137,232,5,0,46.439998626709,"18-61","male","Self","Private tap","No","Driver","","Outside",10500
+"204",137,233,5,1,26.4200000762939,"18-61","female","Spouse","Private tap","No","Garment worker","","Outside",10500
+"205",137,234,5,1,11.4099998474121,"5-17","female","Child","Private tap","No",NA,"","Under18",10500
+"206",137,235,5,1,8.40999984741211,"5-17","male","Child","Private tap","No",NA,"","Under18",10500
+"207",137,236,5,1,3.41000008583069,"0-5","male","Child","Private tap","No",NA,"","Under18",10500
+"208",138,237,3,0,31.4400005340576,"18-61","female","Self","Tubewell","Yes","Housewife","","AtHome",25000
+"209",138,238,3,1,41.4500007629395,"18-61","male","Spouse","Tubewell","Yes",NA,"BUSINESS","Outside",25000
+"210",138,239,3,1,12.4300003051758,"5-17","female","Child","Tubewell","Yes",NA,"","Under18",25000
+"211",139,240,8,0,8.4399995803833,"5-17","male","Self","Tubewell","Yes",NA,"","Under18",4500
+"212",139,241,8,1,41.4700012207031,"18-61","male","Parent","Tubewell","Yes","Unemployed","","AtHome",4500
+"213",139,242,8,1,40.4599990844727,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",4500
+"214",139,243,8,1,20.4500007629395,"18-61","male","Sibling","Tubewell","Yes",NA,"SKILL WORKER","Outside",4500
+"215",139,244,8,1,15.4499998092651,"5-17","female","Sibling","Tubewell","Yes",NA,"","Under18",4500
+"216",139,245,8,1,13.4499998092651,"5-17","male","Sibling","Tubewell","Yes",NA,"","Under18",4500
+"217",139,246,8,1,10.4399995803833,"5-17","female","Sibling","Tubewell","Yes",NA,"","Under18",4500
+"218",141,247,4,0,36.4700012207031,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",7000
+"219",141,248,4,1,46.4700012207031,"18-61","male","Parent","Private tap","Yes",NA,"BUSINESS","Outside",7000
+"220",141,249,4,1,17.4500007629395,"18-61","male","Child","Private tap","Yes",NA,"","Outside",7000
+"221",141,250,4,1,13.4499998092651,"5-17","male","Child","Private tap","Yes",NA,"","Under18",7000
+"222",142,251,4,0,25.5,"18-61","female","Self","Tubewell","Yes","Housewife","","AtHome",18000
+"223",142,252,4,1,34.5,"18-61","male","Spouse","Tubewell","Yes","Garment worker","","Outside",18000
+"224",142,253,4,1,9.48999977111816,"5-17","female","Child","Tubewell","Yes",NA,"","Under18",18000
+"225",143,254,4,0,35.5200004577637,"18-61","male","Self","Tubewell","Yes",NA,"FARMER","Outside",15000
+"226",143,255,4,1,28.5200004577637,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",15000
+"227",143,256,4,1,10.5,"5-17","male","Child","Tubewell","Yes",NA,"","Under18",15000
+"228",144,257,3,0,25.5400009155273,"18-61","male","Self","Private tap","Yes",NA,"SERVICE","Outside",4000
+"229",144,258,3,1,20.5300006866455,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",4000
+"230",144,259,3,1,4.51999998092651,"0-5","male","Child","Private tap","Yes",NA,"","Under18",4000
+"231",145,260,5,0,40.5499992370605,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",11800
+"232",145,261,5,1,55.560001373291,"18-61","male","Spouse","Private tap","Yes",NA,"BUSINESS","Outside",11800
+"233",145,262,5,1,11.5299997329712,"5-17","male","Child","Private tap","Yes",NA,"","Under18",11800
+"234",145,263,5,1,9.52999973297119,"5-17","male","Child","Private tap","Yes",NA,"","Under18",11800
+"235",146,264,3,0,30.5699996948242,"18-61","male","Self","Public tap","Yes","Day laborer","","Outside",6000
+"236",147,265,5,0,18.5699996948242,"18-61","male","Self","Tubewell","Yes","Garment worker","","Outside",8000
+"237",147,266,5,1,50.5900001525879,"18-61","male","Parent","Tubewell","Yes","Rickshaw puller","","Outside",8000
+"238",147,267,5,1,45.5900001525879,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",8000
+"239",147,268,5,1,12.5600004196167,"5-17","male","Sibling","Tubewell","Yes",NA,"","Under18",8000
+"240",148,269,3,0,27.5900001525879,"18-61","male","Self","Tubewell","Yes",NA,"SKILL WORKER","Outside",5000
+"241",148,270,3,1,20.5799999237061,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",5000
+"242",149,271,6,0,6.59000015258789,"5-17","male","Self","Private tap","Yes",NA,"","Under18",4500
+"243",149,272,6,1,32.6100006103516,"18-61","male","Parent","Private tap","Yes","Day laborer","","Outside",4500
+"244",149,273,6,1,30.6100006103516,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",4500
+"245",149,274,6,1,10.5900001525879,"5-17","male","Sibling","Private tap","Yes",NA,"","Under18",4500
+"246",149,275,6,1,8.59000015258789,"5-17","male","Sibling","Private tap","Yes",NA,"","Under18",4500
+"247",150,276,4,0,28.6100006103516,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",8600
+"248",150,277,4,1,35.6199989318848,"18-61","male","Spouse","Private tap","Yes","Rickshaw puller","","Outside",8600
+"249",150,278,4,1,13.6000003814697,"5-17","male","Child","Private tap","Yes",NA,"","Under18",8600
+"250",150,279,4,1,11.6000003814697,"5-17","female","Child","Private tap","Yes",NA,"","Under18",8600
+"251",152,280,3,0,44.8400001525879,"18-61","male","Self","Tubewell","Yes",NA,"BUSINESS","Outside",12500
+"252",152,281,3,1,40.8400001525879,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",12500
+"253",153,282,4,0,22.8500003814697,"18-61","male","Self","Tubewell","Yes",NA,"TEACHER","Outside",10000
+"254",153,283,4,1,45.8699989318848,"18-61","male","Parent","Tubewell","Yes","Day laborer","","Outside",10000
+"255",153,284,4,1,40.8600006103516,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",10000
+"256",154,285,2,0,26.8700008392334,"18-61","male","Self","Tubewell","Yes",NA,"BUSINESS","Outside",12000
+"257",154,286,2,1,19.8700008392334,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",12000
+"258",155,287,6,0,40.9000015258789,"18-61","male","Self","Tubewell","Yes",NA,"FARMER","Outside",8000
+"259",155,288,6,1,30.8899993896484,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",8000
+"260",155,289,6,1,12.8800001144409,"5-17","male","Child","Tubewell","Yes",NA,"","Under18",8000
+"261",155,290,6,1,9.88000011444092,"5-17","female","Child","Tubewell","Yes",NA,"","Under18",8000
+"262",156,291,8,0,26.9699993133545,"18-61","male","Self","Tubewell","Yes",NA,"SERVICE","Outside",13000
+"263",156,292,8,1,19.9599990844727,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",13000
+"264",157,293,7,0,28.1100006103516,"18-61","male","Self","Tubewell","Yes",NA,"BUSINESS","Outside",8000
+"265",157,294,7,1,21.1000003814697,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",8000
+"266",157,295,7,1,60.1300010681152,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",8000
+"267",158,296,5,0,6.1399998664856,"5-17","male","Self","Boiled water","Yes",NA,"","Under18",7700
+"268",158,297,5,1,26.1499996185303,"18-61","female","Parent","Boiled water","Yes","Housekeeper","","Outside",7700
+"269",158,298,5,1,11.1400003433228,"5-17","female","Sibling","Boiled water","Yes",NA,"","Under18",7700
+"270",158,299,5,1,7.1399998664856,"5-17","male","Sibling","Boiled water","Yes",NA,"","Under18",7700
+"271",159,300,4,0,5.15999984741211,"5-17","male","Self","Private tap","Yes",NA,"","Under18",7000
+"272",159,301,4,1,41.189998626709,"18-61","male","Parent","Private tap","Yes","Driver","","Outside",7000
+"273",159,302,4,1,26.1800003051758,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",7000
+"274",160,303,4,0,7.17999982833862,"5-17","male","Self","Tubewell","Yes",NA,"","Under18",9000
+"275",160,304,4,1,40.2099990844727,"18-61","male","Parent","Tubewell","Yes",NA,"BUSINESS","Outside",9000
+"276",160,305,4,1,31.2000007629395,"18-61","female","Parent","Tubewell","Yes",NA,"TAILOR","Outside",9000
+"277",160,306,4,1,10.1899995803833,"5-17","female","Sibling","Tubewell","Yes",NA,"","Under18",9000
+"278",161,307,3,0,27.2000007629395,"18-61","male","Self","Private tap","Yes",NA,"BUSINESS","Outside",6000
+"279",161,308,3,1,23.1900005340576,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",6000
+"280",161,309,3,1,6.17999982833862,"5-17","male","Child","Private tap","Yes",NA,"","Under18",6000
+"281",3,557,4,0,5.23999977111816,"5-17","male","Self","Tubewell","Yes",NA,"","Under18",15000
+"282",3,558,4,1,30.2600002288818,"18-61","male","Parent","Private tap","Yes",NA,"BUSINESS","Outside",15000
+"283",3,559,4,1,26.25,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",15000
+"284",3,560,4,1,7.23999977111816,"5-17","male","Sibling","Tubewell","Yes",NA,"","Under18",15000
+"285",4,561,4,0,10.25,"5-17","female","Self","Private tap","No",NA,"","Under18",4000
+"286",4,562,4,1,33.2599983215332,"18-61","male","Parent","Private tap","No","Day laborer","","Outside",4000
+"287",4,563,4,1,27.2600002288818,"18-61","female","Parent","Private tap","No","Housewife","","AtHome",4000
+"288",5,564,6,0,6.28000020980835,"5-17","male","Self","Tubewell","Yes",NA,"","Under18",7500
+"289",5,565,6,1,35.2999992370605,"18-61","male","Parent","Tubewell","Yes","Rickshaw puller","","Outside",7500
+"290",5,566,6,1,29.2900009155273,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",7500
+"291",5,567,6,1,8.27999973297119,"5-17","female","Sibling","Tubewell","Yes",NA,"","Under18",7500
+"292",5,568,6,1,3.27999997138977,"0-5","male","Sibling","Tubewell","Yes",NA,"","Under18",7500
+"293",6,569,5,0,4.30000019073486,"0-5","female","Self","Private tap","Yes",NA,"","Under18",9000
+"294",6,570,5,1,31.3199996948242,"18-61","male","Parent","Private tap","Yes","Rickshaw puller","","Outside",9000
+"295",6,571,5,1,26.3199996948242,"18-61","female","Parent","Private tap","Yes","Garment worker","","Outside",9000
+"296",7,572,3,0,3.3199999332428,"0-5","female","Self","Private tap","Yes",NA,"","Under18",6000
+"297",7,573,3,1,40.3400001525879,"18-61","male","Parent","Private tap","Yes","Rickshaw puller","","Outside",6000
+"298",7,574,3,1,23.3299999237061,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",6000
+"299",8,575,5,0,5.34000015258789,"5-17","male","Self","Tubewell","Yes",NA,"","Under18",15000
+"300",8,576,5,1,50.3800010681152,"18-61","male","Parent","Tubewell","Yes",NA,"BUSINESS","Outside",15000
+"301",8,577,5,1,36.3600006103516,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",15000
+"302",8,578,5,1,9.35000038146973,"5-17","female","Sibling","Tubewell","Yes",NA,"","Under18",15000
+"303",9,579,4,0,6.3600001335144,"5-17","male","Self","Boiled water","Yes",NA,"","Under18",7800
+"304",9,580,4,1,31.3700008392334,"18-61","male","Parent","Boiled water","Yes",NA,"","Outside",7800
+"305",9,581,4,1,26.3700008392334,"18-61","female","Parent","Boiled water","Yes","Housewife","","AtHome",7800
+"306",9,582,4,1,10.3599996566772,"5-17","female","Sibling","Boiled water","Yes",NA,"","Under18",7800
+"307",10,583,4,0,11.3800001144409,"5-17","female","Self","Tubewell","No",NA,"","Under18",5600
+"308",10,584,4,1,45.4099998474121,"18-61","male","Parent","Tubewell","No",NA,"SKILL WORKER","Outside",5600
+"309",10,585,4,1,36.4000015258789,"18-61","female","Parent","Tubewell","No","Housewife","","AtHome",5600
+"310",10,586,4,1,21.3899993896484,"18-61","male","Sibling","Tubewell","No","Garment worker","","Outside",5600
+"311",11,587,3,0,3.4300000667572,"0-5","male","Self","Private tap","Yes",NA,"","Under18",15000
+"312",11,588,3,1,28.4500007629395,"18-61","male","Parent","Private tap","Yes",NA,"BUSINESS","Outside",15000
+"313",11,589,3,1,23.4500007629395,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",15000
+"314",12,590,4,0,3.47000002861023,"0-5","male","Self","Tubewell","Yes",NA,"","Under18",9000
+"315",12,591,4,1,32.4900016784668,"18-61","male","Parent","Tubewell","Yes",NA,"BUSINESS","Outside",9000
+"316",12,592,4,1,26.4899997711182,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",9000
+"317",14,593,5,0,3.50999999046326,"0-5","female","Self","Boiled water","Yes",NA,"","Under18",15000
+"318",14,594,5,1,32.5299987792969,"18-61","male","Parent","Boiled water","Yes",NA,"BUSINESS","Outside",15000
+"319",14,595,5,1,25.5200004577637,"18-61","female","Parent","Boiled water","Yes","Housewife","","AtHome",15000
+"320",14,596,5,1,8.51000022888184,"5-17","male","Sibling","Boiled water","Yes",NA,"","Under18",15000
+"321",15,597,4,0,5.6100001335144,"5-17","female","Self","Boiled water","Yes",NA,"","Under18",7000
+"322",15,598,4,1,22.6299991607666,"18-61","female","Parent","Boiled water","Yes","Housewife","","AtHome",7000
+"323",16,599,3,0,5.6100001335144,"5-17","female","Self","Boiled water","Yes",NA,"","Under18",12000
+"324",16,600,3,1,28.6299991607666,"18-61","male","Parent","Boiled water","Yes",NA,"BUSINESS","Outside",12000
+"325",17,601,3,0,5.63000011444092,"5-17","female","Self","Boiled water","Yes",NA,"","Under18",8500
+"326",17,602,3,1,29.6499996185303,"18-61","male","Parent","Boiled water","Yes","Garment worker","","Outside",8500
+"327",17,603,3,1,20.6399993896484,"18-61","female","Parent","Boiled water","Yes","Housewife","","AtHome",8500
+"328",18,604,5,0,5.6399998664856,"5-17","female","Self","Tubewell","Yes",NA,"","Under18",7500
+"329",18,605,5,1,36.6699981689453,"18-61","male","Parent","Tubewell","Yes",NA,"SERVICE","Outside",7500
+"330",18,606,5,1,9.64999961853027,"5-17","female","Sibling","Tubewell","Yes",NA,"","Under18",7500
+"331",18,607,5,1,7.65000009536743,"5-17","female","Sibling","Tubewell","Yes",NA,"","Under18",7500
+"332",19,608,5,0,4.78000020980835,"0-5","male","Self","Tubewell","Yes",NA,"","Under18",6560
+"333",19,609,5,1,31.7999992370605,"18-61","male","Parent","Tubewell","Yes","Day laborer","","Outside",6560
+"334",19,610,5,1,25.7900009155273,"18-61","female","Parent","Tubewell","Yes","Day laborer","","Outside",6560
+"335",19,611,5,1,8.77999973297119,"5-17","female","Sibling","Tubewell","Yes",NA,"","Under18",6560
+"336",19,612,5,1,2.77999997138977,"0-5","male","Sibling","Tubewell","Yes",NA,"","Under18",6560
+"337",20,613,6,0,2.78999996185303,"0-5","female","Self","Tubewell","Yes",NA,"","Under18",20000
+"338",20,614,6,1,26.7999992370605,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",20000
+"339",21,615,4,0,5.82000017166138,"5-17","female","Self","Tubewell","Yes",NA,"","Under18",5000
+"340",21,616,4,1,29.8400001525879,"18-61","male","Parent","Tubewell","Yes",NA,"FARMER","Outside",5000
+"341",21,617,4,1,26.8400001525879,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",5000
+"342",22,618,5,0,35.9199981689453,"18-61","male","Self","Tubewell","Yes","Rickshaw puller","","Outside",8700
+"343",22,619,5,1,25.9099998474121,"18-61","female","Spouse","Tubewell","Yes",NA,"SKILL WORKER","Outside",8700
+"344",22,620,5,1,7.90000009536743,"5-17","male","Child","Tubewell","Yes",NA,"","Under18",8700
+"345",23,621,4,0,27.9300003051758,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",8000
+"346",23,622,4,1,34.939998626709,"18-61","male","Spouse","Private tap","Yes","Driver","","Outside",8000
+"347",23,623,4,1,9.92000007629395,"5-17","female","Child","Private tap","Yes",NA,"","Under18",8000
+"348",23,624,4,1,6.92000007629395,"5-17","female","Child","Private tap","Yes",NA,"","Under18",8000
+"349",25,625,6,0,48.9900016784668,"18-61","male","Self","Tubewell","Yes",NA,"SKILL WORKER","Outside",8500
+"350",25,626,6,1,35.9799995422363,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",8500
+"351",25,627,6,1,18.9699993133545,"18-61","male","Child","Tubewell","Yes",NA,"SKILL WORKER","Outside",8500
+"352",25,628,6,1,13.960000038147,"5-17","male","Child","Tubewell","Yes",NA,"","Under18",8500
+"353",25,629,6,1,2.96000003814697,"0-5","female","Sibling","Tubewell","Yes",NA,"","Under18",8500
+"354",26,630,3,0,15.039999961853,"5-17","female","Self","Private tap","Yes",NA,"","Under18",7000
+"355",26,631,3,1,56.0699996948242,"18-61","male","Parent","Private tap","Yes","Day laborer","","Outside",7000
+"356",26,632,3,1,46.060001373291,"18-61","female","Parent","Private tap","Yes",NA,"SKILL WORKER","Outside",7000
+"357",27,633,4,0,8.07999992370605,"5-17","male","Self","Tubewell","Yes",NA,"","Under18",15000
+"358",27,634,4,1,31.0900001525879,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",15000
+"359",28,635,3,0,41.2000007629395,"18-61","male","Self","Tubewell","Yes",NA,"SKILL WORKER","Outside",20000
+"360",28,636,3,1,31.2000007629395,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",20000
+"361",29,637,2,0,30.2399997711182,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",9000
+"362",29,638,2,1,31.2399997711182,"18-61","male","Spouse","Private tap","Yes",NA,"BUSINESS","Outside",9000
+"363",30,639,3,0,3.26999998092651,"0-5","male","Self","Boiled water","Yes",NA,"","Under18",15000
+"364",30,640,3,1,31.2800006866455,"18-61","male","Parent","Boiled water","Yes",NA,"BUSINESS","Outside",15000
+"365",30,641,3,1,23.2800006866455,"18-61","female","Parent","Boiled water","Yes","Housewife","","AtHome",15000
+"366",31,642,8,0,4.28000020980835,"0-5","male","Self","Private tap","Yes",NA,"","Under18",20000
+"367",31,643,8,1,27.2999992370605,"18-61","female","Parent","Private tap","Yes",NA,"TEACHER","Outside",20000
+"368",32,644,3,0,31.3199996948242,"18-61","male","Self","Boiled water","Yes",NA,"SERVICE","Outside",13000
+"369",32,645,3,1,25.3199996948242,"18-61","female","Spouse","Boiled water","Yes","Housewife","","AtHome",13000
+"370",32,646,3,1,6.30000019073486,"5-17","female","Child","Boiled water","Yes",NA,"","Under18",13000
+"371",33,647,4,0,31.3400001525879,"18-61","female","Self","Boiled water","Yes","Housewife","","AtHome",10000
+"372",33,648,4,1,42.3499984741211,"18-61","male","Spouse","Private tap","Yes",NA,"BUSINESS","Outside",10000
+"373",33,649,4,1,7.32000017166138,"5-17","male","Child","Private tap","Yes",NA,"","Under18",10000
+"374",34,650,4,0,15.3400001525879,"5-17","male","Self","Public tap","Yes",NA,"","Under18",10000
+"375",34,651,4,1,41.3600006103516,"18-61","male","Parent","Public tap","Yes","Garment worker","","Outside",10000
+"376",34,652,4,1,7.32999992370605,"5-17","male","Sibling","Public tap","Yes",NA,"","Under18",10000
+"377",36,653,6,0,5.32999992370605,"5-17","female","Self","Public tap","Yes",NA,"","Under18",7000
+"378",36,654,6,1,41.3600006103516,"18-61","male","Parent","Public tap","Yes","Day laborer","","Outside",7000
+"379",36,655,6,1,36.3499984741211,"18-61","female","Parent","Public tap","Yes","Day laborer","","Outside",7000
+"380",37,656,4,0,38.3800010681152,"18-61","male","Self","Private tap","Yes",NA,"SKILL WORKER","Outside",9000
+"381",37,657,4,1,36.3800010681152,"18-61","female","Spouse","Private tap","Yes",NA,"SKILL WORKER","Outside",9000
+"382",38,658,6,0,10.3900003433228,"5-17","male","Self","Tubewell","Yes",NA,"","Under18",10000
+"383",38,659,6,1,47.4199981689453,"18-61","male","Parent","Tubewell","Yes",NA,"SKILL WORKER","Outside",10000
+"384",38,660,6,1,36.4099998474121,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",10000
+"385",38,661,6,1,15.3999996185303,"5-17","male","Sibling","Tubewell","Yes",NA,"","Under18",10000
+"386",39,662,5,0,48.439998626709,"18-61","male","Self","Boiled water","Yes","Driver","","Outside",20000
+"387",39,663,5,1,41.439998626709,"18-61","female","Spouse","Boiled water","Yes","Housewife","","AtHome",20000
+"388",40,664,2,0,53.4700012207031,"18-61","male","Self","Boiled water","Yes",NA,"HOUSE CARETAKER","Outside",15000
+"389",40,665,2,1,22.4400005340576,"18-61","male","Child","Boiled water","Yes",NA,"STUDENT","Outside",15000
+"390",41,666,4,0,8.44999980926514,"5-17","female","Self","Boiled water","Yes",NA,"","Under18",12000
+"391",41,667,4,1,33.4700012207031,"18-61","male","Parent","Boiled water","Yes","Driver","","Outside",12000
+"392",41,668,4,1,22.4599990844727,"18-61","female","Parent","Boiled water","Yes","Housewife","","AtHome",12000
+"393",41,669,4,1,6.44999980926514,"5-17","female","Sibling","Boiled water","Yes",NA,"","Under18",12000
+"394",42,670,3,0,46.4799995422363,"18-61","female","Self","Private tap","Yes","Housekeeper","","Outside",4000
+"395",42,671,3,1,56.4900016784668,"18-61","male","Spouse","Private tap","Yes","Day laborer","","Outside",4000
+"396",43,672,4,0,6.46999979019165,"5-17","male","Self","Tubewell","Yes",NA,"","Under18",10000
+"397",43,673,4,1,34.4900016784668,"18-61","male","Parent","Tubewell","Yes",NA,"BUSINESS","Outside",10000
+"398",43,674,4,1,22.4799995422363,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",10000
+"399",44,675,8,0,18.4799995422363,"18-61","female","Self","Boiled water","Yes",NA,"TEACHER","Outside",10000
+"400",44,676,8,1,35.5,"18-61","female","Parent","Boiled water","Yes","Housewife","","AtHome",10000
+"401",44,677,8,1,14.4799995422363,"5-17","male","Sibling","Boiled water","Yes",NA,"","Under18",10000
+"402",44,678,8,1,7.48000001907349,"5-17","female","Sibling","Boiled water","Yes",NA,"","Under18",10000
+"403",45,679,5,0,5.48999977111816,"5-17","female","Self","Private tap","Yes",NA,"","Under18",14000
+"404",45,680,5,1,33.5099983215332,"18-61","male","Parent","Private tap","Yes",NA,"SKILL WORKER","Outside",14000
+"405",45,681,5,1,26.5100002288818,"18-61","female","Parent","Private tap","Yes","Garment worker","","Outside",14000
+"406",45,682,5,1,11.5,"5-17","female","Sibling","Private tap","Yes",NA,"","Under18",14000
+"407",45,683,5,1,8.5,"5-17","male","Sibling","Private tap","Yes",NA,"","Under18",14000
+"408",47,684,5,0,34.5299987792969,"18-61","female","Self","Tubewell","Yes","Housewife","","AtHome",3000
+"409",47,685,5,1,50.5499992370605,"18-61","male","Spouse","Tubewell","Yes",NA,"BUSINESS","Outside",3000
+"410",48,686,3,0,26.5400009155273,"18-61","male","Self","Tubewell","Yes",NA,"BUSINESS","Outside",20000
+"411",48,687,3,1,45.5499992370605,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",20000
+"412",49,688,5,0,2.52999997138977,"0-5","female","Self","Tubewell","Yes",NA,"","Under18",15200
+"413",49,689,5,1,27.5499992370605,"18-61","male","Parent","Tubewell","Yes",NA,"SKILL WORKER","Outside",15200
+"414",49,690,5,1,9.53999996185303,"5-17","male","Sibling","Tubewell","Yes",NA,"","Under18",15200
+"415",50,691,6,0,58.5900001525879,"18-61","male","Self","Public tap","Yes",NA,"SMALL BUSINESS","Outside",13500
+"416",50,692,6,1,15.5600004196167,"5-17","male","Child","Public tap","Yes",NA,"","Under18",13500
+"417",50,693,6,1,13.5600004196167,"5-17","female","Child","Public tap","Yes",NA,"","Under18",13500
+"418",51,694,7,0,15.5799999237061,"5-17","female","Self","Boiled water","No",NA,"","Under18",10400
+"419",51,695,7,1,60.6100006103516,"18-61","male","Parent","Boiled water","No","Day laborer","","Outside",10400
+"420",51,696,7,1,55.6100006103516,"18-61","female","Parent","Boiled water","No","Day laborer","","Outside",10400
+"421",51,697,7,1,13.5799999237061,"5-17","female","Sibling","Boiled water","No",NA,"","Under18",10400
+"422",51,698,7,1,9.57999992370605,"5-17","male","Sibling","Boiled water","No",NA,"","Under18",10400
+"423",52,699,4,0,8.60999965667725,"5-17","female","Self","Other","Yes",NA,"","Under18",7000
+"424",52,700,4,1,26.6200008392334,"18-61","male","Parent","Other","Yes","Driver","","Outside",7000
+"425",52,701,4,1,22.6200008392334,"18-61","female","Parent","Other","Yes","Housewife","","AtHome",7000
+"426",53,702,4,0,30.6299991607666,"18-61","male","Self","Private tap","No",NA,"SKILL WORKER","Outside",7000
+"427",53,703,4,1,22.6200008392334,"18-61","female","Spouse","Private tap","No","Housewife","","AtHome",7000
+"428",53,704,4,1,2.60999989509583,"0-5","male","Child","Private tap","No",NA,"","Under18",7000
+"429",54,705,3,0,18.7199993133545,"18-61","female","Self","Tubewell","Yes","Housewife","","AtHome",8000
+"430",54,706,3,1,22.7199993133545,"18-61","male","Spouse","Tubewell","Yes","Rickshaw puller","","Outside",8000
+"431",55,707,7,0,0,"0-5","male","Self","Tubewell","Yes",NA,"","Under18",8000
+"432",55,708,7,1,45.75,"18-61","male","Parent","Tubewell","Yes","Day laborer","","Outside",8000
+"433",55,709,7,1,35.7400016784668,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",8000
+"434",56,710,5,0,6.78000020980835,"5-17","female","Self","Tubewell","Yes",NA,"","Under18",15000
+"435",56,711,5,1,33.7900009155273,"18-61","male","Parent","Tubewell","Yes",NA,"","Outside",15000
+"436",56,712,5,1,27.7900009155273,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",15000
+"437",56,713,5,1,12.7799997329712,"5-17","male","Sibling","Tubewell","Yes",NA,"","Under18",15000
+"438",58,714,6,0,9.77999973297119,"5-17","male","Self","Boiled water","Yes",NA,"","Under18",19000
+"439",58,715,6,1,30.7900009155273,"18-61","male","Parent","Boiled water","Yes",NA,"","Outside",19000
+"440",59,716,7,0,32.7999992370605,"18-61","male","Self","Tubewell","Yes",NA,"BUSINESS","Outside",12100
+"441",59,717,7,1,24.7900009155273,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",12100
+"442",59,718,7,1,6.78000020980835,"5-17","male","Child","Tubewell","Yes",NA,"","Under18",12100
+"443",60,719,7,0,42.8199996948242,"18-61","male","Self","Tubewell","Yes",NA,"BUSINESS","Outside",6000
+"444",60,720,7,1,40.8199996948242,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",6000
+"445",60,721,7,1,0,"0-5","male","Child","Tubewell","Yes",NA,"","Under18",6000
+"446",60,722,7,1,9.80000019073486,"5-17","male","Child","Tubewell","Yes",NA,"","Under18",6000
+"447",61,723,3,0,26.8299999237061,"18-61","male","Self","Public tap","Yes","Rickshaw puller","","Outside",12000
+"448",61,724,3,1,23.8299999237061,"18-61","female","Spouse","Public tap","Yes","Garment worker","","Outside",12000
+"449",62,725,3,0,35.8899993896484,"18-61","male","Self","Public tap","Yes",NA,"BUSINESS","Outside",30000
+"450",62,726,3,1,30.8899993896484,"18-61","female","Spouse","Public tap","Yes","Housewife","","AtHome",30000
+"451",62,727,3,1,13.8800001144409,"5-17","female","Child","Public tap","Yes",NA,"","Under18",30000
+"452",63,728,5,0,18.8799991607666,"18-61","male","Self","Tubewell","Yes",NA,"STUDENT","Outside",3200
+"453",63,729,5,1,45.9000015258789,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",3200
+"454",64,730,4,0,40.9199981689453,"18-61","male","Self","Public tap","Yes","Day laborer","","Outside",10000
+"455",64,731,4,1,32.9199981689453,"18-61","female","Spouse","Public tap","Yes","Day laborer","","Outside",10000
+"456",65,732,6,0,20.9200000762939,"18-61","female","Self","Tubewell","Yes",NA,"SKILL WORKER","Outside",6500
+"457",65,733,6,1,50.939998626709,"18-61","male","Parent","Tubewell","Yes",NA,"SKILL WORKER","Outside",6500
+"458",65,734,6,1,40.9300003051758,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",6500
+"459",65,735,6,1,24.9200000762939,"18-61","male","Sibling","Tubewell","Yes",NA,"STUDENT","Outside",6500
+"460",66,736,7,0,4.92999982833862,"0-5","female","Self","Tubewell","Yes",NA,"","Under18",9000
+"461",66,737,7,1,39.9599990844727,"18-61","male","Parent","Tubewell","Yes",NA,"SERVICE","Outside",9000
+"462",66,738,7,1,34.9500007629395,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",9000
+"463",66,739,7,1,8.9399995803833,"5-17","female","Sibling","Tubewell","Yes",NA,"","Under18",9000
+"464",66,740,7,1,6.92999982833862,"5-17","female","Sibling","Tubewell","Yes",NA,"","Under18",9000
+"465",67,741,4,0,41.9700012207031,"18-61","male","Self","Private tap","Yes","Day laborer","","Outside",7000
+"466",67,742,4,1,26.9599990844727,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",7000
+"467",67,743,4,1,10.9499998092651,"5-17","female","Child","Private tap","Yes",NA,"","Under18",7000
+"468",67,744,4,1,3.95000004768372,"0-5","male","Child","Private tap","Yes",NA,"","Under18",7000
+"469",69,745,4,0,6.94999980926514,"5-17","female","Self","Tubewell","Yes",NA,"","Under18",5000
+"470",69,746,4,1,45.9799995422363,"18-61","female","Parent","Tubewell","Yes",NA,"SKILL WORKER","Outside",5000
+"471",69,747,4,1,8.94999980926514,"5-17","male","Sibling","Tubewell","Yes",NA,"","Under18",5000
+"472",69,748,4,1,22.9599990844727,"18-61","male","Sibling","Tubewell","Yes",NA,"SKILL WORKER","Outside",5000
+"473",70,749,5,0,41.0299987792969,"18-61","male","Self","Boiled water","Yes",NA,"BUSINESS","Outside",10000
+"474",70,750,5,1,29.0200004577637,"18-61","female","Spouse","Boiled water","Yes","Housewife","","AtHome",10000
+"475",162,23,4,0,2.11999988555908,"0-5","male","Self","Other","Yes",NA,"","Under18",6000
+"476",162,24,4,1,36.1399993896484,"18-61","male","Parent","Other","Yes",NA,"SERVICE","Outside",6000
+"477",162,25,4,1,26.1299991607666,"18-61","female","Parent","Other","Yes","Housewife","","AtHome",6000
+"478",162,26,4,1,6.11999988555908,"5-17","female","Sibling","Other","Yes",NA,"","Under18",6000
+"479",273,27,3,0,29.2000007629395,"18-61","female","Self","Boiled water","Yes","Housewife","","AtHome",10000
+"480",273,28,3,1,38.2099990844727,"18-61","male","Spouse","Boiled water","Yes",NA,"SKILL WORKER","Outside",10000
+"481",384,29,3,0,4.19999980926514,"0-5","male","Self","Tubewell","Yes",NA,"","Under18",7400
+"482",384,30,3,1,26.2199993133545,"18-61","male","Sibling","Tubewell","Yes",NA,"SERVICE","Outside",7400
+"483",384,31,3,1,21.2099990844727,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",7400
+"484",416,32,10,0,30.2399997711182,"18-61","male","Self","Tubewell","Yes",NA,"BUSINESS","Outside",19000
+"485",416,33,10,1,25.2399997711182,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",19000
+"486",427,34,6,0,19.2399997711182,"18-61","male","Self","Boiled water","Yes",NA,"STUDENT","Outside",11000
+"487",427,35,6,1,51.2599983215332,"18-61","female","Parent","Boiled water","Yes","Housewife","","AtHome",11000
+"488",427,36,6,1,30.25,"18-61","male","Sibling","Boiled water","Yes",NA,"DRIVER","Outside",11000
+"489",438,37,4,0,30.2600002288818,"18-61","male","Self","Tubewell","Yes",NA,"SERVICE","Outside",7000
+"490",438,38,4,1,25.2600002288818,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",7000
+"491",438,39,4,1,18.25,"18-61","female","Sibling","Tubewell","Yes",NA,"","Outside",7000
+"492",449,40,7,0,50.2700004577637,"18-61","male","Self","Tubewell","Yes",NA,"BUSINESS","Outside",7000
+"493",449,41,5,1,41.2700004577637,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",7000
+"494",460,42,4,0,3.27999997138977,"0-5","female","Self","Boiled water","Yes",NA,"","Under18",12000
+"495",460,43,4,1,32.2999992370605,"18-61","male","Parent","Boiled water","Yes",NA,"SERVICE","Outside",12000
+"496",460,44,4,1,30.2999992370605,"18-61","female","Parent","Boiled water","Yes","Garment worker","","Outside",12000
+"497",460,45,4,1,8.27999973297119,"5-17","female","Sibling","Boiled water","Yes",NA,"","Under18",12000
+"498",471,46,7,0,13.289999961853,"5-17","male","Self","Private tap","Yes",NA,"","Under18",8000
+"499",471,47,7,1,31.2999992370605,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",8000
+"500",471,48,7,1,15.289999961853,"5-17","female","Sibling","Private tap","Yes",NA,"","Under18",8000
+"501",471,49,7,1,10.2799997329712,"5-17","male","Sibling","Private tap","Yes",NA,"","Under18",8000
+"502",471,50,7,1,8.27999973297119,"5-17","female","Sibling","Private tap","Yes",NA,"","Under18",8000
+"503",471,51,7,1,5.28000020980835,"5-17","female","Sibling","Private tap","Yes",NA,"","Under18",8000
+"504",163,310,8,0,6.32000017166138,"5-17","female","Self","Boiled water","Yes",NA,"","Under18",10000
+"505",163,311,8,1,46.3499984741211,"18-61","male","Parent","Boiled water","Yes","Day laborer","","Outside",10000
+"506",163,312,8,1,36.3400001525879,"18-61","female","Parent","Boiled water","Yes","Housewife","","AtHome",10000
+"507",163,313,8,1,4.32000017166138,"0-5","male","Sibling","Boiled water","Yes",NA,"","Under18",10000
+"508",174,314,2,0,29.3400001525879,"18-61","male","Self","Private tap","Yes",NA,"BUSINESS","Outside",15000
+"509",174,315,2,1,21.3299999237061,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",15000
+"510",185,316,3,0,7.32999992370605,"5-17","male","Self","Private tap","Yes",NA,"","Under18",10000
+"511",185,317,3,1,36.3499984741211,"18-61","male","Parent","Private tap","Yes",NA,"SKILL WORKER","Outside",10000
+"512",185,318,3,1,26.3500003814697,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",10000
+"513",196,319,6,0,27.3500003814697,"18-61","female","Self","Boiled water","Yes","Housewife","","AtHome",12000
+"514",196,320,6,1,46.3600006103516,"18-61","male","Spouse","Boiled water","Yes",NA,"BUSINESS","Outside",12000
+"515",207,321,4,0,51.3699989318848,"18-61","male","Self","Boiled water","Yes",NA,"BUSINESS","Outside",40000
+"516",207,322,4,1,43.3600006103516,"18-61","female","Spouse","Boiled water","Yes","Housewife","","AtHome",40000
+"517",207,323,4,1,20.3500003814697,"18-61","male","Child","Boiled water","Yes",NA,"STUDENT","Outside",40000
+"518",207,324,4,1,15.3400001525879,"5-17","female","Child","Boiled water","Yes",NA,"","Under18",40000
+"519",218,325,5,0,10.3500003814697,"5-17","male","Self","Private tap","Yes",NA,"","Under18",16000
+"520",218,326,5,1,31.3700008392334,"18-61","female","Parent","Private tap","Yes","Housekeeper","","Outside",16000
+"521",218,327,5,1,5.34999990463257,"5-17","male","Sibling","Private tap","Yes",NA,"","Under18",16000
+"522",229,328,4,0,5.34999990463257,"5-17","female","Self","Private tap","Yes",NA,"","Under18",12000
+"523",229,329,4,1,31.3700008392334,"18-61","male","Parent","Private tap","Yes",NA,"BUSINESS","Outside",12000
+"524",229,330,4,1,23.3600006103516,"18-61","female","Parent","Private tap","Yes",NA,"BUSINESS","Outside",12000
+"525",240,331,6,0,27.3700008392334,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",15000
+"526",240,332,6,1,30.3700008392334,"18-61","male","Spouse","Private tap","Yes",NA,"SERVICE","Outside",15000
+"527",240,333,6,1,8.35999965667725,"5-17","female","Child","Private tap","Yes",NA,"","Under18",15000
+"528",240,334,6,1,3.34999990463257,"0-5","female","Child","Private tap","Yes",NA,"","Under18",15000
+"529",251,335,3,0,3.38000011444092,"0-5","male","Self","Tubewell","Yes",NA,"","Under18",12000
+"530",251,336,3,1,21.3899993896484,"18-61","female","Parent","Tubewell","Yes",NA,"TAILORS","Outside",12000
+"531",262,337,5,0,36.4199981689453,"18-61","female","Self","Tubewell","Yes","Housekeeper","","Outside",5000
+"532",262,338,5,1,14.3999996185303,"5-17","male","Child","Tubewell","Yes",NA,"","Under18",5000
+"533",274,339,3,0,45.4300003051758,"18-61","male","Self","Tubewell","Yes",NA,"SKILL WORKER","Outside",10000
+"534",274,340,3,1,26.4200000762939,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",10000
+"535",285,341,5,0,36.4300003051758,"18-61","female","Self","Boiled water","Yes","Housewife","","AtHome",5000
+"536",285,342,5,1,41.439998626709,"18-61","male","Spouse","Boiled water","Yes","Unemployed","","AtHome",5000
+"537",285,343,5,1,12.4200000762939,"5-17","male","Child","Boiled water","Yes",NA,"","Under18",5000
+"538",285,344,5,1,9.40999984741211,"5-17","male","Child","Boiled water","Yes",NA,"","Under18",5000
+"539",285,345,5,1,23.4200000762939,"18-61","female","Sibling","Boiled water","Yes","Housewife","","AtHome",5000
+"540",296,346,4,0,8.42000007629395,"5-17","male","Self","Private tap","Yes",NA,"","Under18",15500
+"541",296,347,4,1,41.439998626709,"18-61","male","Parent","Private tap","Yes","Driver","","Outside",15500
+"542",296,348,4,1,31.4300003051758,"18-61","female","Parent","Private tap","Yes",NA,"BUSINESS","Outside",15500
+"543",296,349,4,1,11.4200000762939,"5-17","female","Sibling","Private tap","Yes",NA,"","Under18",15500
+"544",307,350,3,0,36.4500007629395,"18-61","male","Self","Tubewell","Yes",NA,"SKILL WORKER","Outside",10000
+"545",307,351,3,1,30.4400005340576,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",10000
+"546",307,352,3,1,10.4300003051758,"5-17","female","Child","Tubewell","Yes",NA,"","Under18",10000
+"547",318,353,9,0,36.4500007629395,"18-61","male","Self","Tubewell","Yes",NA,"BUSINESS","Outside",20000
+"548",318,354,9,1,26.4400005340576,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",20000
+"549",329,355,7,0,5.44000005722046,"5-17","male","Self","Boiled water","Yes",NA,"","Under18",15000
+"550",329,356,7,1,26.4599990844727,"18-61","female","Parent","Boiled water","Yes","Housewife","","AtHome",15000
+"551",340,357,4,0,9.46000003814697,"5-17","female","Self","Private tap","Yes",NA,"","Under18",6000
+"552",340,358,4,1,32.4700012207031,"18-61","male","Parent","Private tap","Yes","Day laborer","","Outside",6000
+"553",340,359,4,1,22.4699993133545,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",6000
+"554",340,360,4,1,7.44999980926514,"5-17","female","Sibling","Private tap","Yes",NA,"","Under18",6000
+"555",351,361,3,0,40.5,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",15000
+"556",351,362,3,1,52.5099983215332,"18-61","male","Spouse","Private tap","Yes",NA,"","Outside",15000
+"557",362,363,5,0,13.4899997711182,"5-17","male","Self","Boiled water","Yes",NA,"","Under18",20000
+"558",362,364,5,1,39.5099983215332,"18-61","male","Parent","Boiled water","Yes",NA,"BUSINESS","Outside",20000
+"559",362,365,5,1,11.4899997711182,"5-17","female","Sibling","Boiled water","Yes",NA,"","Under18",20000
+"560",362,366,5,1,7.48000001907349,"5-17","female","Sibling","Boiled water","Yes",NA,"","Under18",20000
+"561",373,367,5,0,27.5200004577637,"18-61","female","Self","Boiled water","Yes","Housewife","","AtHome",30000
+"562",373,368,5,1,33.5200004577637,"18-61","male","Spouse","Boiled water","Yes",NA,"BUSINESS","Outside",30000
+"563",373,369,5,1,12.5100002288818,"5-17","female","Child","Boiled water","Yes",NA,"","Under18",30000
+"564",373,370,5,1,4.5,"0-5","male","Child","Boiled water","Yes",NA,"","Under18",30000
+"565",385,371,6,0,17.5100002288818,"18-61","male","Self","Tubewell","Yes",NA,"","Outside",5000
+"566",385,372,6,1,42.5299987792969,"18-61","male","Parent","Tubewell","Yes","Shopkeeper","","Outside",5000
+"567",385,373,6,1,35.5200004577637,"18-61","female","Parent","Tubewell","Yes","Housekeeper","","Outside",5000
+"568",385,374,6,1,12.5100002288818,"5-17","female","Sibling","Tubewell","Yes",NA,"","Under18",5000
+"569",385,375,6,1,8.51000022888184,"5-17","male","Sibling","Tubewell","Yes",NA,"","Under18",5000
+"570",385,376,6,1,5.5,"5-17","female","Sibling","Tubewell","Yes",NA,"","Under18",5000
+"571",396,377,6,0,30.5499992370605,"18-61","male","Self","Private tap","Yes","Day laborer","","Outside",14000
+"572",396,378,6,1,30.5499992370605,"18-61","female","Spouse","Private tap","Yes","Housekeeper","","Outside",14000
+"573",396,379,6,1,11.5299997329712,"5-17","female","Child","Private tap","Yes",NA,"","Under18",14000
+"574",396,380,6,1,8.52999973297119,"5-17","female","Child","Private tap","Yes",NA,"","Under18",14000
+"575",396,381,6,1,5.53000020980835,"5-17","female","Child","Private tap","Yes",NA,"","Under18",14000
+"576",407,382,5,0,27.5799999237061,"18-61","male","Self","Tubewell","Yes",NA,"SKILL WORKER","Outside",11000
+"577",407,383,5,1,23.5799999237061,"18-61","female","Sibling","Tubewell","Yes",NA,"SKILL WORKER","Outside",11000
+"578",409,384,4,0,10.5799999237061,"5-17","female","Self","Tubewell","Yes",NA,"","Under18",7000
+"579",409,385,4,1,45.6100006103516,"18-61","male","Parent","Tubewell","Yes","Driver","","Outside",7000
+"580",409,386,4,1,40.6100006103516,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",7000
+"581",409,387,4,1,8.57999992370605,"5-17","male","Sibling","Tubewell","Yes",NA,"","Under18",7000
+"582",410,388,6,0,11.6800003051758,"5-17","female","Self","Tubewell","Yes",NA,"","Under18",12000
+"583",410,389,6,1,40.7099990844727,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",12000
+"584",410,390,6,1,12.6899995803833,"5-17","male","Sibling","Tubewell","Yes",NA,"","Under18",12000
+"585",411,391,4,0,6.69000005722046,"5-17","male","Self","Tubewell","Yes",NA,"","Under18",11000
+"586",411,392,4,1,35.7099990844727,"18-61","male","Parent","Tubewell","Yes","Rickshaw puller","","Outside",11000
+"587",411,393,4,1,27.7099990844727,"18-61","female","Parent","Tubewell","Yes",NA,"","Outside",11000
+"588",411,394,4,1,10.6999998092651,"5-17","female","Sibling","Tubewell","Yes",NA,"","Under18",11000
+"589",412,395,7,0,6.73999977111816,"5-17","male","Self","Private tap","No",NA,"","Under18",20000
+"590",412,396,7,1,60.7799987792969,"18-61","male","Parent","Private tap","No","Day laborer","","Outside",20000
+"591",412,397,7,1,50.7700004577637,"18-61","female","Parent","Private tap","No","Housekeeper","","Outside",20000
+"592",412,398,7,1,23.75,"18-61","male","Sibling","Private tap","No","Day laborer","","Outside",20000
+"593",413,399,3,0,45.7799987792969,"18-61","female","Self","Private tap","Yes","Housekeeper","","Outside",6000
+"594",413,400,3,1,24.7700004577637,"18-61","male","Child","Private tap","Yes","Shopkeeper","","Outside",6000
+"595",413,401,3,1,14.7600002288818,"5-17","female","Child","Private tap","Yes",NA,"","Under18",6000
+"596",414,402,4,0,40.7999992370605,"18-61","male","Self","Private tap","Yes",NA,"BUSINESS","Outside",20000
+"597",414,403,4,1,36.7999992370605,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",20000
+"598",415,404,5,0,9.80000019073486,"5-17","male","Self","Private tap","Yes",NA,"","Under18",15000
+"599",415,405,5,1,9.80000019073486,"5-17","female","Parent","Private tap","Yes",NA,"","Under18",15000
+"600",417,406,4,0,28.8899993896484,"18-61","female","Self","Tubewell","Yes","Day laborer","","Outside",13000
+"601",417,407,4,1,30.8899993896484,"18-61","male","Spouse","Tubewell","Yes","Day laborer","","Outside",13000
+"602",417,408,4,1,11.8699998855591,"5-17","female","Child","Tubewell","Yes",NA,"","Under18",13000
+"603",417,409,4,1,4.86999988555908,"0-5","female","Child","Tubewell","Yes",NA,"","Under18",13000
+"604",418,410,4,0,6.92000007629395,"5-17","female","Self","Boiled water","Yes",NA,"","Under18",20000
+"605",418,411,4,1,22.9300003051758,"18-61","female","Parent","Boiled water","Yes","Housewife","","AtHome",20000
+"606",418,412,4,1,4.92000007629395,"0-5","female","Sibling","Boiled water","Yes",NA,"","Under18",20000
+"607",419,413,3,0,22.9500007629395,"18-61","male","Self","Private tap","Yes","Day laborer","","Outside",5500
+"608",419,414,3,1,50.9700012207031,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",5500
+"609",420,415,3,0,12.1199998855591,"5-17","female","Self","Boiled water","Yes",NA,"","Under18",9000
+"610",420,416,3,1,46.1399993896484,"18-61","male","Parent","Boiled water","Yes","Day laborer","","Outside",9000
+"611",420,417,3,1,7.11999988555908,"5-17","male","Parent","Boiled water","Yes",NA,"","Under18",9000
+"612",421,418,5,0,8.14000034332275,"5-17","male","Self","Private tap","Yes",NA,"","Under18",13500
+"613",421,419,5,1,49.1699981689453,"18-61","male","Parent","Private tap","Yes","Driver","","Outside",13500
+"614",421,420,5,1,36.1599998474121,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",13500
+"615",422,421,4,0,11.1499996185303,"5-17","female","Self","Private tap","Yes",NA,"","Under18",12000
+"616",422,422,4,1,41.1699981689453,"18-61","male","Parent","Private tap","Yes","Unemployed","","AtHome",12000
+"617",422,423,4,1,36.1599998474121,"18-61","female","Parent","Private tap","Yes","Garment worker","","Outside",12000
+"618",423,424,8,0,41.2200012207031,"18-61","male","Self","Private tap","Yes",NA,"BUSINESS","Outside",50000
+"619",423,425,8,1,36.2099990844727,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",50000
+"620",424,426,3,0,9.27000045776367,"5-17","male","Self","Private tap","Yes",NA,"","Under18",8500
+"621",424,427,3,1,26.2800006866455,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",8500
+"622",425,428,5,0,46.3199996948242,"18-61","male","Self","Private tap","Yes",NA,"SERVICE","Outside",20000
+"623",425,429,5,1,36.310001373291,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",20000
+"624",425,430,5,1,11.3000001907349,"5-17","male","Child","Private tap","Yes",NA,"","Under18",20000
+"625",425,431,5,1,9.30000019073486,"5-17","male","Child","Private tap","Yes",NA,"","Under18",20000
+"626",426,432,4,0,7.32999992370605,"5-17","male","Self","Private tap","Yes",NA,"","Under18",5000
+"627",426,433,4,1,26.3500003814697,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",5000
+"628",428,434,2,0,45.3600006103516,"18-61","male","Self","Boiled water","Yes","Rickshaw puller","","Outside",8000
+"629",428,435,2,1,32.3499984741211,"18-61","female","Spouse","Boiled water","Yes",NA,"TAILOR","Outside",8000
+"630",429,436,5,0,26.3600006103516,"18-61","male","Self","Tubewell","Yes",NA,"BUSINESS","Outside",25000
+"631",429,437,5,1,46.3800010681152,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",25000
+"632",430,438,3,0,3.36999988555908,"0-5","male","Self","Tubewell","Yes",NA,"","Under18",16000
+"633",430,439,3,1,32.3899993896484,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",16000
+"634",431,440,4,0,35.3899993896484,"18-61","male","Self","Private tap","Yes",NA,"BUSINESS","Outside",9000
+"635",431,441,4,1,30.3899993896484,"18-61","female","Spouse","Private tap","Yes",NA,"BUSINESS","Outside",9000
+"636",432,442,5,0,11.3800001144409,"5-17","male","Self","Private tap","Yes",NA,"","Under18",10000
+"637",432,443,5,1,30.3899993896484,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",10000
+"638",432,444,5,1,10.3800001144409,"5-17","male","Sibling","Private tap","Yes",NA,"","Under18",10000
+"639",432,445,5,1,6.36999988555908,"5-17","male","Sibling","Private tap","Yes",NA,"","Under18",10000
+"640",433,446,4,0,4.38000011444092,"0-5","male","Self","Private tap","No",NA,"","Under18",7000
+"641",433,447,4,1,46.4099998474121,"18-61","male","Parent","Private tap","No",NA,"BOAT MAN","Outside",7000
+"642",433,448,4,1,36.4000015258789,"18-61","female","Parent","Private tap","No","Housekeeper","","Outside",7000
+"643",433,449,4,1,10.3900003433228,"5-17","female","Sibling","Private tap","No",NA,"","Under18",7000
+"644",434,450,5,0,41.4900016784668,"18-61","male","Self","Private tap","Yes",NA,"SKILL WORKER","Outside",18000
+"645",434,451,5,1,36.4799995422363,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",18000
+"646",435,452,9,0,5.46999979019165,"5-17","male","Self","Private tap","Yes",NA,"","Under18",12000
+"647",435,453,9,1,51.5,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",12000
+"648",435,454,9,1,27.4799995422363,"18-61","male","Sibling","Private tap","Yes",NA,"SKILL WORKER","Outside",12000
+"649",435,455,9,1,7.46999979019165,"5-17","male","Sibling","Private tap","Yes",NA,"","Under18",12000
+"650",436,456,3,0,6.48999977111816,"5-17","female","Self","Private tap","Yes",NA,"","Under18",12300
+"651",436,457,3,1,26.5,"18-61","male","Parent","Private tap","Yes","Rickshaw puller","","Outside",12300
+"652",436,458,3,1,22.5,"18-61","female","Parent","Private tap","Yes","Garment worker","","Outside",12300
+"653",437,459,3,0,4.48999977111816,"0-5","female","Self","Other","Yes",NA,"","Under18",30000
+"654",437,460,3,1,30.5100002288818,"18-61","female","Parent","Other","Yes","Housewife","","AtHome",30000
+"655",437,461,3,1,9.48999977111816,"5-17","female","Sibling","Other","Yes",NA,"","Under18",30000
+"656",439,462,3,0,2.5,"0-5","male","Self","Tubewell","Yes",NA,"","Under18",6000
+"657",439,463,3,1,28.5200004577637,"18-61","male","Parent","Tubewell","Yes",NA,"SKILL WORKER","Outside",6000
+"658",439,464,3,1,22.5100002288818,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",6000
+"659",440,465,5,0,15.7200002670288,"5-17","male","Self","Boiled water","Yes",NA,"","Under18",20000
+"660",440,466,5,1,50.7400016784668,"18-61","male","Parent","Boiled water","Yes",NA,"SERVICE","Outside",20000
+"661",440,467,5,1,43.7400016784668,"18-61","female","Parent","Boiled water","Yes","Housewife","","AtHome",20000
+"662",440,468,5,1,18.7199993133545,"18-61","male","Sibling","Boiled water","Yes",NA,"STUDENT","Outside",20000
+"663",441,469,5,0,28.7399997711182,"18-61","male","Self","Private tap","Yes","Rickshaw puller","","Outside",10000
+"664",441,470,5,1,26.7399997711182,"18-61","female","Spouse","Private tap","Yes","Garment worker","","Outside",10000
+"665",441,471,5,1,9.72999954223633,"5-17","female","Child","Private tap","Yes",NA,"","Under18",10000
+"666",441,472,5,1,8.72999954223633,"5-17","female","Child","Private tap","Yes",NA,"","Under18",10000
+"667",441,473,5,1,3.73000001907349,"0-5","male","Child","Private tap","Yes",NA,"","Under18",10000
+"668",442,474,4,0,20.8299999237061,"18-61","female","Self","Tubewell","Yes","Housewife","","AtHome",25000
+"669",442,475,4,1,29.8400001525879,"18-61","male","Spouse","Tubewell","Yes",NA,"BUSINESS","Outside",25000
+"670",443,476,4,0,12.8900003433228,"5-17","male","Self","Tubewell","Yes",NA,"","Under18",7000
+"671",443,477,4,1,42.9099998474121,"18-61","male","Parent","Tubewell","Yes",NA,"FARMER","Outside",7000
+"672",444,478,5,0,35.9500007629395,"18-61","male","Self","Private tap","Yes","Rickshaw puller","","Outside",12000
+"673",444,479,5,1,30.9400005340576,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",12000
+"674",444,480,5,1,18.9300003051758,"18-61","male","Unknown","Private tap","Yes","Garment worker","","Outside",12000
+"675",444,481,5,1,2.92000007629395,"0-5","male","Child","Private tap","Yes",NA,"","Under18",12000
+"676",445,482,3,0,36.1199989318848,"18-61","male","Self","Private tap","Yes","Driver","","Outside",18000
+"677",445,483,3,1,14.1099996566772,"5-17","male","Child","Private tap","Yes",NA,"","Under18",18000
+"678",446,484,2,0,23.1399993896484,"18-61","male","Self","Private tap","Yes","Garment worker","","Outside",18000
+"679",446,485,2,1,21.1399993896484,"18-61","female","Spouse","Private tap","Yes","Garment worker","","Outside",18000
+"680",447,486,4,0,30.1700000762939,"18-61","male","Self","Other","Yes",NA,"BUSINESS","Outside",30000
+"681",447,487,4,1,27.1700000762939,"18-61","female","Spouse","Other","Yes","Housewife","","AtHome",30000
+"682",447,488,4,1,7.15000009536743,"5-17","female","Child","Other","Yes",NA,"","Under18",30000
+"683",448,489,3,0,24.1800003051758,"18-61","female","Self","Boiled water","Yes","Housewife","","AtHome",14000
+"684",448,490,3,1,32.189998626709,"18-61","male","Spouse","Boiled water","Yes","Garment worker","","Outside",14000
+"685",450,491,2,0,31.1900005340576,"18-61","male","Self","Public tap","Yes",NA,"SERVICE","Outside",17000
+"686",450,492,2,1,23.1900005340576,"18-61","female","Spouse","Public tap","Yes","Garment worker","","Outside",17000
+"687",451,493,4,0,3.25,"0-5","male","Self","Private tap","Yes",NA,"","Under18",10400
+"688",451,494,4,1,46.2799987792969,"18-61","male","Parent","Private tap","Yes","Day laborer","","Outside",10400
+"689",451,495,4,1,26.2600002288818,"18-61","female","Parent","Private tap","Yes",NA,"BEGGAR","Outside",10400
+"690",451,496,4,1,11.25,"5-17","female","Sibling","Private tap","Yes",NA,"","Under18",10400
+"691",452,497,2,0,31.2800006866455,"18-61","male","Self","Private tap","Yes",NA,"SKILL WORKER","Outside",12000
+"692",452,498,2,1,19.2800006866455,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",12000
+"693",453,499,3,0,36.2900009155273,"18-61","male","Self","Private tap","Yes",NA,"BUSINESS","Outside",9000
+"694",453,500,3,1,31.2900009155273,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",9000
+"695",453,501,3,1,8.27000045776367,"5-17","female","Child","Private tap","Yes",NA,"","Under18",9000
+"696",454,502,5,0,12.2700004577637,"5-17","male","Self","Private tap","Yes",NA,"","Under18",13000
+"697",454,503,5,1,37.2900009155273,"18-61","female","Parent","Private tap","Yes",NA,"SKILL WORKER","Outside",13000
+"698",454,504,5,1,46.2999992370605,"18-61","male","Parent","Private tap","Yes",NA,"BUSINESS","Outside",13000
+"699",454,505,5,1,6.26999998092651,"5-17","female","Sibling","Private tap","Yes",NA,"","Under18",13000
+"700",455,506,6,0,7.30000019073486,"5-17","female","Self","Public tap","Yes",NA,"","Under18",10000
+"701",455,507,6,1,38.3300018310547,"18-61","male","Parent","Public tap","Yes",NA,"BUSINESS","Outside",10000
+"702",456,508,10,0,28.3199996948242,"18-61","male","Self","Tubewell","Yes",NA,"BUSINESS","Outside",36000
+"703",456,509,10,1,20.3199996948242,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",36000
+"704",457,510,3,0,30.3299999237061,"18-61","male","Self","Other","Yes","Garment worker","","Outside",8000
+"705",457,511,3,1,25.3299999237061,"18-61","female","Spouse","Other","Yes","Housewife","","AtHome",8000
+"706",458,512,4,0,7.34999990463257,"5-17","male","Self","Other","Yes",NA,"","Under18",10000
+"707",458,513,4,1,32.3600006103516,"18-61","male","Parent","Other","Yes","Rickshaw puller","","Outside",10000
+"708",458,514,4,1,26.3600006103516,"18-61","female","Parent","Other","Yes","Housewife","","AtHome",10000
+"709",458,515,4,1,8.35000038146973,"5-17","female","Sibling","Other","Yes",NA,"","Under18",10000
+"710",459,516,4,0,6.34999990463257,"5-17","female","Self","Private tap","Yes",NA,"","Under18",19000
+"711",459,517,4,1,33.3600006103516,"18-61","male","Sibling","Private tap","No","Rickshaw puller","","Outside",19000
+"712",459,518,4,1,26.3600006103516,"18-61","female","Parent","Private tap","No",NA,"TAILOR","Outside",19000
+"713",461,519,7,0,8.35999965667725,"5-17","female","Self","Boiled water","Yes",NA,"","Under18",19500
+"714",461,520,7,1,45.3899993896484,"18-61","female","Parent","Boiled water","Yes","Housewife","","AtHome",19500
+"715",462,521,6,0,5.3600001335144,"5-17","female","Self","Tubewell","Yes",NA,"","Under18",10000
+"716",462,522,6,1,36.3800010681152,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",10000
+"717",463,523,3,0,5.36999988555908,"5-17","male","Self","Tubewell","Yes",NA,"","Under18",8000
+"718",463,524,3,1,25.3799991607666,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",8000
+"719",464,525,8,0,4.40000009536743,"0-5","male","Self","Boiled water","Yes",NA,"BUSINESS","Under18",18000
+"720",464,526,8,1,23.4099998474121,"18-61","female","Parent","Boiled water","Yes","Housewife","","AtHome",18000
+"721",464,527,8,1,41.4199981689453,"18-61","male","Parent","Boiled water","Yes",NA,"BUSINESS","Outside",18000
+"722",465,528,5,0,35.4199981689453,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",7000
+"723",465,529,5,1,51.439998626709,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",7000
+"724",466,530,6,0,12.4300003051758,"5-17","male","Self","Tubewell","Yes",NA,"","Under18",8700
+"725",466,531,6,1,30.4400005340576,"18-61","female","Parent","Tubewell","Yes",NA,"SKILL WORKER","Outside",8700
+"726",467,532,6,0,32.4599990844727,"18-61","male","Self","Tubewell","Yes","Shopkeeper","","Outside",20000
+"727",467,533,6,1,22.4500007629395,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",20000
+"728",468,534,6,0,17.4699993133545,"18-61","male","Self","Boiled water","Yes",NA,"","Outside",22000
+"729",468,535,6,1,47.4900016784668,"18-61","female","Parent","Boiled water","Yes","Housewife","","AtHome",22000
+"730",469,536,4,0,45.5299987792969,"18-61","female","Self","Boiled water","Yes","Housewife","","AtHome",20000
+"731",469,537,4,1,16.5100002288818,"5-17","female","Child","Boiled water","Yes",NA,"","Under18",20000
+"732",470,538,3,0,25.5200004577637,"18-61","male","Self","Tubewell","Yes","Day laborer","","Outside",12000
+"733",470,539,3,1,22.5200004577637,"18-61","female","Spouse","Tubewell","Yes","Day laborer","","Outside",12000
+"734",472,540,5,0,25.6499996185303,"18-61","male","Self","Boiled water","Yes",NA,"SERVICE","Outside",8000
+"735",473,541,2,0,26.6700000762939,"18-61","male","Self","Private tap","Yes",NA,"SKILLED WORKER","Outside",12000
+"736",473,542,2,1,19.6700000762939,"18-61","male","Unknown","Private tap","Yes",NA,"SKILLED WORKER","Outside",12000
+"737",474,543,2,0,27.6800003051758,"18-61","male","Self","Private tap","Yes","Garment worker","","Outside",20000
+"738",474,544,2,1,21.6800003051758,"18-61","male","Unknown","Private tap","Yes","Garment worker","","Outside",20000
+"739",475,545,2,0,25.6800003051758,"18-61","male","Self","Private tap","Yes",NA,"SERVICE","Outside",8000
+"740",475,546,2,1,19.6800003051758,"18-61","female","Spouse","Private tap","Yes","Garment worker","","Outside",8000
+"741",476,547,7,0,38.7000007629395,"18-61","male","Self","Other","Yes",NA,"","Outside",35000
+"742",476,548,7,1,30.6900005340576,"18-61","female","Spouse","Other","Yes",NA,"TEACHER","Outside",35000
+"743",476,549,7,1,12.6800003051758,"5-17","male","Child","Other","Yes",NA,"","Under18",35000
+"744",477,550,7,0,19.7199993133545,"18-61","male","Self","Private tap","Yes",NA,"STUDENT","Outside",30000
+"745",478,551,4,0,25.7199993133545,"18-61","male","Self","Private tap","Yes",NA,"STUDENT","Outside",19000
+"746",479,552,3,0,11.7299995422363,"5-17","male","Self","Private tap","Yes",NA,"","Under18",18000
+"747",479,553,3,1,40.75,"18-61","female","Parent","Private tap","Yes","Housekeeper","","Outside",18000
+"748",480,554,8,0,27.7399997711182,"18-61","male","Self","Private tap","Yes",NA,"SKILL WORKER","Outside",35000
+"749",481,555,3,0,45.75,"18-61","male","Self","Public tap","Yes",NA,"SERVICE","Outside",14000
+"750",481,556,3,1,35.75,"18-61","female","Spouse","Public tap","Yes","Housekeeper","","Outside",14000
+"751",164,751,7,0,50.7700004577637,"18-61","male","Self","Private tap","Yes",NA,"SERVICE","Outside",20000
+"752",164,752,7,1,45.7599983215332,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",20000
+"753",165,753,3,0,20.8099994659424,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",15000
+"754",165,754,3,1,23.8099994659424,"18-61","male","Spouse","Private tap","Yes",NA,"SERVICE","Outside",15000
+"755",166,755,5,0,6.80000019073486,"5-17","male","Self","Public tap","Yes",NA,"","Under18",11000
+"756",166,756,5,1,28.8199996948242,"18-61","female","Parent","Public tap","Yes","Housewife","","AtHome",11000
+"757",167,757,4,0,40.8600006103516,"18-61","male","Self","Private tap","Yes",NA,"FARMER","Outside",20000
+"758",167,758,4,1,35.8600006103516,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",20000
+"759",168,759,5,0,25.8500003814697,"18-61","male","Self","Tubewell","Yes","Rickshaw puller","","Outside",14000
+"760",168,760,5,1,35.8600006103516,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",14000
+"761",169,761,2,0,21.8500003814697,"18-61","male","Self","Tubewell","Yes",NA,"SKILL WORKER","Outside",20000
+"762",169,762,2,1,45.8699989318848,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",20000
+"763",170,763,7,0,20.8999996185303,"18-61","female","Self","Private tap","Yes","Garment worker","","Outside",42000
+"764",170,764,7,1,20.8999996185303,"18-61","female","Unknown","Private tap","Yes","Garment worker","","Outside",42000
+"765",171,765,5,0,25.9200000762939,"18-61","male","Self","Tubewell","Yes",NA,"SERVICE","Outside",12000
+"766",171,766,5,1,20.9200000762939,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",12000
+"767",172,767,7,0,10.9200000762939,"5-17","female","Self","Private tap","Yes",NA,"","Under18",14000
+"768",172,768,7,1,40.939998626709,"18-61","male","Parent","Private tap","Yes","Garment worker","","Outside",14000
+"769",172,769,7,1,32.939998626709,"18-61","female","Parent","Private tap","Yes","Garment worker","","Outside",14000
+"770",172,770,7,1,12.9200000762939,"5-17","female","Sibling","Private tap","Yes",NA,"","Under18",14000
+"771",173,771,2,0,23.9300003051758,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",8000
+"772",173,772,2,1,30.9400005340576,"18-61","male","Spouse","Private tap","Yes",NA,"SKILL WORKER","Outside",8000
+"773",175,773,3,0,5.92999982833862,"5-17","male","Self","Private tap","No",NA,"","Under18",8000
+"774",175,774,3,1,23.9500007629395,"18-61","female","Parent","Private tap","No","Housewife","","AtHome",8000
+"775",175,775,3,1,27.9500007629395,"18-61","male","Parent","Private tap","No",NA,"SKILL WORKER","Outside",8000
+"776",176,776,4,0,45.9599990844727,"18-61","female","Self","Private tap","No","Housewife","","AtHome",11000
+"777",176,777,4,1,50.9700012207031,"18-61","male","Spouse","Private tap","No",NA,"SKILL WORKER","Outside",11000
+"778",177,778,4,0,22.9699993133545,"18-61","male","Self","Private tap","Yes",NA,"SKILL WORKER","Outside",18000
+"779",177,779,4,1,40.9799995422363,"18-61","female","Parent","Private tap","Yes",NA,"BUSINESS","Outside",18000
+"780",177,780,4,1,24.9699993133545,"18-61","male","Sibling","Private tap","Yes",NA,"BUSINESS","Outside",18000
+"781",177,781,4,1,20.9699993133545,"18-61","male","Sibling","Private tap","Yes",NA,"BUSINESS","Outside",18000
+"782",178,782,11,0,17.0300006866455,"18-61","female","Self","Private tap","Yes",NA,"","Outside",12000
+"783",178,783,11,1,60.060001373291,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",12000
+"784",179,784,6,0,27.0499992370605,"18-61","male","Self","Boiled water","Yes",NA,"BUSINESS","Outside",30000
+"785",179,785,6,1,51.060001373291,"18-61","female","Parent","Boiled water","Yes","Housewife","","AtHome",30000
+"786",180,786,4,0,33.0499992370605,"18-61","male","Self","Tubewell","Yes","Unemployed","","AtHome",20000
+"787",180,787,4,1,26.0499992370605,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",20000
+"788",181,788,10,0,23.0599994659424,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",25000
+"789",181,789,10,1,29.0699996948242,"18-61","male","Spouse","Private tap","Yes",NA,"BUSINESS","Outside",25000
+"790",182,790,4,0,36.1199989318848,"18-61","female","Self","Private tap","Yes","Garment worker","","Outside",24500
+"791",182,791,4,1,44.1300010681152,"18-61","male","Spouse","Private tap","Yes","Day laborer","","Outside",24500
+"792",183,792,3,0,36.1500015258789,"18-61","male","Self","Private tap","Yes","Day laborer","","Outside",16500
+"793",183,793,3,1,31.1499996185303,"18-61","female","Spouse","Private tap","Yes","Garment worker","","Outside",16500
+"794",184,794,4,0,8.14999961853027,"5-17","female","Self","Boiled water","Yes",NA,"","Under18",22000
+"795",184,795,4,1,53.1800003051758,"18-61","male","Parent","Boiled water","Yes",NA,"SERVICE","Outside",22000
+"796",184,796,4,1,43.1800003051758,"18-61","female","Parent","Boiled water","Yes","Housewife","","AtHome",22000
+"797",186,797,6,0,10.1499996185303,"5-17","male","Self","Private tap","Yes",NA,"","Under18",10500
+"798",186,798,6,1,35.1699981689453,"18-61","male","Parent","Private tap","Yes",NA,"BUSINESS","Outside",10500
+"799",186,799,6,1,30.1599998474121,"18-61","female","Parent","Private tap","Yes","Garment worker","","Outside",10500
+"800",187,800,4,0,35.2200012207031,"18-61","male","Self","Private tap","Yes",NA,"BOAT MAN","Outside",4800
+"801",187,801,4,1,30.2199993133545,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",4800
+"802",188,802,3,0,26.2399997711182,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",6000
+"803",188,803,3,1,33.25,"18-61","male","Spouse","Private tap","Yes","Rickshaw puller","","Outside",6000
+"804",189,804,2,0,19.25,"18-61","female","Self","Boiled water","Yes","Housewife","","AtHome",9000
+"805",189,805,2,1,27.2600002288818,"18-61","male","Unknown","Boiled water","Yes","Garment worker","","Outside",9000
+"806",190,806,12,0,32.310001373291,"18-61","male","Self","Other","Yes",NA,"SKILLED WORKER","Outside",40000
+"807",190,807,12,1,32.310001373291,"18-61","male","Sibling","Other","Yes",NA,"SERVICE","Outside",40000
+"808",191,808,2,0,26.3199996948242,"18-61","female","Self","Boiled water","Yes","Garment worker","","Outside",16500
+"809",191,809,2,1,31.3199996948242,"18-61","male","Spouse","Boiled water","Yes","Day laborer","","Outside",16500
+"810",192,810,8,0,8.3100004196167,"5-17","female","Self","Private tap","Yes",NA,"","Under18",10000
+"811",192,811,8,1,56.3400001525879,"18-61","male","Parent","Private tap","Yes","Day laborer","","Outside",10000
+"812",192,812,8,1,36.3300018310547,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",10000
+"813",193,813,6,0,10.3100004196167,"5-17","male","Self","Private tap","No",NA,"","Under18",14000
+"814",193,814,6,1,31.3199996948242,"18-61","female","Parent","Private tap","No","Housekeeper","","Outside",14000
+"815",193,815,6,1,36.3300018310547,"18-61","male","Parent","Private tap","No","Rickshaw puller","","Outside",14000
+"816",194,816,4,0,28.3299999237061,"18-61","male","Self","Boiled water","Yes","Shopkeeper","","Outside",15000
+"817",194,817,4,1,51.3499984741211,"18-61","female","Parent","Boiled water","Yes","Housewife","","AtHome",15000
+"818",195,818,5,0,8.31999969482422,"5-17","female","Self","Private tap","No",NA,"","Under18",12000
+"819",195,819,5,1,31.3400001525879,"18-61","male","Parent","Private tap","No","Day laborer","","Outside",12000
+"820",195,820,5,1,26.3299999237061,"18-61","female","Parent","Private tap","No","Housekeeper","","Outside",12000
+"821",197,821,4,0,51.3600006103516,"18-61","female","Self","Tubewell","Yes","Housewife","","AtHome",22000
+"822",197,822,4,1,28.3500003814697,"18-61","male","Child","Tubewell","Yes",NA,"SERVICE","Outside",22000
+"823",198,823,10,0,5.34000015258789,"5-17","male","Self","Private tap","No",NA,"","Under18",20000
+"824",198,824,10,1,51.3699989318848,"18-61","male","Parent","Private tap","No","Rickshaw puller","","Outside",20000
+"825",198,825,10,1,46.3699989318848,"18-61","female","Parent","Private tap","No","Housewife","","AtHome",20000
+"826",199,826,5,0,28.3600006103516,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",10000
+"827",199,827,5,1,35.3600006103516,"18-61","male","Spouse","Private tap","Yes",NA,"SERVICE","Outside",10000
+"828",199,828,5,1,7.34999990463257,"5-17","female","Child","Private tap","Yes",NA,"","Under18",10000
+"829",200,829,3,0,5.3600001335144,"5-17","male","Self","Private tap","Yes",NA,"","Under18",13000
+"830",200,830,3,1,26.3700008392334,"18-61","male","Parent","Private tap","Yes","Rickshaw puller","","Outside",13000
+"831",200,831,3,1,21.3700008392334,"18-61","female","Parent","Private tap","Yes","Garment worker","","Outside",13000
+"832",201,832,5,0,7.3600001335144,"5-17","male","Self","Private tap","Yes",NA,"","Under18",15000
+"833",201,833,5,1,39.3800010681152,"18-61","male","Parent","Private tap","Yes",NA,"SKILL WORKER","Outside",15000
+"834",201,834,5,1,31.3799991607666,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",15000
+"835",202,835,4,0,26.3899993896484,"18-61","male","Self","Tubewell","Yes",NA,"SKILL WORKER","Outside",12000
+"836",202,836,4,1,24.3899993896484,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",12000
+"837",203,837,4,0,43.4000015258789,"18-61","male","Self","Tubewell","Yes","Driver","","Outside",15000
+"838",203,838,4,1,29.3899993896484,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",15000
+"839",204,839,5,0,24.3899993896484,"18-61","female","Self","Boiled water","Yes","Housewife","","AtHome",10000
+"840",204,840,5,1,37.4000015258789,"18-61","male","Spouse","Boiled water","Yes",NA,"SKILLED WORKER","Outside",10000
+"841",205,841,3,0,4.38000011444092,"0-5","male","Self","Private tap","Yes",NA,"","Under18",12000
+"842",205,842,3,1,26.3999996185303,"18-61","male","Parent","Private tap","Yes",NA,"BUSINESS","Outside",12000
+"843",205,843,3,1,21.3899993896484,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",12000
+"844",206,844,5,0,41.4099998474121,"18-61","male","Self","Tubewell","Yes",NA,"SERVICE","Outside",10000
+"845",206,845,5,1,31.3999996185303,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",10000
+"846",208,846,3,0,5.42999982833862,"5-17","male","Self","Boiled water","Yes",NA,"","Under18",15000
+"847",208,847,3,1,26.4500007629395,"18-61","female","Parent","Boiled water","Yes","Housewife","","AtHome",15000
+"848",209,848,3,0,20.5100002288818,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",9000
+"849",209,849,3,1,26.5200004577637,"18-61","male","Parent","Private tap","Yes","Day laborer","","Outside",9000
+"850",209,850,3,1,5.5,"5-17","female","Child","Private tap","Yes",NA,"","Under18",9000
+"851",210,851,3,0,40.5900001525879,"18-61","male","Self","Private tap","Yes",NA,"SECURITY GUARD","Outside",13000
+"852",210,852,3,1,35.5900001525879,"18-61","female","Spouse","Private tap","Yes","Garment worker","","Outside",13000
+"853",211,853,5,0,5.57000017166138,"5-17","male","Self","Tubewell","Yes",NA,"","Under18",12000
+"854",211,854,5,1,45.5900001525879,"18-61","male","Parent","Tubewell","Yes","Driver","","Outside",12000
+"855",211,855,5,1,35.5900001525879,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",12000
+"856",212,856,5,0,35.6100006103516,"18-61","male","Self","Private tap","Yes","Day laborer","","Outside",9000
+"857",212,857,5,1,32.6100006103516,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",9000
+"858",212,858,5,1,14.5900001525879,"5-17","male","Child","Private tap","Yes",NA,"","Under18",9000
+"859",212,859,5,1,5.59000015258789,"5-17","male","Child","Private tap","Yes",NA,"","Under18",9000
+"860",213,860,3,0,35.6300010681152,"18-61","male","Self","Other","Yes",NA,"BUSINESS","Outside",20000
+"861",214,861,3,0,35.6500015258789,"18-61","male","Self","Private tap","Yes","Driver","","Outside",15000
+"862",215,862,3,0,4.63000011444092,"0-5","male","Self","Private tap","Yes",NA,"","Under18",7000
+"863",215,863,3,1,35.6500015258789,"18-61","male","Parent","Boiled water","Yes",NA,"BUSINESS","Outside",7000
+"864",215,864,3,1,25.6399993896484,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",7000
+"865",216,865,8,0,6.63000011444092,"5-17","male","Self","Boiled water","Yes",NA,"","Under18",10000
+"866",216,866,8,1,31.6499996185303,"18-61","male","Parent","Boiled water","Yes",NA,"SERVICE","Outside",10000
+"867",216,867,8,1,25.6399993896484,"18-61","female","Parent","Boiled water","Yes","Housewife","","AtHome",10000
+"868",217,868,6,0,22.6499996185303,"18-61","male","Self","Private tap","Yes",NA,"STUDENT","Outside",25000
+"869",217,869,6,1,27.6499996185303,"18-61","male","Sibling","Private tap","Yes",NA,"BUSINESS","Outside",25000
+"870",219,870,3,0,40.6699981689453,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",10000
+"871",219,871,3,1,50.6699981689453,"18-61","male","Spouse","Private tap","Yes",NA,"BUSINESS","Outside",10000
+"872",220,872,8,0,2.65000009536743,"0-5","female","Self","Tubewell","Yes",NA,"","Under18",14000
+"873",220,873,8,1,40.6800003051758,"18-61","male","Parent","Tubewell","Yes","Day laborer","","Outside",14000
+"874",220,874,8,1,26.6700000762939,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",14000
+"875",221,875,2,0,20.6700000762939,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",6500
+"876",221,876,2,1,20.6700000762939,"18-61","male","Spouse","Private tap","Yes",NA,"SKILL WORKER","Outside",6500
+"877",222,877,5,0,27.6800003051758,"18-61","male","Self","Tubewell","Yes",NA,"SERVICE","Outside",8000
+"878",222,878,5,1,22.6700000762939,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",8000
+"879",223,879,4,0,24.6800003051758,"18-61","male","Self","Boiled water","Yes","Driver","","Outside",14700
+"880",223,880,4,1,20.6800003051758,"18-61","male","Sibling","Boiled water","Yes","Unemployed","","AtHome",14700
+"881",224,881,5,0,30.7000007629395,"18-61","male","Self","Private tap","Yes",NA,"BUSINESS","Outside",12000
+"882",224,882,5,1,24.7000007629395,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",12000
+"883",224,883,5,1,4.69000005722046,"0-5","female","Child","Private tap","Yes",NA,"","Under18",12000
+"884",225,884,3,0,24.7199993133545,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",15000
+"885",225,885,3,1,32.7200012207031,"18-61","male","Spouse","Boiled water","Yes",NA,"SERVICE","Outside",15000
+"886",226,886,7,0,32.7900009155273,"18-61","male","Self","Tubewell","Yes","Rickshaw puller","","Outside",7000
+"887",226,887,7,1,24.7800006866455,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",7000
+"888",227,888,5,0,9.77999973297119,"5-17","male","Self","Private tap","Yes",NA,"","Under18",11600
+"889",227,889,5,1,40.810001373291,"18-61","female","Parent","Private tap","Yes","Day laborer","","Outside",11600
+"890",227,890,5,1,19.7900009155273,"18-61","male","Sibling","Private tap","Yes","Garment worker","","Outside",11600
+"891",228,891,3,0,27.8099994659424,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",11000
+"892",228,892,3,1,30.8099994659424,"18-61","male","Spouse","Private tap","Yes",NA,"SKILLED WORKER","Outside",11000
+"893",230,893,2,0,26.8299999237061,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",7000
+"894",230,894,2,1,30.8400001525879,"18-61","male","Spouse","Private tap","Yes","Rickshaw puller","","Outside",7000
+"895",231,895,5,0,35.8699989318848,"18-61","male","Self","Public tap","Yes","Day laborer","","Outside",9000
+"896",232,896,3,0,3.84999990463257,"0-5","male","Self","Private tap","Yes",NA,"","Under18",11000
+"897",232,897,3,1,40.8699989318848,"18-61","male","Parent","Private tap","Yes","Day laborer","","Outside",11000
+"898",232,898,3,1,35.8699989318848,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",11000
+"899",233,899,5,0,40.8800010681152,"18-61","female","Self","Boiled water","Yes","Garment worker","","Outside",27000
+"900",233,900,5,1,50.8800010681152,"18-61","male","Spouse","Boiled water","Yes",NA,"CARPENTER","Outside",27000
+"901",234,901,5,0,45.8800010681152,"18-61","male","Self","Boiled water","Yes","Rickshaw puller","","Outside",13000
+"902",234,902,5,1,35.8800010681152,"18-61","female","Spouse","Boiled water","Yes",NA,"","Outside",13000
+"903",235,903,4,0,42.8899993896484,"18-61","male","Self","Tubewell","Yes","Day laborer","","Outside",15000
+"904",235,904,4,1,35.8800010681152,"18-61","female","Spouse","Tubewell","Yes","Garment worker","","Outside",15000
+"905",236,905,5,0,44.8899993896484,"18-61","male","Self","Boiled water","Yes",NA,"BUSINESS","Outside",20000
+"906",237,906,5,0,8.88000011444092,"5-17","male","Self","Private tap","Yes",NA,"","Under18",10000
+"907",237,907,5,1,40.9000015258789,"18-61","male","Parent","Private tap","Yes","Day laborer","","Outside",10000
+"908",237,908,5,1,35.9000015258789,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",10000
+"909",237,909,5,1,15.8800001144409,"5-17","male","Sibling","Private tap","Yes",NA,"","Under18",10000
+"910",238,910,5,0,3.91000008583069,"0-5","male","Self","Private tap","Yes",NA,"","Under18",20000
+"911",238,911,5,1,35.9300003051758,"18-61","male","Parent","Private tap","Yes",NA,"","Outside",20000
+"912",238,912,5,1,28.9300003051758,"18-61","female","Parent","Private tap","Yes","Housekeeper","","Outside",20000
+"913",239,913,2,0,25.9300003051758,"18-61","male","Self","Private tap","Yes","Garment worker","","Outside",10000
+"914",239,914,2,1,18.9200000762939,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",10000
+"915",241,915,5,0,30.9300003051758,"18-61","female","Self","Tubewell","Yes","Housewife","","AtHome",10000
+"916",241,916,5,1,32.939998626709,"18-61","male","Spouse","Tubewell","Yes","Day laborer","","Outside",10000
+"917",242,917,5,0,20.2199993133545,"18-61","female","Self","Private tap","Yes","Garment worker","","Outside",20000
+"918",242,918,5,1,56.2400016784668,"18-61","male","Parent","Private tap","Yes","Day laborer","","Outside",20000
+"919",242,919,5,1,41.2299995422363,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",20000
+"920",243,920,4,0,23.2299995422363,"18-61","male","Self","Other","Yes","Day laborer","","Outside",12000
+"921",244,921,4,0,36.2599983215332,"18-61","male","Self","Other","No",NA,"CARPENTER","Outside",51000
+"922",245,922,3,0,29.2999992370605,"18-61","female","Self","Private tap","Yes","Garment worker","","Outside",12000
+"923",245,923,3,1,39.2999992370605,"18-61","male","Unknown","Private tap","Yes",NA,"SMALL BUSINESS","Outside",12000
+"924",246,924,7,0,26.2999992370605,"18-61","female","Self","Tubewell","Yes","Housewife","","AtHome",25000
+"925",246,925,7,1,33.2999992370605,"18-61","male","Spouse","Tubewell","Yes","Garment worker","","Outside",25000
+"926",247,926,5,0,48.3300018310547,"18-61","male","Self","Private tap","Yes","Rickshaw puller","","Outside",12000
+"927",247,927,5,1,31.3199996948242,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",12000
+"928",248,928,3,0,26.3199996948242,"18-61","female","Self","Boiled water","Yes","Housekeeper","","Outside",10000
+"929",248,929,3,1,31.3199996948242,"18-61","male","Spouse","Boiled water","Yes","Rickshaw puller","","Outside",10000
+"930",249,930,8,0,10.3199996948242,"5-17","male","Self","Private tap","Yes",NA,"","Under18",15000
+"931",249,931,8,1,41.3499984741211,"18-61","female","Parent","Private tap","Yes","Housekeeper","","Outside",15000
+"932",250,932,2,0,19.3500003814697,"18-61","male","Self","Private tap","Yes",NA,"SKILL WORKER","Outside",37000
+"933",250,933,2,1,36.3600006103516,"18-61","male","Unknown","Private tap","Yes",NA,"BUSINESS","Outside",37000
+"934",252,934,6,0,10.3599996566772,"5-17","male","Self","Other","Yes",NA,"","Under18",8000
+"935",252,935,6,1,40.3800010681152,"18-61","female","Parent","Other","Yes","Housewife","","AtHome",8000
+"936",253,936,2,0,32.3800010681152,"18-61","male","Self","Boiled water","Yes","Unemployed","","AtHome",5000
+"937",254,937,4,0,23.3899993896484,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",9000
+"938",254,938,4,1,31.3899993896484,"18-61","male","Spouse","Private tap","Yes","Day laborer","","Outside",9000
+"939",255,939,3,0,28.4300003051758,"18-61","male","Self","Private tap","Yes",NA,"BUSINESS","Outside",14000
+"940",255,940,3,1,20.4200000762939,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",14000
+"941",256,941,4,0,4.42000007629395,"0-5","male","Self","Private tap","Yes",NA,"","Under18",9000
+"942",256,942,4,1,27.4300003051758,"18-61","female","Parent","Private tap","Yes",NA,"","Outside",9000
+"943",256,943,4,1,10.4200000762939,"5-17","female","Sibling","Private tap","Yes",NA,"","Under18",9000
+"944",257,944,6,0,45.4599990844727,"18-61","female","Self","Boiled water","Yes","Housewife","","AtHome",23000
+"945",257,945,6,1,59.4700012207031,"18-61","male","Spouse","Boiled water","Yes","Shopkeeper","","Outside",23000
+"946",258,946,3,0,31.4500007629395,"18-61","male","Self","Private tap","Yes",NA,"SKILL WORKER","Outside",14000
+"947",259,947,3,0,50.4599990844727,"18-61","female","Self","Private tap","Yes","Day laborer","","Outside",15000
+"948",259,948,3,1,55.4599990844727,"18-61","male","Spouse","Private tap","Yes","Housewife","","AtHome",15000
+"949",260,949,4,0,32.4700012207031,"18-61","female","Self","Boiled water","Yes","Housewife","","AtHome",30000
+"950",261,950,3,0,35.4900016784668,"18-61","female","Self","Private tap","Yes","Housekeeper","","Outside",10500
+"951",263,951,10,0,24.4799995422363,"18-61","male","Self","Private tap","Yes",NA,"","Outside",10000
+"952",264,952,4,0,4.48000001907349,"0-5","male","Self","Private tap","Yes",NA,"","Under18",9000
+"953",264,953,4,1,40.5,"18-61","male","Parent","Private tap","Yes",NA,"BUSINESS","Outside",9000
+"954",264,954,4,1,30.5,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",9000
+"955",264,955,4,1,8.47999954223633,"5-17","female","Sibling","Private tap","Yes",NA,"","Under18",9000
+"956",265,956,3,0,15.4899997711182,"5-17","male","Self","Other","Yes",NA,"","Under18",23000
+"957",265,957,3,1,35.5099983215332,"18-61","male","Parent","Other","Yes",NA,"","Outside",23000
+"958",266,958,3,0,28.5,"18-61","female","Self","Boiled water","Yes","Garment worker","","Outside",17000
+"959",266,959,3,1,56.5200004577637,"18-61","male","Parent","Boiled water","Yes",NA,"SERVICE","Outside",17000
+"960",267,960,5,0,36.560001373291,"18-61","female","Self","Private tap","Yes","Housekeeper","","Outside",6000
+"961",267,961,5,1,45.560001373291,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",6000
+"962",267,962,5,1,7.53999996185303,"5-17","female","Child","Private tap","Yes",NA,"","Under18",6000
+"963",268,963,4,0,3.53999996185303,"0-5","female","Self","Boiled water","Yes",NA,"","Under18",20000
+"964",268,964,4,1,28.5599994659424,"18-61","male","Parent","Boiled water","Yes",NA,"BUSINESS","Outside",20000
+"965",268,965,4,1,20.5599994659424,"18-61","male","Parent","Boiled water","Yes","Housewife","","AtHome",20000
+"966",269,966,7,0,25.6200008392334,"18-61","female","Self","Private tap","Yes",NA,"SERVICE","Outside",22000
+"967",269,967,7,1,28.6299991607666,"18-61","male","Spouse","Private tap","Yes",NA,"SERVICE","Outside",27000
+"968",270,968,3,0,20.6200008392334,"18-61","male","Self","Other","Yes",NA,"STUDENT","Outside",25000
+"969",271,969,5,0,14.6300001144409,"5-17","male","Self","Boiled water","Yes",NA,"","Under18",10400
+"970",271,970,5,1,35.6399993896484,"18-61","female","Parent","Boiled water","Yes",NA,"SERVICE","Outside",10400
+"971",272,971,4,0,18.6299991607666,"18-61","male","Self","Private tap","Yes","Day laborer","","Outside",24000
+"972",272,972,4,1,50.6500015258789,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",24000
+"973",275,973,3,0,18.6399993896484,"18-61","male","Self","Private tap","No",NA,"STUDENT","Outside",4500
+"974",275,974,3,1,17.6399993896484,"18-61","male","Unknown","Private tap","No",NA,"STUDENT","Outside",4500
+"975",276,975,3,0,24.6499996185303,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",12000
+"976",276,976,3,1,26.6499996185303,"18-61","male","Spouse","Private tap","Yes","Day laborer","","Outside",12000
+"977",277,977,3,0,31.6599998474121,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",14000
+"978",277,978,3,1,32.6699981689453,"18-61","male","Spouse","Private tap","Yes","Day laborer","","Outside",14000
+"979",277,979,3,1,6.65000009536743,"5-17","female","Child","Private tap","Yes",NA,"","Under18",14000
+"980",278,980,3,0,40.6699981689453,"18-61","male","Self","Public tap","No","Rickshaw puller","","Outside",5600
+"981",278,981,3,1,25.6599998474121,"18-61","female","Spouse","Public tap","No","Housewife","","AtHome",5600
+"982",279,982,4,0,25.6599998474121,"18-61","male","Self","Boiled water","Yes",NA,"SERVICE","Outside",15000
+"983",279,983,4,1,25.6599998474121,"18-61","male","Unknown","Boiled water","Yes",NA,"TUTION","Outside",15000
+"984",280,984,4,0,45.689998626709,"18-61","male","Self","Tubewell","Yes","Day laborer","","Outside",9000
+"985",280,985,4,1,35.6800003051758,"18-61","female","Spouse","Tubewell","Yes","Day laborer","","Outside",9000
+"986",281,986,5,0,42.75,"18-61","male","Self","Tubewell","Yes",NA,"BUSINESS","Outside",30000
+"987",281,987,5,1,34.7400016784668,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",30000
+"988",282,988,4,0,14.7299995422363,"5-17","male","Self","Private tap","Yes",NA,"","Under18",23000
+"989",282,989,4,1,25.7299995422363,"18-61","female","Parent","Private tap","Yes","Garment worker","","Outside",23000
+"990",283,990,5,0,40.7799987792969,"18-61","female","Self","Other","Yes","Housewife","","AtHome",22000
+"991",283,991,5,1,22.7700004577637,"18-61","female","Sibling","Other","Yes",NA,"STUDENT","Outside",22000
+"992",283,992,5,1,20.7700004577637,"18-61","male","Child","Other","Yes",NA,"","Outside",22000
+"993",284,993,4,0,42.7799987792969,"18-61","male","Self","Boiled water","Yes",NA,"SERVICE","Outside",25000
+"994",284,994,4,1,25.7700004577637,"18-61","female","Spouse","Boiled water","Yes","Housewife","","AtHome",25000
+"995",286,995,2,0,30.7800006866455,"18-61","male","Self","Private tap","Yes",NA,"BUSINESS","Outside",18000
+"996",286,996,2,1,18.7700004577637,"18-61","female","Spouse","Private tap","Yes",NA,"STUDENT","Outside",18000
+"997",287,997,5,0,11.8000001907349,"5-17","male","Self","Tubewell","Yes",NA,"","Under18",20000
+"998",287,998,5,1,30.8099994659424,"18-61","male","Parent","Tubewell","Yes",NA,"SKILLED WORKER","Outside",20000
+"999",287,999,5,1,27.8099994659424,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",20000
+"1000",288,1000,3,0,2.79999995231628,"0-5","female","Self","Private tap","Yes",NA,"","Under18",12000
+"1001",288,1001,3,1,22.8099994659424,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",12000
+"1002",289,1002,5,0,30.8199996948242,"18-61","male","Self","Tubewell","No","Day laborer","","Outside",15000
+"1003",290,1003,5,0,45.8300018310547,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",26000
+"1004",290,1004,5,1,24.8199996948242,"18-61","male","Unknown","Private tap","Yes","Garment worker","","Outside",26000
+"1005",290,1005,5,1,21.8099994659424,"18-61","female","Child","Private tap","Yes","Garment worker","","Outside",26000
+"1006",291,1006,7,0,32.8600006103516,"18-61","female","Self","Boiled water","Yes","Housewife","","AtHome",70000
+"1007",291,1007,7,1,39.8600006103516,"18-61","male","Spouse","Boiled water","Yes",NA,"BUSINESS","Outside",70000
+"1008",292,1008,6,0,16.8600006103516,"5-17","male","Self","Boiled water","Yes",NA,"","Under18",28000
+"1009",292,1009,6,1,55.8800010681152,"18-61","male","Parent","Boiled water","Yes",NA,"SERVICE","Outside",28000
+"1010",293,1010,4,0,7.84999990463257,"5-17","male","Self","Tubewell","Yes",NA,"","Under18",10000
+"1011",293,1011,4,1,41.8800010681152,"18-61","male","Parent","Tubewell","Yes","Day laborer","","Outside",10000
+"1012",293,1012,4,1,34.8699989318848,"18-61","female","Parent","Tubewell","Yes","Garment worker","","Outside",10000
+"1013",294,1013,3,0,35.8899993896484,"18-61","male","Self","Boiled water","Yes",NA,"BUSINESS","Outside",25000
+"1014",294,1014,3,1,20.8799991607666,"18-61","female","Spouse","Boiled water","Yes","Housewife","","AtHome",25000
+"1015",295,1015,2,0,26.9200000762939,"18-61","male","Self","Tubewell","Yes","Day laborer","","Outside",10000
+"1016",295,1016,2,1,21.9099998474121,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",10000
+"1017",297,1017,4,0,25.9500007629395,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",10000
+"1018",297,1018,4,1,30.9500007629395,"18-61","male","Spouse","Private tap","Yes","Rickshaw puller","","Outside",10000
+"1019",298,1019,2,0,22.9400005340576,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",15500
+"1020",298,1020,2,1,26.9500007629395,"18-61","male","Spouse","Private tap","Yes","Driver","","Outside",15500
+"1021",299,1021,3,0,28.9500007629395,"18-61","male","Self","Boiled water","Yes",NA,"BUSINESS","Outside",16000
+"1022",299,1022,3,1,27.9500007629395,"18-61","female","Spouse","Boiled water","Yes",NA,"SKILLED WORKER","Outside",16000
+"1023",300,1023,2,0,25.9799995422363,"18-61","male","Self","Boiled water","Yes",NA,"VENDOR (VEGETABLE)","Outside",15000
+"1024",300,1024,2,1,20.9799995422363,"18-61","female","Spouse","Boiled water","Yes","Housewife","","AtHome",15000
+"1025",301,1025,4,0,41,"18-61","male","Self","Boiled water","Yes",NA,"BUSINESS","Outside",40000
+"1026",301,1026,4,1,37,"18-61","female","Spouse","Boiled water","Yes","Housewife","","AtHome",40000
+"1027",302,1027,14,0,27.0799999237061,"18-61","male","Self","Private tap","Yes",NA,"STUDENT","Outside",50000
+"1028",302,1028,14,1,60.0999984741211,"18-61","male","Parent","Private tap","Yes",NA,"BUSINESS","Outside",50000
+"1029",303,1029,5,0,10.1300001144409,"5-17","male","Self","Tubewell","Yes",NA,"","Under18",10000
+"1030",303,1030,5,1,37.1500015258789,"18-61","male","Parent","Tubewell","Yes","Driver","","Outside",10000
+"1031",303,1031,5,1,28.1399993896484,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",10000
+"1032",304,1032,6,0,36.1699981689453,"18-61","female","Self","Private tap","Yes","Housekeeper","","Outside",14500
+"1033",304,1033,6,1,18.1599998474121,"18-61","male","Child","Private tap","Yes","Garment worker","","Outside",14500
+"1034",305,1034,5,0,15.1599998474121,"5-17","female","Self","Private tap","Yes",NA,"","Under18",11600
+"1035",305,1035,5,1,41.1800003051758,"18-61","female","Parent","Private tap","Yes","Day laborer","","Outside",11600
+"1036",306,1036,2,0,25.1599998474121,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",10000
+"1037",306,1037,2,1,36.1699981689453,"18-61","male","Spouse","Private tap","Yes","Garment worker","","Outside",10000
+"1038",308,1038,6,0,36.1800003051758,"18-61","female","Self","Tubewell","Yes","Housewife","","AtHome",12000
+"1039",308,1039,6,1,46.189998626709,"18-61","male","Spouse","Tubewell","Yes",NA,"","Outside",12000
+"1040",308,1040,6,1,17.1700000762939,"18-61","male","Child","Tubewell","Yes",NA,"","Outside",12000
+"1041",309,1041,4,0,5.15999984741211,"5-17","male","Self","Private tap","Yes",NA,"","Under18",18000
+"1042",309,1042,4,1,36.1800003051758,"18-61","male","Parent","Private tap","Yes","Day laborer","","Outside",18000
+"1043",309,1043,4,1,26.1800003051758,"18-61","female","Parent","Private tap","Yes","Housekeeper","","Outside",18000
+"1044",310,1044,3,0,26.2199993133545,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",12000
+"1045",310,1045,3,1,31.2199993133545,"18-61","male","Spouse","Private tap","Yes",NA,"SKILLED WORKER","Outside",12000
+"1046",311,1046,8,0,33.2200012207031,"18-61","male","Self","Private tap","Yes",NA,"BUSINESS","Outside",30000
+"1047",311,1047,8,1,56.2400016784668,"18-61","male","Unknown","Private tap","Yes",NA,"BUSINESS","Outside",30000
+"1048",312,1048,5,0,43.2299995422363,"18-61","female","Self","Private tap","Yes",NA,"SKILLED WORKER","Outside",34000
+"1049",312,1049,5,1,59.2400016784668,"18-61","male","Spouse","Private tap","Yes",NA,"SKILLED WORKER","Outside",34000
+"1050",313,1050,2,0,20.2199993133545,"18-61","male","Self","Private tap","Yes",NA,"SKILLED WORKER","Outside",18000
+"1051",313,1051,2,1,28.2199993133545,"18-61","male","Unknown","Private tap","Yes",NA,"SKILLED WORKER","Outside",18000
+"1052",314,1052,4,0,29.2299995422363,"18-61","female","Self","Tubewell","Yes","Housewife","","AtHome",12000
+"1053",314,1053,4,1,33.2400016784668,"18-61","male","Spouse","Tubewell","Yes","Day laborer","","Outside",12000
+"1054",314,1054,4,1,11.2200002670288,"5-17","male","Child","Tubewell","Yes",NA,"","Under18",12000
+"1055",314,1055,4,1,6.21999979019165,"5-17","male","Child","Tubewell","Yes",NA,"","Under18",12000
+"1056",315,1056,3,0,34.2700004577637,"18-61","male","Self","Private tap","Yes",NA,"SKILLED WORKER","Outside",20000
+"1057",315,1057,3,1,24.2700004577637,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",20000
+"1058",316,1058,4,0,43.3199996948242,"18-61","male","Self","Boiled water","Yes",NA,"BUSINESS","Outside",25000
+"1059",316,1059,4,1,31.3199996948242,"18-61","female","Spouse","Boiled water","Yes","Housewife","","AtHome",25000
+"1060",317,1060,4,0,31.3199996948242,"18-61","male","Self","Private tap","Yes","Day laborer","","Outside",11000
+"1061",317,1061,4,1,27.3199996948242,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",11000
+"1062",319,1062,2,0,31.3199996948242,"18-61","male","Self","Boiled water","Yes","Rickshaw puller","","Outside",10000
+"1063",319,1063,2,1,27.3199996948242,"18-61","female","Spouse","Boiled water","Yes","Housewife","","AtHome",10000
+"1064",320,1064,2,0,23.3199996948242,"18-61","female","Self","Boiled water","Yes",NA,"STUDENT","Outside",20000
+"1065",320,1065,2,1,30.3199996948242,"18-61","male","Spouse","Boiled water","Yes",NA,"BUSINESS","Outside",20000
+"1066",321,1066,6,0,22.3799991607666,"18-61","female","Self","Private tap","Yes","Garment worker","","Outside",40000
+"1067",321,1067,6,1,26.3799991607666,"18-61","male","Spouse","Private tap","Yes","Garment worker","","Outside",40000
+"1068",322,1068,4,0,46.439998626709,"18-61","male","Self","Boiled water","Yes",NA,"BUSINESS","Outside",23000
+"1069",322,1069,4,1,36.4300003051758,"18-61","female","Spouse","Boiled water","Yes","Housewife","","AtHome",23000
+"1070",323,1070,6,0,8.43000030517578,"5-17","male","Self","Private tap","Yes",NA,"STUDENT","Under18",20000
+"1071",323,1071,6,1,40.4500007629395,"18-61","male","Parent","Private tap","Yes","Day laborer","","Outside",20000
+"1072",323,1072,6,1,32.4500007629395,"18-61","female","Parent","Private tap","Yes","Housekeeper","","Outside",20000
+"1073",323,1073,6,1,14.4399995803833,"5-17","male","Sibling","Private tap","Yes",NA,"STUDENT","Under18",20000
+"1074",323,1074,6,1,11.4399995803833,"5-17","male","Sibling","Private tap","Yes",NA,"","Under18",20000
+"1075",324,1075,5,0,26.5200004577637,"18-61","female","Self","Private tap","Yes","Day laborer","","Outside",12000
+"1076",324,1076,5,1,32.5200004577637,"18-61","male","Spouse","Private tap","Yes","Day laborer","","Outside",12000
+"1077",325,1077,3,0,23.5200004577637,"18-61","male","Self","Private tap","Yes","Day laborer","","Outside",17000
+"1078",325,1078,3,1,20.5200004577637,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",17000
+"1079",326,1079,5,0,9.52999973297119,"5-17","male","Self","Boiled water","Yes",NA,"","Under18",27500
+"1080",326,1080,5,1,42.5499992370605,"18-61","female","Parent","Boiled water","Yes","Housewife","","AtHome",27500
+"1081",327,1081,6,0,10.5600004196167,"5-17","female","Self","Boiled water","Yes",NA,"","Under18",22600
+"1082",327,1082,6,1,45.5900001525879,"18-61","male","Parent","Boiled water","Yes","Rickshaw puller","","Outside",22600
+"1083",327,1083,6,1,35.5800018310547,"18-61","female","Parent","Boiled water","Yes","Housewife","","AtHome",22600
+"1084",328,1084,2,0,17.6499996185303,"18-61","male","Self","Private tap","Yes",NA,"","Outside",15000
+"1085",328,1085,2,1,48.6699981689453,"18-61","male","Parent","Private tap","Yes",NA,"","Outside",15000
+"1086",330,1086,4,0,6.69999980926514,"5-17","male","Self","Private tap","Yes",NA,"","Under18",18000
+"1087",330,1087,4,1,25.7199993133545,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",18000
+"1088",331,1088,8,0,8.72000026702881,"5-17","female","Self","Tubewell","Yes",NA,"","Under18",19000
+"1089",331,1089,8,1,50.75,"18-61","male","Parent","Tubewell","Yes","Driver","","Outside",19000
+"1090",331,1090,8,1,40.75,"18-61","female","Parent","Tubewell","Yes","Housekeeper","","Outside",19000
+"1091",332,1091,5,0,28.75,"18-61","female","Self","Tubewell","Yes","Housewife","","AtHome",30000
+"1092",332,1092,5,1,38.7599983215332,"18-61","male","Spouse","Tubewell","Yes",NA,"BUSINESS","Outside",30000
+"1093",333,1093,5,0,26.75,"18-61","male","Self","Private tap","Yes","Driver","","Outside",18000
+"1094",333,1094,5,1,14.75,"5-17","male","Unknown","Private tap","No",NA,"","Under18",18000
+"1095",334,1095,5,0,12.7799997329712,"5-17","female","Self","Tubewell","Yes",NA,"","Under18",15000
+"1096",334,1096,5,1,38.7900009155273,"18-61","male","Parent","Tubewell","Yes","Rickshaw puller","","Outside",15000
+"1097",334,1097,5,1,35.7900009155273,"18-61","female","Parent","Tubewell","Yes","Garment worker","","Outside",15000
+"1098",334,1098,5,1,17.7800006866455,"18-61","male","Sibling","Tubewell","Yes",NA,"","Outside",15000
+"1099",334,1099,5,1,7.76999998092651,"5-17","male","Sibling","Tubewell","Yes",NA,"","Under18",15000
+"1100",335,1100,6,0,48.8199996948242,"18-61","female","Self","Boiled water","Yes","Housewife","","AtHome",42000
+"1101",335,1101,6,1,17.7999992370605,"18-61","female","Child","Boiled water","Yes",NA,"","Outside",42000
+"1102",335,1102,6,1,25.8099994659424,"18-61","male","Child","Boiled water","Yes",NA,"STUDENT","Outside",42000
+"1103",336,1103,2,0,28.8299999237061,"18-61","male","Self","Private tap","Yes","Day laborer","","Outside",10000
+"1104",336,1104,2,1,24.8199996948242,"18-61","female","Spouse","Private tap","Yes","Garment worker","","Outside",10000
+"1105",337,1105,2,0,20.8299999237061,"18-61","male","Self","Private tap","Yes","Garment worker","","Outside",18000
+"1106",337,1106,2,1,18.8299999237061,"18-61","male","Sibling","Private tap","Yes","Driver","","Outside",18000
+"1107",338,1107,6,0,24.8299999237061,"18-61","male","Self","Private tap","Yes",NA,"SKILLED WORKER","Outside",25000
+"1108",338,1108,6,1,40.8400001525879,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",25000
+"1109",338,1109,6,1,21.8299999237061,"18-61","male","Sibling","Private tap","Yes",NA,"STUDENT","Outside",25000
+"1110",338,1110,6,1,50.8499984741211,"18-61","male","Parent","Private tap","Yes",NA,"FARMER","Outside",25000
+"1111",338,1111,6,1,18.8299999237061,"18-61","female","Spouse","Private tap","Yes",NA,"STUDENT","Outside",25000
+"1112",338,1112,6,1,12.8199996948242,"5-17","male","Sibling","Private tap","Yes",NA,"","Under18",25000
+"1113",339,1113,7,0,8.82999992370605,"5-17","female","Self","Private tap","Yes",NA,"","Under18",20000
+"1114",339,1114,7,1,40.8499984741211,"18-61","male","Parent","Private tap","Yes",NA,"","Outside",20000
+"1115",339,1115,7,1,35.8499984741211,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",20000
+"1116",339,1116,7,1,21.8400001525879,"18-61","male","Sibling","Private tap","Yes",NA,"SKILLED WORKER","Outside",20000
+"1117",339,1117,7,1,17.8400001525879,"18-61","male","Sibling","Private tap","Yes",NA,"","Outside",20000
+"1118",339,1118,7,1,14.8400001525879,"5-17","female","Sibling","Private tap","Yes",NA,"","Under18",20000
+"1119",339,1119,7,1,6.82999992370605,"5-17","male","Sibling","Private tap","Yes",NA,"","Under18",20000
+"1120",341,1120,4,0,22.8400001525879,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",20000
+"1121",341,1121,4,1,28.8500003814697,"18-61","male","Spouse","Private tap","Yes","Driver","","Outside",20000
+"1122",342,1122,2,0,23.8500003814697,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",12000
+"1123",342,1123,2,1,45.8699989318848,"18-61","male","Spouse","Private tap","Yes","Day laborer","","Outside",12000
+"1124",343,1124,3,0,22.8600006103516,"18-61","female","Self","Private tap","Yes",NA,"STUDENT","Outside",15000
+"1125",344,1125,3,0,32.8899993896484,"18-61","male","Self","Private tap","Yes","Garment worker","","Outside",13000
+"1126",344,1126,3,1,23.8799991607666,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",13000
+"1127",345,1127,4,0,45.9000015258789,"18-61","female","Self","Private tap","Yes","Housekeeper","","Outside",20000
+"1128",345,1128,4,1,50.9099998474121,"18-61","male","Spouse","Private tap","Yes","Rickshaw puller","","Outside",20000
+"1129",345,1129,4,1,12.8800001144409,"5-17","male","Child","Private tap","Yes",NA,"","Under18",20000
+"1130",346,1130,5,0,19.8799991607666,"18-61","female","Self","Tubewell","Yes",NA,"SCHOOL TEACHER","Outside",25000
+"1131",346,1131,5,1,45.9000015258789,"18-61","male","Parent","Tubewell","Yes",NA,"BUSINESS","Outside",25000
+"1132",346,1132,5,1,38.9000015258789,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",25000
+"1133",347,1133,3,0,30.8999996185303,"18-61","female","Self","Boiled water","Yes","Garment worker","","Outside",32000
+"1134",347,1134,3,1,35.9099998474121,"18-61","male","Spouse","Boiled water","Yes","Garment worker","","Outside",32000
+"1135",348,1135,4,0,28.9099998474121,"18-61","female","Self","Tubewell","Yes","Housewife","","AtHome",20000
+"1136",348,1136,4,1,30.9099998474121,"18-61","male","Spouse","Tubewell","Yes","Garment worker","","Outside",20000
+"1137",349,1137,2,0,20.9300003051758,"18-61","female","Self","Boiled water","Yes",NA,"","Outside",14000
+"1138",349,1138,2,1,48.9500007629395,"18-61","female","Parent","Boiled water","Yes","Housewife","","AtHome",14000
+"1139",350,1139,3,0,9.93000030517578,"5-17","male","Self","Private tap","Yes",NA,"","Under18",15000
+"1140",350,1140,3,1,23.9400005340576,"18-61","female","Parent","Private tap","Yes","Housekeeper","","Outside",15000
+"1141",350,1141,3,1,3.9300000667572,"0-5","male","Sibling","Private tap","Yes",NA,"","Under18",15000
+"1142",352,1142,5,0,3.9300000667572,"0-5","male","Self","Private tap","Yes",NA,"","Under18",20000
+"1143",352,1143,5,1,33.9500007629395,"18-61","male","Parent","Private tap","Yes",NA,"BUSINESS","Outside",20000
+"1144",352,1144,5,1,25.9400005340576,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",20000
+"1145",352,1145,5,1,7.92999982833862,"5-17","male","Sibling","Private tap","Yes",NA,"","Under18",20000
+"1146",352,1146,5,1,60.9599990844727,"18-61","female","Unknown","Private tap","Yes","Housewife","","AtHome",20000
+"1147",353,1147,6,0,30.9500007629395,"18-61","female","Self","Boiled water","Yes","Housewife","","AtHome",25000
+"1148",353,1148,6,1,38.9599990844727,"18-61","male","Spouse","Boiled water","Yes",NA,"BUSINESS","Outside",25000
+"1149",354,1149,7,0,20.9599990844727,"18-61","male","Self","Private tap","Yes","Day laborer","","Outside",25000
+"1150",354,1150,7,1,48.9799995422363,"18-61","male","Parent","Private tap","Yes",NA,"BUSINESS","Outside",25000
+"1151",354,1151,7,1,35.9700012207031,"18-61","female","Parent","Private tap","Yes","Housekeeper","","Outside",25000
+"1152",355,1152,5,0,8.97000026702881,"5-17","male","Self","Tubewell","Yes",NA,"","Under18",10000
+"1153",355,1153,5,1,57,"18-61","male","Parent","Tubewell","Yes","Day laborer","","Outside",10000
+"1154",356,1154,5,0,20.9799995422363,"18-61","female","Self","Private tap","Yes","Day laborer","","Outside",20000
+"1155",356,1155,5,1,42.9900016784668,"18-61","female","Parent","Private tap","Yes","Housekeeper","","Outside",20000
+"1156",357,1156,3,0,46,"18-61","male","Self","Private tap","Yes","Rickshaw puller","","Outside",20000
+"1157",357,1157,3,1,36.9900016784668,"18-61","female","Spouse","Private tap","Yes","Garment worker","","Outside",20000
+"1158",358,1158,5,0,28.0499992370605,"18-61","female","Self","Tubewell","Yes","Housewife","","AtHome",18000
+"1159",358,1159,5,1,37.060001373291,"18-61","male","Spouse","Tubewell","Yes",NA,"SERVICE","Outside",18000
+"1160",359,1160,4,0,31.0599994659424,"18-61","female","Self","Private tap","Yes",NA,"BUSINESS","Outside",30000
+"1161",359,1161,4,1,40.0699996948242,"18-61","male","Spouse","Private tap","Yes",NA,"BUSINESS","Outside",30000
+"1162",359,1162,4,1,17.0499992370605,"18-61","female","Child","Private tap","Yes",NA,"","Outside",30000
+"1163",359,1163,4,1,14.0500001907349,"5-17","male","Child","Private tap","Yes",NA,"","Under18",30000
+"1164",360,1164,4,0,31.0799999237061,"18-61","female","Self","Tubewell","Yes",NA,"SKILLED WORKER","Outside",9000
+"1165",360,1165,4,1,18.0699996948242,"18-61","male","Child","Tubewell","Yes",NA,"STUDENT","Outside",9000
+"1166",361,1166,7,0,30.1200008392334,"18-61","male","Self","Private tap","Yes",NA,"","Outside",50000
+"1167",361,1167,7,1,50.1300010681152,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",50000
+"1168",361,1168,7,1,60.1300010681152,"18-61","male","Parent","Private tap","Yes",NA,"BUSINESS","Outside",50000
+"1169",363,1169,5,0,40.1199989318848,"18-61","female","Self","Boiled water","Yes","Housewife","","AtHome",16000
+"1170",363,1170,5,1,20.1100006103516,"18-61","male","Child","Boiled water","Yes",NA,"STUDENT","Outside",16000
+"1171",364,1171,2,0,31.1399993896484,"18-61","male","Self","Tubewell","Yes","Shopkeeper","","Outside",8000
+"1172",364,1172,2,1,26.1299991607666,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",8000
+"1173",365,1173,5,0,56.189998626709,"18-61","male","Self","Tubewell","Yes",NA,"FARMER","Outside",20000
+"1174",365,1174,5,1,36.1800003051758,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",20000
+"1175",365,1175,5,1,23.1700000762939,"18-61","male","Child","Tubewell","Yes",NA,"STUDENT","Outside",20000
+"1176",366,1176,9,0,41.1800003051758,"18-61","male","Self","Boiled water","Yes",NA,"BUSINESS","Outside",30000
+"1177",366,1177,9,1,35.1800003051758,"18-61","female","Spouse","Boiled water","Yes","Housewife","","AtHome",30000
+"1178",367,1178,3,0,45.189998626709,"18-61","male","Self","Private tap","Yes","Day laborer","","Outside",15000
+"1179",367,1179,3,1,32.1800003051758,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",15000
+"1180",368,1180,6,0,25.1900005340576,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",12000
+"1181",368,1181,6,1,38.2000007629395,"18-61","male","Spouse","Private tap","Yes",NA,"BUSINESS","Outside",12000
+"1182",368,1182,6,1,4.17000007629395,"0-5","female","Child","Private tap","Yes",NA,"","Under18",12000
+"1183",369,1183,3,0,26.2099990844727,"18-61","male","Self","Private tap","Yes","Day laborer","","Outside",20000
+"1184",369,1184,3,1,59.2299995422363,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",20000
+"1185",370,1185,6,0,13.2399997711182,"5-17","female","Self","Boiled water","Yes",NA,"","Under18",20000
+"1186",370,1186,6,1,37.25,"18-61","female","Parent","Boiled water","Yes","Housekeeper","","Outside",20000
+"1187",370,1187,6,1,15.2399997711182,"5-17","male","Sibling","Boiled water","Yes",NA,"","Under18",20000
+"1188",371,1188,5,0,23.25,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",18000
+"1189",371,1189,5,1,30.2600002288818,"18-61","male","Spouse","Private tap","Yes",NA,"SERVICE","Outside",18000
+"1190",372,1190,4,0,21.2700004577637,"18-61","male","Self","Private tap","Yes",NA,"SKILLED WORKER","Outside",27000
+"1191",372,1191,4,1,41.2799987792969,"18-61","female","Parent","Private tap","Yes",NA,"BUSINESS","Outside",27000
+"1192",374,1192,3,0,11.2700004577637,"5-17","female","Self","Private tap","Yes",NA,"","Under18",15000
+"1193",374,1193,3,1,36.2799987792969,"18-61","male","Parent","Private tap","Yes","Rickshaw puller","","Outside",15000
+"1194",374,1194,3,1,31.2800006866455,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",15000
+"1195",375,1195,5,0,4.26999998092651,"0-5","female","Self","Private tap","Yes",NA,"","Under18",170000
+"1196",375,1196,5,1,40.2900009155273,"18-61","male","Parent","Private tap","Yes","Rickshaw puller","","Outside",17000
+"1197",375,1197,5,1,35.2900009155273,"18-61","female","Parent","Boiled water","Yes","Garment worker","","Outside",17000
+"1198",376,1198,4,0,30.2900009155273,"18-61","male","Self","Boiled water","Yes","Rickshaw puller","","Outside",18000
+"1199",376,1199,4,1,22.2900009155273,"18-61","female","Spouse","Boiled water","Yes","Garment worker","","Outside",18000
+"1200",376,1200,4,1,21.2800006866455,"18-61","male","Sibling","Boiled water","Yes","Day laborer","","Outside",18000
+"1201",377,1201,3,0,20.2900009155273,"18-61","female","Self","Tubewell","Yes","Housewife","","AtHome",12000
+"1202",377,1202,3,1,32.2999992370605,"18-61","male","Spouse","Tubewell","Yes","Day laborer","","Outside",12000
+"1203",378,1203,6,0,4.28000020980835,"0-5","male","Self","Tubewell","Yes",NA,"","Under18",12000
+"1204",378,1204,6,1,30.2999992370605,"18-61","male","Parent","Tubewell","Yes","Day laborer","","Outside",12000
+"1205",379,1205,4,0,4.28000020980835,"0-5","male","Self","Boiled water","Yes",NA,"","Under18",13000
+"1206",379,1206,4,1,35.2999992370605,"18-61","female","Parent","Boiled water","Yes",NA,"SKILLED WORKER","Outside",13000
+"1207",380,1207,5,0,12.3000001907349,"5-17","male","Self","Private tap","Yes",NA,"","Under18",14000
+"1208",380,1208,5,1,59.3300018310547,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",14000
+"1209",380,1209,5,1,21.2999992370605,"18-61","male","Sibling","Private tap","Yes","Shopkeeper","","Outside",14000
+"1210",381,1210,8,0,4.30999994277954,"0-5","male","Self","Boiled water","Yes",NA,"","Under18",18000
+"1211",381,1211,8,1,50.3400001525879,"18-61","female","Unknown","Boiled water","Yes","Housewife","","AtHome",18000
+"1212",382,1212,4,0,40.3300018310547,"18-61","male","Self","Boiled water","Yes",NA,"BUSINESS","Outside",25000
+"1213",382,1213,4,1,38.3300018310547,"18-61","female","Spouse","Boiled water","Yes","Housewife","","AtHome",25000
+"1214",382,1214,4,1,21.3199996948242,"18-61","male","Child","Boiled water","Yes",NA,"STUDENT","Outside",25000
+"1215",383,1215,3,0,12.3199996948242,"5-17","male","Self","Tubewell","Yes",NA,"","Under18",18000
+"1216",383,1216,3,1,28.3299999237061,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",18000
+"1217",386,1217,5,0,21.3199996948242,"18-61","female","Self","Tubewell","Yes","Housewife","","AtHome",50000
+"1218",386,1218,5,1,36.3300018310547,"18-61","male","Spouse","Tubewell","Yes",NA,"BUSINESS","Outside",50000
+"1219",387,1219,3,0,24.3400001525879,"18-61","male","Self","Private tap","Yes","Day laborer","","Outside",12000
+"1220",387,1220,3,1,18.3400001525879,"18-61","female","Spouse","Private tap","Yes","Housewife","","AtHome",12000
+"1221",388,1221,4,0,7.32999992370605,"5-17","female","Self","Boiled water","Yes",NA,"","Under18",15000
+"1222",388,1222,4,1,34.3499984741211,"18-61","male","Parent","Boiled water","Yes","Driver","","Outside",15000
+"1223",388,1223,4,1,23.3400001525879,"18-61","female","Parent","Boiled water","Yes","Housewife","","AtHome",15000
+"1224",389,1224,4,0,7.34999990463257,"5-17","female","Self","Boiled water","Yes",NA,"","Under18",15000
+"1225",389,1225,4,1,42.3800010681152,"18-61","male","Parent","Boiled water","Yes",NA,"BUSINESS","Outside",15000
+"1226",390,1226,2,0,19.4099998474121,"18-61","female","Self","Private tap","Yes","Housewife","","AtHome",11000
+"1227",390,1227,2,1,24.4200000762939,"18-61","male","Spouse","Private tap","Yes","Shopkeeper","","Outside",11000
+"1228",391,1228,7,0,3.47000002861023,"0-5","male","Self","Private tap","Yes",NA,"","Under18",28000
+"1229",391,1229,7,1,23.4799995422363,"18-61","male","Parent","Private tap","Yes","Driver","","Outside",28000
+"1230",391,1230,7,1,18.4799995422363,"18-61","female","Parent","Private tap","Yes","Housewife","","AtHome",28000
+"1231",392,1231,6,0,10.4700002670288,"5-17","male","Self","Tubewell","Yes",NA,"","Under18",15000
+"1232",392,1232,6,1,48.5,"18-61","male","Parent","Tubewell","Yes",NA,"BUSINESS","Outside",15000
+"1233",392,1233,6,1,33.4900016784668,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",15000
+"1234",392,1234,6,1,8.47000026702881,"5-17","female","Sibling","Tubewell","Yes",NA,"","Under18",15000
+"1235",393,1235,2,0,30.5100002288818,"18-61","male","Self","Private tap","Yes","Garment worker","","Outside",20000
+"1236",393,1236,2,1,35.5099983215332,"18-61","male","Unknown","Private tap","Yes","Garment worker","","Outside",20000
+"1237",394,1237,4,0,6.53000020980835,"5-17","female","Self","Private tap","Yes",NA,"","Under18",8000
+"1238",394,1238,4,1,40.5499992370605,"18-61","male","Parent","Private tap","Yes","Housekeeper","","Outside",8000
+"1239",394,1239,4,1,23.5400009155273,"18-61","female","Parent","Private tap","Yes","Housekeeper","","Outside",8000
+"1240",395,1240,4,0,28.5400009155273,"18-61","female","Self","Tubewell","Yes",NA,"TEACHER","Outside",35000
+"1241",395,1241,4,1,26.5400009155273,"18-61","male","Sibling","Tubewell","Yes",NA,"BUSINESS","Outside",35000
+"1242",397,1242,2,0,34.5499992370605,"18-61","male","Self","Private tap","Yes","Shopkeeper","","Outside",30000
+"1243",397,1243,2,1,28.5499992370605,"18-61","female","Spouse","Private tap","Yes","Garment worker","","Outside",30000
+"1244",398,1244,2,0,40.5800018310547,"18-61","male","Self","Private tap","Yes",NA,"SKILLED WORKER","Outside",20000
+"1245",398,1245,2,1,22.5699996948242,"18-61","male","Unknown","Private tap","Yes",NA,"SKILLED WORKER","Outside",20000
+"1246",399,1246,2,0,20.5699996948242,"18-61","male","Self","Private tap","Yes","Day laborer","","Outside",10000
+"1247",400,1247,4,0,16.5699996948242,"5-17","male","Self","Boiled water","Yes",NA,"","Under18",100000
+"1248",400,1248,4,1,51.5900001525879,"18-61","male","Parent","Boiled water","Yes",NA,"BUSINESS","Outside",100000
+"1249",401,1249,5,0,50.5999984741211,"18-61","male","Self","Tubewell","Yes","Rickshaw puller","","Outside",16000
+"1250",401,1250,5,1,35.5900001525879,"18-61","female","Spouse","Tubewell","Yes","Housewife","","AtHome",16000
+"1251",402,1251,6,0,17.5799999237061,"18-61","male","Self","Tubewell","Yes",NA,"","Outside",30000
+"1252",402,1252,6,1,22.5799999237061,"18-61","male","Sibling","Tubewell","Yes","Day laborer","","Outside",30000
+"1253",403,1253,4,0,28.6000003814697,"18-61","female","Self","Tubewell","Yes","Housewife","","AtHome",30000
+"1254",403,1254,4,1,35.5999984741211,"18-61","male","Spouse","Tubewell","Yes",NA,"BUSINESS","Outside",30000
+"1255",404,1255,2,0,26.6299991607666,"18-61","male","Self","Private tap","Yes","Day laborer","","Outside",18000
+"1256",404,1256,2,1,20.6299991607666,"18-61","female","Parent","Private tap","Yes","Garment worker","","Outside",18000
+"1257",405,1257,3,0,5.65999984741211,"5-17","male","Self","Private tap","No",NA,"","Under18",2000
+"1258",405,1258,3,1,26.6700000762939,"18-61","female","Parent","Private tap","No","Housewife","","AtHome",2000
+"1259",406,1259,6,0,11.6700000762939,"5-17","male","Self","Tubewell","Yes",NA,"","Under18",25000
+"1260",406,1260,6,1,45.689998626709,"18-61","male","Parent","Tubewell","Yes","Unemployed","","AtHome",25000
+"1261",406,1261,6,1,36.6800003051758,"18-61","female","Parent","Tubewell","Yes","Housewife","","AtHome",25000
+"1262",406,1262,6,1,22.6700000762939,"18-61","female","Sibling","Tubewell","Yes","Unemployed","","AtHome",25000
+"1263",406,1263,6,1,18.6700000762939,"18-61","female","Sibling","Tubewell","Yes",NA,"STUDENT","Outside",25000
+"1264",408,1264,2,0,22.7099990844727,"18-61","female","Self","Public tap","Yes","Garment worker","","Outside",10000
+"1265",408,1265,2,1,27.7099990844727,"18-61","male","Spouse","Private tap","Yes","Rickshaw puller","","Outside",10000
