@@ -1,0 +1,1 @@
+Folder to store new model run results if user sets run_models = TRUE in R/analysis.R
