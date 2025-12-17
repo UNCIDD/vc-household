@@ -3,7 +3,7 @@ source("R/helper_scripts/cholera_utilities.R")
 
 dat <- readRDS("data/dat_11.26.24_nocov_320.rds")
 
-res_nocov <- stan(file = "code/stan_models/HMM_cholera_nocov_fitgammaprior_fitinit_exposed2.stan",
+res_nocov <- stan(file = "stan/HMM_cholera_nocov.stan",
                   data = dat,
                   cores = cores,
                   pars = c("beta_asym", "beta_ih", "beta_eh",

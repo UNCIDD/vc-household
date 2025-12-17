@@ -45,3 +45,61 @@ make_fig3 <- function(dat) {
     theme(axis.text.x = element_text(size = 11),)
   
 }
+
+make_fig4 <- function(dat) {
+  
+  dat <- dat %>%
+    mutate(cov = factor(cov, levels = c("Intercept", "Unknown",
+                                        "0-4", "5-17", "18+",
+                                        "Male", "Female",
+                                        "0-8,499", "8,500-11,999", "12,000-17,999", "18,000+",
+                                        "Under 18", "At home", "Outside home",
+                                        "Unknown or self", "Spouse", "Sibling", "Child", "Parent",
+                                        "Soap", "No soap")),
+           cov_group = factor(cov_group, levels = c("Sex", "Water\nsource", "Soap\nin home", "Monthly\nincome",
+                                                    "Occupation\ngroup", "Relation\nto index", "Age"))) 
+  
+  ggplot(dat %>% filter(cov != "Intercept"),
+         aes(color = model_type)) +
+    geom_point(aes(y = cov, x = Est_med), position=position_dodge(width=0.5)) +
+    geom_errorbar(aes(y = cov, xmin = CI_low, xmax = CI_high),
+                  position=position_dodge(width=0.5), width = 0.25) +
+    facet_grid(cols = vars(param), rows = vars(cov_group), scales = "free_y") +
+    theme_bw() +
+    scale_x_log10() +
+    labs(x = "Odds ratio",
+         y = "") +
+    geom_vline(xintercept = 1, lty = "dashed") +
+    theme(legend.title = element_blank())
+  
+}
+
+make_table1 <- function(bl, fu) {
+  
+  hh_info <- bl %>%
+    left_join(fu) %>%
+    group_by(household_id) %>%
+    summarize(household_size = household_size[1],
+              monthly_income = monthly_income[1],
+              drinking_water = drinking_water[1],
+              soap_in_home = soap_in_home[1]) %>%
+    mutate(hh_size_cat = ifelse(household_size <= 4, "2-4",
+                                ifelse(household_size <= 7, "5-7",
+                                       ifelse(household_size <= 10, "8-10", "11-14"))),
+           income_cat = ifelse(monthly_income <= 4999, "0-4,999",
+                               ifelse(monthly_income <= 9999, "5,000-9,999",
+                                      ifelse(monthly_income <= 14999, "10,000-14,999",
+                                             ifelse(monthly_income <= 19999, "15,000-19,999", "20,000+")))))
+  
+  out <- bind_rows(as.data.frame(table(hh_info$hh_size_cat)) %>% mutate(variable = "Household size"),
+                   as.data.frame(table(hh_info$income_cat)) %>% mutate(variable = "Monthly income (BDT)"),
+                   as.data.frame(table(hh_info$drinking_water)) %>% mutate(variable = "Drinking water source"),
+                   as.data.frame(table(hh_info$soap_in_home)) %>% mutate(variable = "Use of soap in home")) %>%
+    rename(level = Var1,
+           count = Freq) %>%
+    relocate(variable)
+  
+  return(out)
+
+}
+

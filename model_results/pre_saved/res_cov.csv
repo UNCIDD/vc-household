@@ -1,0 +1,197 @@
+"Est","Est_med","CI_high","CI_low","cov","cov_group","param","model_type"
+0.00756612176497649,0.00767162736407529,0.0166153145227706,0.00313420064425343,"Intercept","Intercept","Extra-household","Adjusted"
+1.033089180793,1.03400288205472,2.08484816595805,0.523542013583949,"Female","Sex","Extra-household","Adjusted"
+1.0113059395854,1.0096759381658,6.7876638492509,0.151492984739182,"Unknown","Sex","Extra-household","Adjusted"
+1.63201870864621,1.62210280538628,3.14664678244148,0.846428427172917,"Private tap","Water
+source","Extra-household","Adjusted"
+1.44991350112459,1.43704930135065,2.89385708070783,0.748413314219281,"Tubewell","Water
+source","Extra-household","Adjusted"
+0.497384996686508,0.512836724362038,1.93076973270709,0.105743488895242,"Public tap
+or other","Water
+source","Extra-household","Adjusted"
+2.02007790308254,2.03202720123834,4.41426151646964,0.89070141593052,"No soap","Soap
+in home","Extra-household","Adjusted"
+0.86012798573646,0.869778060743457,1.5910951338012,0.454320556169149,"8,500-11,999","Monthly
+income","Extra-household","Adjusted"
+0.555197880652928,0.561133967013602,1.06189741366835,0.26481584326233,"12,000-17,999","Monthly
+income","Extra-household","Adjusted"
+0.413559331273934,0.41965620337383,0.827757483266777,0.195995021645887,"18,000+","Monthly
+income","Extra-household","Adjusted"
+2.36038703205557,2.32799308413453,5.30534843319866,1.13426601421793,"At home","Occupation
+group","Extra-household","Adjusted"
+1.50159125261426,1.50325081914472,4.12260017694349,0.570767129908397,"Under 18","Occupation
+group","Extra-household","Adjusted"
+0.983186743639672,0.961526289201433,7.37297918712316,0.141069640857084,"Unknown","Occupation
+group","Extra-household","Adjusted"
+0.756856256460182,0.772172632884317,2.14142959754759,0.249579026323489,"Child","Relation
+to index","Extra-household","Adjusted"
+1.47870314054772,1.50292201817573,3.36370958422851,0.587734286732746,"Sibling","Relation
+to index","Extra-household","Adjusted"
+0.643978759763148,0.650126303749351,1.21540129738441,0.322200002335228,"Spouse","Relation
+to index","Extra-household","Adjusted"
+1.42193006232741,1.50074323456396,5.27036067603356,0.302935061199412,"Unknown or self","Relation
+to index","Extra-household","Adjusted"
+0.0055418193086835,0.00637937939345369,0.0399733862104989,0.000304574529102499,"Intercept","Intercept","Intra-household","Adjusted"
+1.00148672187435,0.991210581639572,4.58851180483172,0.216308338011151,"Female","Sex","Intra-household","Adjusted"
+1.01493050946088,1.01120955653993,7.48872994288439,0.137414875728134,"Unknown","Sex","Intra-household","Adjusted"
+1.89572979355588,1.92162836048392,7.55038321425756,0.384620963625844,"Private tap","Water
+source","Intra-household","Adjusted"
+1.19808078543009,1.24319475770734,5.85624921061104,0.207505064484428,"Tubewell","Water
+source","Intra-household","Adjusted"
+0.755044215297061,0.775308529788525,4.16749780069908,0.125366859302214,"Public tap
+or other","Water
+source","Intra-household","Adjusted"
+0.645594693678266,0.653659524130748,3.05177538220703,0.124302149378436,"No soap","Soap
+in home","Intra-household","Adjusted"
+0.887993186018572,0.90236148190225,4.05409883526259,0.166305943452818,"8,500-11,999","Monthly
+income","Intra-household","Adjusted"
+0.859634543402051,0.855622958972867,4.2780442813801,0.18567039326491,"12,000-17,999","Monthly
+income","Intra-household","Adjusted"
+0.479341316593511,0.482257126026664,2.3995441885373,0.096735383109758,"18,000+","Monthly
+income","Intra-household","Adjusted"
+0.748027713478838,0.768864632738821,3.48509920383774,0.134863562314978,"At home","Occupation
+group","Intra-household","Adjusted"
+1.31898953723344,1.30542567691501,7.08582869088928,0.24364346754915,"Under 18","Occupation
+group","Intra-household","Adjusted"
+1.01793601260413,1.00324206734618,7.76331533030642,0.141043318439079,"Unknown","Occupation
+group","Intra-household","Adjusted"
+1.80356505596451,1.84455118263845,8.29273159695094,0.342937656110967,"Child","Relation
+to index","Intra-household","Adjusted"
+1.28848112393659,1.32827080862234,5.69608407996371,0.226301697006835,"Sibling","Relation
+to index","Intra-household","Adjusted"
+0.999053730505088,1.03471012051422,4.45840615966913,0.182526479679328,"Spouse","Relation
+to index","Intra-household","Adjusted"
+1.13756761423206,1.16574778810939,7.60492574686175,0.164575616384381,"Unknown or self","Relation
+to index","Intra-household","Adjusted"
+1,1,NA,NA,"Male","Sex","Extra-household","Adjusted"
+1,1,NA,NA,"Boiled
+water","Water
+source","Extra-household","Adjusted"
+1,1,NA,NA,"Soap","Soap
+in home","Extra-household","Adjusted"
+1,1,NA,NA,"0-8,499","Monthly
+income","Extra-household","Adjusted"
+1,1,NA,NA,"Outside home","Occupation
+group","Extra-household","Adjusted"
+1,1,NA,NA,"Parent","Relation
+to index","Extra-household","Adjusted"
+1,1,NA,NA,"Male","Sex","Intra-household","Adjusted"
+1,1,NA,NA,"Boiled
+water","Water
+source","Intra-household","Adjusted"
+1,1,NA,NA,"Soap","Soap
+in home","Intra-household","Adjusted"
+1,1,NA,NA,"0-8,499","Monthly
+income","Intra-household","Adjusted"
+1,1,NA,NA,"Outside home","Occupation
+group","Intra-household","Adjusted"
+1,1,NA,NA,"Parent","Relation
+to index","Intra-household","Adjusted"
+0.010071726705102,0.0101549863782639,0.013710733635809,0.00707221234330237,"Intercept","Intercept","Extra-household","Unadjusted"
+2.03394297738228,2.12346399684403,8.32499328799201,0.365746738256582,"0-4","Age","Extra-household","Unadjusted"
+1.11918571310075,1.13502766901614,2.05461085827963,0.552983720306368,"5-17","Age","Extra-household","Unadjusted"
+0.746515779131011,0.756058828811784,4.60399377400811,0.123811645757571,"Unknown","Age","Extra-household","Unadjusted"
+0.0190175759354235,0.0213064009340513,0.0496457239444354,0.0039643354999278,"Intercept","Intercept","Intra-household","Unadjusted"
+2.18087358066398,2.39690176611773,11.2209086688546,0.247683721391053,"0-4","Age","Intra-household","Unadjusted"
+1.8459557086212,1.90586566769341,5.38030231387935,0.511397025970187,"5-17","Age","Intra-household","Unadjusted"
+0.910645651739974,0.918248589431827,5.89250213205183,0.131965950360086,"Unknown","Age","Intra-household","Unadjusted"
+1,1,NA,NA,"18+","Age","Extra-household","Unadjusted"
+1,1,NA,NA,"18+","Age","Intra-household","Unadjusted"
+0.00897718818024728,0.00910971970004965,0.0132695716605632,0.0054967943830069,"Intercept","Intercept","Extra-household","Unadjusted"
+1.33623357063996,1.32991068681974,2.36917937398493,0.777150752274733,"Female","Sex","Extra-household","Unadjusted"
+0.706870953060686,0.70768576394599,4.1141423831547,0.115682924388245,"Unknown","Sex","Extra-household","Unadjusted"
+0.0187284236973696,0.0219084524142385,0.0585215840274688,0.00253495052511617,"Intercept","Intercept","Intra-household","Unadjusted"
+1.13803882822362,1.14755414986595,3.97715200325331,0.317251061734417,"Female","Sex","Intra-household","Unadjusted"
+0.802403021212527,0.79857918247066,5.13106814752569,0.12586928974845,"Unknown","Sex","Intra-household","Unadjusted"
+1,1,NA,NA,"Male","Sex","Extra-household","Unadjusted"
+1,1,NA,NA,"Male","Sex","Intra-household","Unadjusted"
+0.00784838334883243,0.00799014195710685,0.0125312479097083,0.00456926646307298,"Intercept","Intercept","Extra-household","Unadjusted"
+1.3821372057749,1.37646244359993,2.66456327486302,0.725337529692914,"Private tap","Water
+source","Extra-household","Unadjusted"
+1.67526952654602,1.68650268094775,3.18737947014787,0.874242173088567,"Tubewell","Water
+source","Extra-household","Unadjusted"
+0.475490360349805,0.494297852063692,1.68934896941835,0.107568267693342,"Public tap
+or other","Water
+source","Extra-household","Unadjusted"
+0.0111596577539305,0.0131999179672147,0.0413541610816719,0.00110659376038057,"Intercept","Intercept","Intra-household","Unadjusted"
+2.14890317934663,2.169309882142,7.86322881195539,0.50681025088272,"Private tap","Water
+source","Intra-household","Unadjusted"
+1.48672509204741,1.58120406573328,6.02533980250499,0.259126074993763,"Tubewell","Water
+source","Intra-household","Unadjusted"
+0.705359144877086,0.725390346277731,3.53803174167434,0.114852852439594,"Public tap
+or other","Water
+source","Intra-household","Unadjusted"
+1,1,NA,NA,"Boiled
+water","Water
+source","Extra-household","Unadjusted"
+1,1,NA,NA,"Boiled
+water","Water
+source","Intra-household","Unadjusted"
+0.00992833307599251,0.00999819446306173,0.0132311802820834,0.00712225293937175,"Intercept","Intercept","Extra-household","Unadjusted"
+2.0402146229741,2.08147874313934,4.27149273372294,0.862398773101253,"No soap","Soap
+in home","Extra-household","Unadjusted"
+0.0230553377690353,0.0263067436356291,0.0569666724565924,0.00399790680507283,"Intercept","Intercept","Intra-household","Unadjusted"
+0.667638546274194,0.701339760206435,2.64732169922559,0.132295432507224,"No soap","Soap
+in home","Intra-household","Unadjusted"
+1,1,NA,NA,"Soap","Soap
+in home","Extra-household","Unadjusted"
+1,1,NA,NA,"Soap","Soap
+in home","Intra-household","Unadjusted"
+0.0144570250207416,0.0147074537804144,0.0220950650290502,0.00870632769184753,"Intercept","Intercept","Extra-household","Unadjusted"
+0.8901117001563,0.889085378998616,1.70452397590078,0.464251054366181,"8,500-11,999","Monthly
+income","Extra-household","Unadjusted"
+0.534857293976756,0.538714503550406,1.09871051021895,0.24816913046718,"12,000-17,999","Monthly
+income","Extra-household","Unadjusted"
+0.450219350188988,0.451390178349782,0.912544648205691,0.220643297727271,"18,000+","Monthly
+income","Extra-household","Unadjusted"
+0.0264545207175329,0.032073442228752,0.0916769581593297,0.0025637977730113,"Intercept","Intercept","Intra-household","Unadjusted"
+0.779972049812903,0.783219209606719,2.98728233794652,0.186388654814305,"8,500-11,999","Monthly
+income","Intra-household","Unadjusted"
+0.88920210426539,0.863834549115759,4.02332922058176,0.239895642357009,"12,000-17,999","Monthly
+income","Intra-household","Unadjusted"
+0.38096899142567,0.381327117794274,1.57269447379174,0.0977002977919239,"18,000+","Monthly
+income","Intra-household","Unadjusted"
+1,1,NA,NA,"0-8,499","Monthly
+income","Extra-household","Unadjusted"
+1,1,NA,NA,"0-8,499","Monthly
+income","Intra-household","Unadjusted"
+0.00775033900305765,0.00788511706033794,0.0115978274896875,0.00484144087778435,"Intercept","Intercept","Extra-household","Unadjusted"
+1.91175582652874,1.90561890031212,3.36806503757992,1.06277759238252,"At home","Occupation
+group","Extra-household","Unadjusted"
+1.49545059710047,1.49844416448323,2.96295660434371,0.730356021787701,"Under 18","Occupation
+group","Extra-household","Unadjusted"
+0.80438389437278,0.813946400208458,4.89012852910491,0.134612774875468,"Unknown","Occupation
+group","Extra-household","Unadjusted"
+0.0182978400033017,0.0201212673504235,0.0488233778682766,0.00407392355431749,"Intercept","Intercept","Intra-household","Unadjusted"
+0.742078000850298,0.79381240513608,2.72803515882359,0.144830320371193,"At home","Occupation
+group","Intra-household","Unadjusted"
+2.38579195726788,2.40609544351224,7.31403757081434,0.732314523624309,"Under 18","Occupation
+group","Intra-household","Unadjusted"
+0.883294593741965,0.889469929497001,5.54395979323614,0.13310558736888,"Unknown","Occupation
+group","Intra-household","Unadjusted"
+1,1,NA,NA,"Outside home","Occupation
+group","Extra-household","Unadjusted"
+1,1,NA,NA,"Outside home","Occupation
+group","Intra-household","Unadjusted"
+0.011128302514665,0.0112446784366571,0.0158800181265256,0.00746499545517247,"Intercept","Intercept","Extra-household","Unadjusted"
+0.805198449084136,0.824745213595355,1.66214795741128,0.349555397158931,"Child","Relation
+to index","Extra-household","Unadjusted"
+1.28387377055518,1.32303052151087,2.60660245151767,0.541479980267194,"Sibling","Relation
+to index","Extra-household","Unadjusted"
+0.696794386192418,0.71241410713355,1.34188892789027,0.3315931980741,"Spouse","Relation
+to index","Extra-household","Unadjusted"
+1.04110800476766,1.09425496605652,3.35873116308461,0.25415424794668,"Unknown or self","Relation
+to index","Extra-household","Unadjusted"
+0.0154658972432594,0.0168234652516232,0.0442828988732278,0.00326724825346275,"Intercept","Intercept","Intra-household","Unadjusted"
+2.22480576278441,2.2772412354173,7.27248082708811,0.556624846576085,"Child","Relation
+to index","Intra-household","Unadjusted"
+1.72107575157349,1.87135529557775,6.64310884429148,0.292043090508586,"Sibling","Relation
+to index","Intra-household","Unadjusted"
+1.04429609797805,1.10424133997177,3.78484083233236,0.210586432102377,"Spouse","Relation
+to index","Intra-household","Unadjusted"
+1.17526296274787,1.23829665742514,6.63879152661918,0.174752045433922,"Unknown or self","Relation
+to index","Intra-household","Unadjusted"
+1,1,NA,NA,"Parent","Relation
+to index","Extra-household","Unadjusted"
+1,1,NA,NA,"Parent","Relation
+to index","Intra-household","Unadjusted"

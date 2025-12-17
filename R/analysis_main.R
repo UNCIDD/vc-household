@@ -21,6 +21,7 @@ if(run_models) {
   source("R/run_models/nocov_main.R") # main analysis, no covariates
 } else {
   nocov <- read.csv("model_results/pre_saved/res_nocov_320.csv") # baseline model
+  cov <- read.csv("model_results/pre_saved/res_cov.csv") # covariates models
 }
 
 # Make figures
@@ -33,3 +34,14 @@ make_fig1()
 
 ## Figure 3
 make_fig3(dat = nocov)
+
+## Figure 4
+make_fig4(dat = cov)
+
+# Make tables
+
+## Table 1
+make_table1(bl, fu)
+
+## Table 2
+

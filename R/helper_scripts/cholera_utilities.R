@@ -251,7 +251,7 @@ process_runs <- function(chains, params = NULL, coef = NULL, coef_group = NULL, 
     
     plt_dat <- plt_dat %>%
       bind_rows(data.frame(Est = rep(rep(1, length(refs)), length(params)),
-                           Est_med = rep(rep(NA, length(refs)), length(params)),
+                           Est_med = rep(rep(1, length(refs)), length(params)),
                            CI_high = rep(rep(NA, length(refs)), length(params)),
                            CI_low = rep(rep(NA, length(refs)), length(params)),
                            cov = rep(ref_labs, length(params)),
