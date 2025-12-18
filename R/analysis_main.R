@@ -40,8 +40,8 @@ make_fig4(dat = cov)
 
 # Make tables
 
-## Table 1
+## Table 1 (all values are counts except for age which are mean and IQR as indicated)
 make_table1(bl, fu)
 
 ## Table 2
-
+make_table2(bl, fu)

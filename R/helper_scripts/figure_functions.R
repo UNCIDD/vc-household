@@ -103,3 +103,55 @@ make_table1 <- function(bl, fu) {
 
 }
 
+make_table2 <- function(bl, fu) {
+  
+  dat <- bl %>% 
+    left_join(fu) %>%
+    mutate(part_type = ifelse(household_contact == 0, "Index", "Household contact")) %>%
+    group_by(individual_id, part_type) %>%
+    summarize(wd = ifelse(sum(is.na(watery_diarrhea)) == n(), NA, max(watery_diarrhea[day <= 10], na.rm = T)),
+              vom = ifelse(sum(is.na(vomiting)) == n(), NA, max(vomiting[day <= 10], na.rm = T)),
+              culture_res = ifelse(sum(is.na(culture_pos)) == n(), NA, ifelse(sum(culture_pos == 1, na.rm = T) >= 1, 1, 0)),
+              age = age[1],
+              sex = sex[1],
+              occ_cat = occupat_group[1],
+              relation_to_index = relation_to_index[1],
+              income_cat = ifelse(monthly_income[1] <= 4999, "0-4,999",
+                                  ifelse(monthly_income[1] <= 9999, "5,000-9,999",
+                                         ifelse(monthly_income[1] <= 14999, "10,000-14,999",
+                                                ifelse(monthly_income[1] <= 19999, "15,000-19,999", "20,000+")))),
+              water_source = drinking_water[1],
+              soap_in_home = soap_in_home[1]) %>%
+    mutate(symp_type = ifelse(is.na(vom) & is.na(wd), "Missing",
+                              ifelse(vom == 1 & wd == 1, "Watery diarrhea & vominiting",
+                                     ifelse(vom == 1, "Vomiting only",
+                                            ifelse(wd == 1, "Watery_diarrhea only", "None")))))
+  
+  sum_table <- function(x, colname) {
+    out  <- bind_rows(data.frame(variable = "Age",
+                                 Var1 = c("Mean", "IQR_25", "IQR_75"),
+                                 Freq = c(mean(x$age, na.rm = T), quantile(x$age, 0.25), quantile(x$age, 0.75))),
+                      as.data.frame(table(x$sex)) %>% mutate(variable = "Sex"),
+                      as.data.frame(table(x$occ_cat)) %>% mutate(variable = "Occupation group"),
+                      as.data.frame(table(x$relation_to_index)) %>% mutate(variable = "Relation to index"),
+                      as.data.frame(table(x$income_cat)) %>% mutate(variable = "Monthly household income"),
+                      as.data.frame(table(x$water_source)) %>% mutate(variable = "Drinking water source"),
+                      as.data.frame(table(x$soap_in_home)) %>% mutate(variable = "Soap in home"),
+                      as.data.frame(table(x$symp_type)) %>% mutate(variable = "Symptoms in first 10 days")) %>%
+      mutate(Freq = round(Freq, 1)) %>%
+      rename(level = Var1,
+             !!sym(colname) := Freq)
+    
+    return(out)
+  }
+  
+  out <- sum_table(dat, "All_participants") %>%
+    left_join(sum_table(dat %>% filter(part_type == "Index"), "Index_cases")) %>%
+    left_join(sum_table(dat %>% filter(part_type == "Household contact"), "Index_cases")) %>%
+    left_join(sum_table(dat %>% filter(part_type == "Household contact", culture_res == 1), "HH_contact_culture_pos")) %>%
+    left_join(sum_table(dat %>% filter(part_type == "Household contact", culture_res == 0), "HH_contact_culture_neg")) %>%
+    left_join(sum_table(dat %>% filter(part_type == "Household contact", is.na(culture_res)), "HH_contact_culture_missing"))
+  
+  return(out)
+  
+}
