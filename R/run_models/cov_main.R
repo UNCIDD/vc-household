@@ -12,7 +12,7 @@ dat$k_eh <- ncol(dat$x_eh)
 # Fully adjusted run
 res_cov <- stan(file = "stan/HMM_cholera_cov.stan",
                 data = dat,
-                cores = 4,
+                cores = cores,
                 pars = c("beta_asym", "beta_ih", "beta_eh",
                          "eh_prob", "ih_prob_sym", "ih_prob_asym",
                          "gamma", "sigma", "p_symp", "init_probs_hh"),
@@ -112,22 +112,21 @@ for(i in 1:length(cov_list)) {
     dat$k_eh <- ncol(dat$x_eh)
   }
   
-  # res_cov_uni <- stan(file = "code/stan_models/HMM_cholera_cov_fitgammaprior_fitinit_exposed2.stan",
-  #                     data = dat,
-  #                     cores = 4,
-  #                     pars = c("beta_asym", "beta_ih", "beta_eh",
-  #                              "eh_prob", "ih_prob_sym", "ih_prob_asym",
-  #                              "gamma", "sigma", "p_symp", "init_probs_hh"),
-  #                     init = rep(list(list(beta_asym = 0,
-  #                                          beta_ih = logit(c(0.02, rep(0.5, dat$k_ih - 1))),
-  #                                          beta_eh = logit(c(0.02, rep(0.5, dat$k_eh - 1))),
-  #                                          logit_p_sypm = logit(0.5),
-  #                                          logit_gamma = logit(1/2),
-  #                                          logit_sigma = logit(1/1.5),
-  #                                          init_probs_hh = c(0.2, 0.2, 0.2, 0.2, 0.2))), 4))
-  # saveRDS(res_cov_uni, paste0("model_results/new_runs/res_cov_", cov_name, ".rds"))
+  res_cov_uni <- stan(file = "code/stan_models/HMM_cholera_cov_fitgammaprior_fitinit_exposed2.stan",
+                      data = dat,
+                      cores = 4,
+                      pars = c("beta_asym", "beta_ih", "beta_eh",
+                               "eh_prob", "ih_prob_sym", "ih_prob_asym",
+                               "gamma", "sigma", "p_symp", "init_probs_hh"),
+                      init = rep(list(list(beta_asym = 0,
+                                           beta_ih = logit(c(0.02, rep(0.5, dat$k_ih - 1))),
+                                           beta_eh = logit(c(0.02, rep(0.5, dat$k_eh - 1))),
+                                           logit_p_sypm = logit(0.5),
+                                           logit_gamma = logit(1/2),
+                                           logit_sigma = logit(1/1.5),
+                                           init_probs_hh = c(0.2, 0.2, 0.2, 0.2, 0.2))), 4))
+  saveRDS(res_cov_uni, paste0("model_results/new_runs/res_cov_", cov_name, ".rds"))
   
-  res_cov_uni <- readRDS(paste0("../vc-household-working/model_results/final/res_cov_", cov_name, ".rds"))
   ch <- rstan::extract(res_cov_uni)
   res_univar[[i]] <- process_runs(chains = list(ch$beta_eh,
                                                 ch$beta_ih),

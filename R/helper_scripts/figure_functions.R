@@ -1,24 +1,29 @@
+
+sample_timing <- function() {
+  return(bind_rows(data.frame(day = c(1:10,30),
+                              part_type = "Index",
+                              obs_type = "Symptoms"),
+                   data.frame(day = c(2:10,30),
+                              part_type = "Household contact",
+                              obs_type = "Symptoms"),
+                   data.frame(day = c(2, 7,30),
+                              part_type = "Index",
+                              obs_type = "Vibriocidal titer"),
+                   data.frame(day = c(2, 7, 30),
+                              part_type = "Household contact",
+                              obs_type = "Vibriocidal titer"),
+                   data.frame(day = 1,
+                              part_type = "Index",
+                              obs_type = "Culture"),
+                   data.frame(day = c(2:10),
+                              part_type = "Household contact",
+                              obs_type = "Culture")))
+}
+
 make_fig1 <- function() {
   
   # Data frame with observation timing
-  plot <- bind_rows(data.frame(day = c(1:10,30),
-                               part_type = "Index",
-                               obs_type = "Symptoms"),
-                    data.frame(day = c(2:10,30),
-                               part_type = "Household contact",
-                               obs_type = "Symptoms"),
-                    data.frame(day = c(2, 7,30),
-                               part_type = "Index",
-                               obs_type = "Vibriocidal titer"),
-                    data.frame(day = c(2, 7, 30),
-                               part_type = "Household contact",
-                               obs_type = "Vibriocidal titer"),
-                    data.frame(day = 1,
-                               part_type = "Index",
-                               obs_type = "Culture"),
-                    data.frame(day = c(2:10),
-                               part_type = "Household contact",
-                               obs_type = "Culture"))
+  plot <- sample_timing()
   
   ggplot(plot) +
     geom_point(aes(x = factor(day, levels = c("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "", "30")),
@@ -153,5 +158,82 @@ make_table2 <- function(bl, fu) {
     left_join(sum_table(dat %>% filter(part_type == "Household contact", is.na(culture_res)), "HH_contact_culture_missing"))
   
   return(out)
+  
+}
+
+make_figS1 <- function(bl, fu) {
+  
+  plot <- sample_timing()
+  
+  counts <- bl %>%
+    left_join(fu) %>%
+    pivot_longer(c(vib_titer, culture_pos, watery_diarrhea)) %>%
+    mutate(obs_type = ifelse(name == "vib_titer", "Vibriocidal titer",
+                             ifelse(name == "culture_pos", "Culture", "Symptoms")),
+           part_type = ifelse(household_contact == 0, "Index", "Household contact")) %>%
+    group_by(household_contact, day, obs_type) %>%
+    summarize(n_obs = sum(!is.na(value))) %>%
+    mutate(part_type = ifelse(household_contact == 1, "Household contact", "Index"))
+  
+  plot <- left_join(plot, counts)
+  
+  ggplot(plot) +
+    geom_bar(aes(x = factor(day), y = n_obs, fill = part_type), stat = "identity") +
+    facet_grid(rows = vars(obs_type)) +
+    scale_fill_manual(values = c("Household contact" = "green4", "Index" = "purple4")) +
+    theme_bw() +
+    theme(legend.position = "bottom",
+          legend.title = element_blank()) +
+    labs(x = "Day", y = "Number of observations")
+  
+}
+
+make_figS2 <- function(bl, fu) {
+  
+  plt <- fu %>%
+    left_join(bl) %>%
+    mutate(index = ifelse(household_contact == 0, "Index case", "Household contact"),
+           high_vib = ifelse(vib_titer >= 320, 1, 0),
+           symp_cult = ifelse(culture_pos == 1 & watery_diarrhea == 1, 1, 0)) %>%
+    pivot_longer(cols = c(high_vib, culture_pos, watery_diarrhea, symp_cult)) %>%
+    mutate(res_type = ifelse(name == "high_vib", "High vibriocidal titer",
+                             ifelse(name == "culture_pos", "Positive culture",
+                                    ifelse(name == "watery_diarrhea", "Symptoms", "Positive culture + symptoms")))) %>%
+    group_by(day, res_type, index) %>%
+    summarize(prop = mean(value, na.rm = T)) %>%
+    filter(!(res_type == "Positive culture" & day == 1))
+  
+  ggplot() +
+    geom_point(data = plt %>% filter(!is.na(prop), res_type != "Positive culture + symptoms"),
+               aes(x = factor(day, levels = c("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "", "30")),
+                   y = prop, color=index, shape = index, group = index ),
+               size = 2.5) +
+    facet_grid(rows = vars(res_type), scales = "free_y") +
+    theme_bw() +
+    theme(legend.position = "bottom",
+          legend.title=element_blank()) +
+    labs(x = "Day of follow-up",
+         y = "Proportion") +
+    scale_color_brewer(palette = "Dark2") +
+    scale_x_discrete(drop = FALSE,
+                     labels = c("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "", "30"))
+}
+
+make_figS3 <-  function(ih_chains) {
+  
+  diff <- ih_chains$ih_sym - ih_chains$ih_asym
+  
+  xx <- seq(0, .075, .001)
+  p_diff <- data.frame(xx = xx,
+                       pr = numeric(length(xx)))
+  for(i in 1:length(xx)) {
+    p_diff$pr[i] <- sum(diff > xx[i])/length(diff)
+  }
+  
+  ggplot(p_diff) +
+    geom_line(aes(x = xx, y = pr, group = 1)) +
+    theme_bw() +
+    labs(x = "Difference threshold (symptomatic - asymptomatic)",
+         y = "Probability")
   
 }

@@ -25,3 +25,9 @@ ch <- rstan::extract(res_nocov)
 nocov_320 <- process_runs(chains = ch, cov = FALSE)
 write.csv(out_nocov, "model_results/new_runs/res_nocov_320.csv", row.names = FALSE)
 
+# Save full posterior for intra-household risks
+ih_chains <- data.frame(ih_asym = ch$ih_prob_asym,
+                        ih_sym = ch$ih_prob_sym)
+write.csv(ih_chains, "model_results/new_runs/res_nocov_320_ihchains.csv", row.names = F)
+
+
