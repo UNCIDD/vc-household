@@ -267,8 +267,8 @@ process_runs <- function(chains, params = NULL, coef = NULL, coef_group = NULL, 
                                   inv_logit(mean(chains$beta_ih+chains$beta_asym)),
                                   exp(mean(chains$beta_asym)),
                                   inv_logit(mean(chains$beta_eh)),
-                                  mean(chains$gamma),
-                                  mean(chains$sigma),
+                                  mean(1/chains$gamma),
+                                  mean(1/chains$sigma),
                                   mean(chains$p_symp),
                                   hh_s = mean(chains$init_probs_hh[,1]),
                                   hh_ia = mean(chains$init_probs_hh[,2]),
@@ -279,8 +279,8 @@ process_runs <- function(chains, params = NULL, coef = NULL, coef_group = NULL, 
                                       inv_logit(median(chains$beta_ih+chains$beta_asym)),
                                       exp(median(chains$beta_asym)),
                                       inv_logit(median(chains$beta_eh)),
-                                      median(chains$gamma),
-                                      median(chains$sigma),
+                                      median(1/chains$gamma),
+                                      median(1/chains$sigma),
                                       median(chains$p_symp),
                                       hh_s = median(chains$init_probs_hh[,1]),
                                       hh_ia = median(chains$init_probs_hh[,2]),
@@ -291,8 +291,8 @@ process_runs <- function(chains, params = NULL, coef = NULL, coef_group = NULL, 
                                       inv_logit(quantile(chains$beta_ih+chains$beta_asym, 0.975)),
                                       exp(quantile(chains$beta_asym, 0.975)),
                                       inv_logit(quantile(chains$beta_eh, 0.975)),
-                                      quantile(chains$gamma, 0.975),
-                                      quantile(chains$sigma, 0.975),
+                                      quantile(1/chains$gamma, 0.975),
+                                      quantile(1/chains$sigma, 0.975),
                                       quantile(chains$p_symp, 0.975),
                                       hh_s = quantile(chains$init_probs_hh[,1], 0.025),
                                       hh_ia = quantile(chains$init_probs_hh[,2], 0.025),
@@ -303,8 +303,8 @@ process_runs <- function(chains, params = NULL, coef = NULL, coef_group = NULL, 
                                      inv_logit(quantile(chains$beta_ih+chains$beta_asym, 0.025)),
                                      exp(quantile(chains$beta_asym, 0.025)),
                                      inv_logit(quantile(chains$beta_eh, 0.025)),
-                                     quantile(chains$gamma, 0.025),
-                                     quantile(chains$sigma, 0.025),
+                                     quantile(1/chains$gamma, 0.025),
+                                     quantile(1/chains$sigma, 0.025),
                                      quantile(chains$p_symp, 0.025),
                                      hh_s = quantile(chains$init_probs_hh[,1], 0.975),
                                      hh_ia = quantile(chains$init_probs_hh[,2], 0.975),
@@ -1329,60 +1329,6 @@ sim_seir <- function(eh_prob = 0.01, ih_prob_asym = 0.025, ih_prob_sym = 0.05,
               obs = obs,
               complete_obs = complete_obs))
   
-}
-
-process_sims_nocov <- function(sims) {
-  out <- data.frame(est = numeric(),
-                    ci_high = numeric(),
-                    ci_low = numeric(),
-                    param = character(),
-                    sim_num = numeric())
-  
-  for(i in 1:length(sims)) {
-    ch <- extract(sims[[i]])
-    out <- bind_rows(out,
-                     data.frame(est = inv_logit(mean(ch$beta_ih)),
-                                ci_low = inv_logit(quantile(ch$beta_ih, 0.025)),
-                                ci_high = inv_logit(quantile(ch$beta_ih, 0.975)),
-                                param = "Intra-household - symptomatic",
-                                sim_num = i))
-    
-    out <- bind_rows(out,
-                     data.frame(est = inv_logit(mean(ch$beta_ih + ch$beta_asym)),
-                                ci_low = inv_logit(quantile(ch$beta_ih + ch$beta_asym, 0.025)),
-                                ci_high = inv_logit(quantile(ch$beta_ih + ch$beta_asym, 0.975)),
-                                param = "Intra-household - asymptomatic",
-                                sim_num = i))
-    
-    out <- bind_rows(out,
-                     data.frame(est = inv_logit(mean(ch$beta_eh)),
-                                ci_low = inv_logit(quantile(ch$beta_eh, 0.025)),
-                                ci_high = inv_logit(quantile(ch$beta_eh, 0.975)),
-                                param = "Extra-household",
-                                sim_num = i))
-    
-    out <- bind_rows(out,
-                     data.frame(est = exp(mean(ch$beta_asym)),
-                                ci_low = exp(quantile(ch$beta_asym, 0.025)),
-                                ci_high = exp(quantile(ch$beta_asym, 0.975)),
-                                param = "Asym vs. sym OR",
-                                sim_num = i))
-    
-    out <- bind_rows(out,
-                     data.frame(est = mean(ch$p_symp),
-                                ci_low = quantile(ch$p_symp, 0.025),
-                                ci_high = quantile(ch$p_symp, 0.975),
-                                param = "Symptomatic proportion",
-                                sim_num = i))
-    
-    out <- bind_rows(out,
-                     data.frame(est = mean(1/ch$gamma),
-                                ci_low = quantile(1/ch$gamma, 0.025),
-                                ci_high = quantile(1/ch$gamma, 0.975),
-                                param = "Duration of infectiousness",
-                                sim_num = i))
-  }
-  return(out)
 }
 
 

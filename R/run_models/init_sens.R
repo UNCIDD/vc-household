@@ -1,9 +1,17 @@
 library(rstan)
+library(tidyverse)
 source("R/helper_scripts/cholera_utilities.R")
 
-dat <- readRDS("data/dat_11.26.24_nocov_320.rds")
+init_s <- c(0.8, 0.85, 0.95)
+init_list <- list()
 
-res_nocov <- stan(file = "stan/HMM_cholera_nocov.stan",
+for(i in 1:length(init_s)) {
+  
+  init <- init_s[i]
+  dat <- readRDS(paste0("data/dat_11.26.24_nocov_320.rds"))
+  dat$init_probs_index <- c(((1-init)-1.5*1e-10)*0.3, 1e-10, init-1.5*1e-10, 1e-10, ((1-init)-1.5*1e-10)*0.7)
+  
+  res_init <- stan(file = "stan/HMM_cholera_nocov.stan",
                   data = dat,
                   cores = cores,
                   pars = c("beta_asym", "beta_ih", "beta_eh",
@@ -17,14 +25,14 @@ res_nocov <- stan(file = "stan/HMM_cholera_nocov.stan",
                                        logit_gamma = logit(1/2),
                                        logit_sigma = logit(1/1.5),
                                        init_probs_hh = c(0.2, 0.2, 0.2, 0.2, 0.2))), 4))
+  
+  ch <- rstan::extract(res_init)
+  init_list[[i]] <- process_runs(chains = ch, cov = FALSE) %>% mutate(init = init)
+}
 
-ch <- rstan::extract(res_nocov)
-nocov_320 <- process_runs(chains = ch, cov = FALSE)
-write.csv(nocov_320, "model_results/new_runs/res_nocov_320.csv", row.names = FALSE)
+init_out <- bind_rows(init_list)
+write.csv(init_out, "model_results/new_runs/res_initsens.csv", row.names = FALSE)
 
-# Save full posterior for intra-household risks
-ih_chains <- data.frame(ih_asym = ch$ih_prob_asym,
-                        ih_sym = ch$ih_prob_sym)
-write.csv(ih_chains, "model_results/new_runs/res_nocov_320_ihchains.csv", row.names = F)
+
 
 

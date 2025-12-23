@@ -1,9 +1,16 @@
 library(rstan)
+library(tidyverse)
 source("R/helper_scripts/cholera_utilities.R")
 
-dat <- readRDS("data/dat_11.26.24_nocov_320.rds")
+vib_cutoff <- c(160, 640, 1280)
+vib_list <- list()
 
-res_nocov <- stan(file = "stan/HMM_cholera_nocov.stan",
+for(i in 1:length(vib_cutoff)) {
+  
+  vib <- vib_cutoff[i]
+  dat <- readRDS(paste0("data/dat_11.26.24_nocov_",vib,".rds"))
+  
+  res_vib <- stan(file = "stan/HMM_cholera_nocov.stan",
                   data = dat,
                   cores = cores,
                   pars = c("beta_asym", "beta_ih", "beta_eh",
@@ -18,13 +25,13 @@ res_nocov <- stan(file = "stan/HMM_cholera_nocov.stan",
                                        logit_sigma = logit(1/1.5),
                                        init_probs_hh = c(0.2, 0.2, 0.2, 0.2, 0.2))), 4))
 
-ch <- rstan::extract(res_nocov)
-nocov_320 <- process_runs(chains = ch, cov = FALSE)
-write.csv(nocov_320, "model_results/new_runs/res_nocov_320.csv", row.names = FALSE)
+  ch <- rstan::extract(res_vib)
+  vib_list[[i]] <- process_runs(chains = ch, cov = FALSE) %>% mutate(vib = vib)
+}
 
-# Save full posterior for intra-household risks
-ih_chains <- data.frame(ih_asym = ch$ih_prob_asym,
-                        ih_sym = ch$ih_prob_sym)
-write.csv(ih_chains, "model_results/new_runs/res_nocov_320_ihchains.csv", row.names = F)
+vib_out <- bind_rows(vib_list)
+write.csv(vib_out, "model_results/new_runs/res_vibsens.csv", row.names = FALSE)
+
+
 
 

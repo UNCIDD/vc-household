@@ -1,3 +1,5 @@
+require(tidyverse)
+require(ggforce)
 
 sample_timing <- function() {
   return(bind_rows(data.frame(day = c(1:10,30),
@@ -235,5 +237,93 @@ make_figS3 <-  function(ih_chains) {
     theme_bw() +
     labs(x = "Difference threshold (symptomatic - asymptomatic)",
          y = "Probability")
+  
+}
+
+refactor_res <- function(x) {
+  x <- x %>% 
+    mutate(param_type = ifelse(param %in% c("Extra-\nhousehold", "Intra-\nhousehold\nasymptomatic", "Intra-\nhousehold\nsymptomatic"),
+                               "Infection probability",
+                               ifelse(param %in% c("Pr_S", "Pr_Ia", "Pr_Is", "Pr_R"), "Initial probability", param)),
+           param_type = factor(param_type, levels = c("Infection probability", "Probability of symptoms", "Recovery period"))) %>%
+    filter(!str_detect(param, "Pr_"),
+           !str_detect(param, "OR"),
+           !str_detect(param, "Incubation"))
+  
+  return(x)
+}
+
+make_figS4 <- function(vib_sens, nocov) {
+  
+  plt <- vib_sens %>%
+    bind_rows(nocov %>%
+                mutate(vib = 320)) %>%
+    mutate(param = recode(param,
+                          "Extra-household" = "Extra-\nhousehold",
+                          "Intra-household\nasymptomatic" = "Intra-\nhousehold\nasymptomatic",
+                          "Intra-household\nsymptomatic" = "Intra-\nhousehold\nsymptomatic"))
+  
+  ggplot(refactor_res(plt) %>%
+           mutate(is_main = ifelse(vib == 320, 1, 0)),
+         aes(x = param, y = est, color = factor(vib), lty = factor(is_main))) +
+    geom_point(position = position_dodge(width = 0.5)) +
+    geom_errorbar(aes(ymin = ci_low, ymax = ci_high),
+                  width = 0.3, position = position_dodge(width = 0.5)) +
+    facet_row(vars(param_type), scales = "free", space = "free") +
+    theme_bw() +
+    guides(color=guide_legend(title="Cutoff for high titer"),
+           lty = "none") +
+    theme(legend.position = "bottom") +
+    labs(x = "", y = "")
+  
+}
+
+make_figS5 <- function(init_sens, nocov) {
+  
+  plt <- init_sens %>%
+    bind_rows(nocov %>%
+                mutate(init = 0.9)) %>%
+    mutate(param = recode(param,
+                          "Extra-household" = "Extra-\nhousehold",
+                          "Intra-household\nasymptomatic" = "Intra-\nhousehold\nasymptomatic",
+                          "Intra-household\nsymptomatic" = "Intra-\nhousehold\nsymptomatic"))
+  
+  ggplot(refactor_res(plt) %>% 
+           mutate(is_main = ifelse(init == 0.9, 1, 0)),
+         aes(x = param, y = est, color = factor(init), lty = factor(is_main))) +
+    geom_point(position = position_dodge(width = 0.5)) +
+    geom_errorbar(aes(ymin = ci_low, ymax = ci_high),
+                  width = 0.3, position = position_dodge(width = 0.5)) +
+    facet_row(vars(param_type), scales = "free", space = "free") +
+    theme_bw() +
+    guides(color=guide_legend(title="Probability of starting in I_s"),
+           lty = "none") +
+    theme(legend.position = "bottom") +
+    labs(x = "", y = "")
+  
+}
+
+make_figS6 <- function(phi_sens, nocov) {
+  
+  plt <- phi_sens %>%
+    bind_rows(nocov %>%
+                mutate(phi = 0.13)) %>%
+    mutate(param = recode(param,
+                          "Extra-household" = "Extra-\nhousehold",
+                          "Intra-household\nasymptomatic" = "Intra-\nhousehold\nasymptomatic",
+                          "Intra-household\nsymptomatic" = "Intra-\nhousehold\nsymptomatic"))
+  
+  ggplot(refactor_res(plt) %>% 
+           mutate(is_main = ifelse(phi == 0.13, 1, 0)),
+         aes(x = param, y = est, color = factor(phi), lty = factor(is_main))) +
+    geom_point(position = position_dodge(width = 0.5)) +
+    geom_errorbar(aes(ymin = ci_low, ymax = ci_high),
+                  width = 0.3, position = position_dodge(width = 0.5)) +
+    facet_row(vars(param_type), scales = "free", space = "free") +
+    theme_bw() +
+    guides(color=guide_legend(title="Pr(symptoms | not infected)"),
+           lty = "none") +
+    theme(legend.position = "bottom") +
+    labs(x = "", y = "")
   
 }
