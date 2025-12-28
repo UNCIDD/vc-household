@@ -327,3 +327,96 @@ make_figS6 <- function(phi_sens, nocov) {
     labs(x = "", y = "")
   
 }
+
+make_figS7 <- function(sim_params) {
+  
+  sim_params <- sim_params %>%
+    mutate(param = recode(param,
+                          "OR - asmpt/symp" = "Odds ratio\nasymptomatic/symptomatic"))
+  
+  inf_prob <- ggplot(sim_params %>% filter(str_detect(param, "household")),
+                     aes(x = param, y = est, group = factor(snum))) +
+    geom_point(position = position_dodge(width = 0.5)) +
+    geom_errorbar(aes(ymin = ci_low, ymax = ci_high),
+                  width = 0.3, position = position_dodge(width = 0.5)) +
+    geom_hline(data = data.frame(value = c(0.01, 0.025, 0.05),
+                                 param = c("Extra-household", "Intra-household\nasymptomatic", "Intra-household\nsymptomatic")),
+               aes(yintercept = value), linetype = "dashed") +
+    facet_wrap(~param, scales = "free") +
+    theme_bw() +
+    labs(x = "", y = "")
+  
+  start_prob <- ggplot(sim_params %>% filter(str_detect(param, "Pr_")),
+                       aes(x = param, y = est, group = factor(snum))) +
+    geom_point(position = position_dodge(width = 0.5)) +
+    geom_errorbar(aes(ymin = ci_low, ymax = ci_high),
+                  width = 0.3, position = position_dodge(width = 0.5)) +
+    geom_hline(data = data.frame(value = c(0.4, 0.1, 0.1, 0.4),
+                                 param = c("Pr_S", "Pr_Ia", "Pr_Is", "Pr_R")),
+               aes(yintercept = value), linetype = "dashed") +
+    facet_wrap(~param, scales = "free") +
+    theme_bw() +
+    labs(x = "", y = "")
+  
+  recover <- ggplot(sim_params %>% filter(str_detect(param, "Recovery")),
+                    aes(x = param, y = est, group = factor(snum))) +
+    geom_point(position = position_dodge(width = 0.5)) +
+    geom_errorbar(aes(ymin = ci_low, ymax = ci_high),
+                  width = 0.3, position = position_dodge(width = 0.5)) +
+    geom_hline(data = data.frame(value = c(2),
+                                 param = c("Recovery period")),
+               aes(yintercept = value), linetype = "dashed") +
+    facet_wrap(~param, scales = "free_x") +
+    theme_bw() +
+    labs(x = "", y = "")
+  
+  symp_prop <- ggplot(sim_params %>% filter(str_detect(param, "symptoms")),
+                      aes(x = param, y = est, group = factor(snum))) +
+    geom_point(position = position_dodge(width = 0.5)) +
+    geom_errorbar(aes(ymin = ci_low, ymax = ci_high),
+                  width = 0.3, position = position_dodge(width = 0.5)) +
+    geom_hline(data = data.frame(value = c(0.4),
+                                 param = c("Probability of symptoms")),
+               aes(yintercept = value), linetype = "dashed") +
+    facet_wrap(~param, scales = "free_x") +
+    theme_bw() +
+    labs(x = "", y = "")
+  
+  symp_or <- ggplot(sim_params %>% filter(str_detect(param, "Odds")) %>% mutate(param = "Odds ratio\nasymptomatic/symptomatic"),
+                    aes(x = param, y = est, group = factor(snum))) +
+    geom_point(position = position_dodge(width = 0.5)) +
+    geom_errorbar(aes(ymin = ci_low, ymax = ci_high),
+                  width = 0.3, position = position_dodge(width = 0.5)) +
+    geom_hline(data = data.frame(value = c(0.4871795),
+                                 param = c("Odds ratio\nasymptomatic/symptomatic")),
+               aes(yintercept = value), linetype = "dashed") +
+    facet_wrap(~param, scales = "free_x") +
+    theme_bw() +
+    labs(x = "", y = "") +
+    scale_y_log10()
+  
+  plot_grid(inf_prob, plot_grid(symp_or, recover, symp_prop, nrow = 1),
+            nrow = 2, rel_widths = c(3, 1, 1, 1))
+  
+}
+
+make_figS8 <- function(sim_stateprobs, sim_truth) {
+  
+  probs_plt <- sim_stateprobs %>%
+    pivot_wider(names_from = type, values_from = prob) %>%
+    mutate(comp = factor(comp, levels = c("S", "E", "I_a", "I_s", "R")))
+  
+  ggplot() +
+    geom_line(data = sim_truth, aes(x = day, y = tot, color = comp, group = comp), alpha = 0.8) +
+    geom_line(data = probs_plt, aes(x = day, y = med, color = comp, group = comp), lty = "dashed") +
+    geom_ribbon(data = probs_plt, aes(x = day, ymin = low, ymax = high, fill = comp, group = comp), alpha = 0.3) +
+    facet_wrap(~ sim_num) +
+    theme_bw() +
+    scale_y_sqrt() +
+    theme(legend.position = "bottom") +
+    labs(x = "Day",
+         y = "Number of People",
+         color = "Compartment",
+         fill = "Compartment")
+  
+}

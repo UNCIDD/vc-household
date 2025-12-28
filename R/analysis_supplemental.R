@@ -18,6 +18,7 @@ if(run_models) {
   source("R/run_models/vib_sens.R")
   source("R/run_models/init_sens.R")
   source("R/run_models/phi_sens.R")
+  source("R/run_models/simulations.R")
   
   nocov <- read.csv("model_results/new_runs/res_nocov_320.csv") # baseline model
   cov <- read.csv("model_results/new_runs/res_cov.csv") # covariates model
@@ -25,6 +26,7 @@ if(run_models) {
   vib_sens <- read.csv("model_results/new_runs/res_vibsens.csv") # sensitivity to high vibriocidal titer cutoff
   init_sens <- read.csv("model_results/new_runs/res_initsens.csv") # sensitivity to proportion of index cases who start symptomatically infected
   phi_sens <- read.csv("model_results/new_runs/res_phisens.csv") # sensitivity to probability of observing symptoms in uninfected individuals
+  sim_params <- read.csv("model_results/new_runs/sim_param_ests.csv") # parameter estimates from simulations
   
 } else {
   nocov <- read.csv("model_results/pre_saved/res_nocov_320.csv") # baseline model
@@ -33,6 +35,9 @@ if(run_models) {
   vib_sens <- read.csv("model_results/pre_saved/res_vibsens.csv") # sensitivity to high vibriocidal titer cutoff
   init_sens <- read.csv("model_results/pre_saved/res_initsens.csv") # sensitivity to proportion of index cases who start symptomatically infected
   phi_sens <- read.csv("model_results/pre_saved/res_phisens.csv") # sensitivity to probability of observing symptoms in uninfected individuals
+  sim_params <- read.csv("model_results/pre_saved/sim_param_ests.csv") # parameter estimates from simulations
+  sim_truth <- read.csv("model_results/pre_saved/sim_truth.rds")
+  sim_stateprobs <- read.csv("model_results/pre_saved/sim_stateprobs.rds")
 }
 
 # Read in raw data
@@ -59,4 +64,8 @@ make_figS5(init_sens, nocov)
 ## Figure S6
 make_figS6(phi_sens, nocov)
 
+## Figure S7
+make_figS7(sim_params)
 
+## Figure S8
+make_figS8(sim_stateprobs, sim_truth)
