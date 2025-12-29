@@ -27,6 +27,8 @@ if(run_models) {
   init_sens <- read.csv("model_results/new_runs/res_initsens.csv") # sensitivity to proportion of index cases who start symptomatically infected
   phi_sens <- read.csv("model_results/new_runs/res_phisens.csv") # sensitivity to probability of observing symptoms in uninfected individuals
   sim_params <- read.csv("model_results/new_runs/sim_param_ests.csv") # parameter estimates from simulations
+  sim_truth <- read.csv("model_results/new_runs/sim_truth.rds")
+  sim_stateprobs <- read.csv("model_results/new_runs/sim_stateprobs.rds")
   
 } else {
   nocov <- read.csv("model_results/pre_saved/res_nocov_320.csv") # baseline model

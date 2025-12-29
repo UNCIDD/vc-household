@@ -242,10 +242,12 @@ make_figS3 <-  function(ih_chains) {
 
 refactor_res <- function(x) {
   x <- x %>% 
-    mutate(param_type = ifelse(param %in% c("Extra-\nhousehold", "Intra-\nhousehold\nasymptomatic", "Intra-\nhousehold\nsymptomatic"),
+    mutate(param = ifelse(param == "Recovery period", "Duration of\ninfectiousness", param),
+           param = ifelse(param == "Probability of symptoms", "Probability\nof symptoms", param),
+           param_type = ifelse(param %in% c("Extra-\nhousehold", "Intra-\nhousehold\nasymptomatic", "Intra-\nhousehold\nsymptomatic"),
                                "Infection probability",
                                ifelse(param %in% c("Pr_S", "Pr_Ia", "Pr_Is", "Pr_R"), "Initial probability", param)),
-           param_type = factor(param_type, levels = c("Infection probability", "Probability of symptoms", "Recovery period"))) %>%
+           param_type = factor(param_type, levels = c("Infection probability", "Probability\nof symptoms", "Duration of\ninfectiousness"))) %>%
     filter(!str_detect(param, "Pr_"),
            !str_detect(param, "OR"),
            !str_detect(param, "Incubation"))
@@ -332,71 +334,32 @@ make_figS7 <- function(sim_params) {
   
   sim_params <- sim_params %>%
     mutate(param = recode(param,
-                          "OR - asmpt/symp" = "Odds ratio\nasymptomatic/symptomatic"))
+                          "OR - asmpt/symp" = "Odds ratio\nasymptomatic/symptomatic",
+                          "Recovery period" = "Duration of\ninfectiousness")) %>%
+    mutate(param = factor(param, levels = c("Extra-household", "Intra-household\nasymptomatic", "Intra-household\nsymptomatic",
+                                            "Odds ratio\nasymptomatic/symptomatic", "Duration of\ninfectiousness", "Probability of symptoms")))
   
-  inf_prob <- ggplot(sim_params %>% filter(str_detect(param, "household")),
-                     aes(x = param, y = est, group = factor(snum))) +
+  true_vals <-  data.frame(value = c(0.01, 0.025, 0.05, 2, 0.4, 0.4871795),
+                           param = c("Extra-household", "Intra-household\nasymptomatic", "Intra-household\nsymptomatic",
+                                     "Duration of\ninfectiousness", "Probability of symptoms", "Odds ratio\nasymptomatic/symptomatic")) %>%
+    mutate(param = factor(param, levels = c("Extra-household", "Intra-household\nasymptomatic", "Intra-household\nsymptomatic",
+                                            "Odds ratio\nasymptomatic/symptomatic", "Duration of\ninfectiousness", "Probability of symptoms")))
+  
+  ggplot(sim_params %>% filter(str_detect(param, "household") |
+                                 str_detect(param, "Duration") |
+                                 str_detect(param, "symptoms") |
+                                 str_detect(param, "Odds")),
+         aes(x = param, y = est, group = factor(snum))) +
     geom_point(position = position_dodge(width = 0.5)) +
     geom_errorbar(aes(ymin = ci_low, ymax = ci_high),
                   width = 0.3, position = position_dodge(width = 0.5)) +
-    geom_hline(data = data.frame(value = c(0.01, 0.025, 0.05),
-                                 param = c("Extra-household", "Intra-household\nasymptomatic", "Intra-household\nsymptomatic")),
+    geom_hline(data = true_vals,
                aes(yintercept = value), linetype = "dashed") +
     facet_wrap(~param, scales = "free") +
+    scale_y_facet(param == "Odds ratio\nasymptomatic/symptomatic",
+                  trans = "log10") +    
     theme_bw() +
     labs(x = "", y = "")
-  
-  start_prob <- ggplot(sim_params %>% filter(str_detect(param, "Pr_")),
-                       aes(x = param, y = est, group = factor(snum))) +
-    geom_point(position = position_dodge(width = 0.5)) +
-    geom_errorbar(aes(ymin = ci_low, ymax = ci_high),
-                  width = 0.3, position = position_dodge(width = 0.5)) +
-    geom_hline(data = data.frame(value = c(0.4, 0.1, 0.1, 0.4),
-                                 param = c("Pr_S", "Pr_Ia", "Pr_Is", "Pr_R")),
-               aes(yintercept = value), linetype = "dashed") +
-    facet_wrap(~param, scales = "free") +
-    theme_bw() +
-    labs(x = "", y = "")
-  
-  recover <- ggplot(sim_params %>% filter(str_detect(param, "Recovery")),
-                    aes(x = param, y = est, group = factor(snum))) +
-    geom_point(position = position_dodge(width = 0.5)) +
-    geom_errorbar(aes(ymin = ci_low, ymax = ci_high),
-                  width = 0.3, position = position_dodge(width = 0.5)) +
-    geom_hline(data = data.frame(value = c(2),
-                                 param = c("Recovery period")),
-               aes(yintercept = value), linetype = "dashed") +
-    facet_wrap(~param, scales = "free_x") +
-    theme_bw() +
-    labs(x = "", y = "")
-  
-  symp_prop <- ggplot(sim_params %>% filter(str_detect(param, "symptoms")),
-                      aes(x = param, y = est, group = factor(snum))) +
-    geom_point(position = position_dodge(width = 0.5)) +
-    geom_errorbar(aes(ymin = ci_low, ymax = ci_high),
-                  width = 0.3, position = position_dodge(width = 0.5)) +
-    geom_hline(data = data.frame(value = c(0.4),
-                                 param = c("Probability of symptoms")),
-               aes(yintercept = value), linetype = "dashed") +
-    facet_wrap(~param, scales = "free_x") +
-    theme_bw() +
-    labs(x = "", y = "")
-  
-  symp_or <- ggplot(sim_params %>% filter(str_detect(param, "Odds")) %>% mutate(param = "Odds ratio\nasymptomatic/symptomatic"),
-                    aes(x = param, y = est, group = factor(snum))) +
-    geom_point(position = position_dodge(width = 0.5)) +
-    geom_errorbar(aes(ymin = ci_low, ymax = ci_high),
-                  width = 0.3, position = position_dodge(width = 0.5)) +
-    geom_hline(data = data.frame(value = c(0.4871795),
-                                 param = c("Odds ratio\nasymptomatic/symptomatic")),
-               aes(yintercept = value), linetype = "dashed") +
-    facet_wrap(~param, scales = "free_x") +
-    theme_bw() +
-    labs(x = "", y = "") +
-    scale_y_log10()
-  
-  plot_grid(inf_prob, plot_grid(symp_or, recover, symp_prop, nrow = 1),
-            nrow = 2, rel_widths = c(3, 1, 1, 1))
   
 }
 
