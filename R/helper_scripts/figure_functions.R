@@ -56,9 +56,12 @@ make_fig3 <- function(dat) {
 make_fig4 <- function(dat) {
   
   dat <- dat %>%
+    mutate(cov = ifelse(cov == "Boiled\nwater", "Boiled water", cov),
+           cov = ifelse(cov == "Public tap\nor other", "Public tap/other", cov)) %>%
     mutate(cov = factor(cov, levels = c("Intercept", "Unknown",
                                         "0-4", "5-17", "18+",
                                         "Male", "Female",
+                                        "Boiled water", "Private tap", "Tubewell", "Public tap/other",
                                         "0-8,499", "8,500-11,999", "12,000-17,999", "18,000+",
                                         "Under 18", "At home", "Outside home",
                                         "Unknown or self", "Spouse", "Sibling", "Child", "Parent",
@@ -67,7 +70,7 @@ make_fig4 <- function(dat) {
                                                     "Occupation\ngroup", "Relation\nto index", "Age"))) 
   
   ggplot(dat %>% filter(cov != "Intercept"),
-         aes(color = model_type)) +
+         aes(color = model_type, linetype = model_type)) +
     geom_point(aes(y = cov, x = Est_med), position=position_dodge(width=0.5)) +
     geom_errorbar(aes(y = cov, xmin = CI_low, xmax = CI_high),
                   position=position_dodge(width=0.5), width = 0.25) +
@@ -242,14 +245,15 @@ make_figS3 <-  function(ih_chains) {
 
 refactor_res <- function(x) {
   x <- x %>% 
-    mutate(param = ifelse(param == "Recovery period", "Duration of\ninfectiousness", param),
+    mutate(param = ifelse(param %in% c("Recovery period", "Symptomatic\nrecovery period"), "Duration of\ninfectiousness", param),
            param = ifelse(param == "Probability of symptoms", "Probability\nof symptoms", param),
+           param = ifelse(param == "OR - asmpt/symp", "OR - asym/sym", param),
            param_type = ifelse(param %in% c("Extra-\nhousehold", "Intra-\nhousehold\nasymptomatic", "Intra-\nhousehold\nsymptomatic"),
                                "Infection probability",
                                ifelse(param %in% c("Pr_S", "Pr_Ia", "Pr_Is", "Pr_R"), "Initial probability", param)),
-           param_type = factor(param_type, levels = c("Infection probability", "Probability\nof symptoms", "Duration of\ninfectiousness"))) %>%
+           param_type = factor(param_type, levels = c("Infection probability", "OR - asym/sym", "Probability\nof symptoms", "Duration of\ninfectiousness"))) %>%
     filter(!str_detect(param, "Pr_"),
-           !str_detect(param, "OR"),
+           # !str_detect(param, "OR"),
            !str_detect(param, "Incubation"))
   
   return(x)
@@ -330,7 +334,34 @@ make_figS6 <- function(phi_sens, nocov) {
   
 }
 
-make_figS7 <- function(sim_params) {
+make_figS7 <- function(gamma_sens, nocov) {
+  
+  plt <- gamma_sens %>%
+    bind_rows(nocov %>%
+                mutate(asym_recovery_mult = 1)) %>%
+    mutate(param = recode(param,
+                          "Recovery period" = "Symptomatic\nrecovery period",
+                          "Extra-household" = "Extra-\nhousehold",
+                          "Intra-household\nasymptomatic" = "Intra-\nhousehold\nasymptomatic",
+                          "Intra-household\nsymptomatic" = "Intra-\nhousehold\nsymptomatic"))
+  
+  ggplot(refactor_res(plt) %>% 
+           mutate(is_main = ifelse(asym_recovery_mult == 1, 1, 0),
+                  param = ifelse(param == "Duration of\ninfectiousness", "Duration of\ninfectiousness\nsymptomatic", param)),
+         aes(x = param, y = est, color = factor(asym_recovery_mult), lty = factor(is_main))) +
+    geom_point(position = position_dodge(width = 0.5)) +
+    geom_errorbar(aes(ymin = ci_low, ymax = ci_high),
+                  width = 0.3, position = position_dodge(width = 0.5)) +
+    facet_row(vars(param_type), scales = "free", space = "free") +
+    theme_bw() +
+    guides(color=guide_legend(title="Multiplier for asymptomatic\nrecovery period"),
+           lty = "none") +
+    theme(legend.position = "bottom") +
+    labs(x = "", y = "")
+  
+}
+
+make_figS8 <- function(sim_params) {
   
   sim_params <- sim_params %>%
     mutate(param = recode(param,
@@ -363,7 +394,7 @@ make_figS7 <- function(sim_params) {
   
 }
 
-make_figS8 <- function(sim_stateprobs, sim_truth) {
+make_figS9 <- function(sim_stateprobs, sim_truth) {
   
   probs_plt <- sim_stateprobs %>%
     pivot_wider(names_from = type, values_from = prob) %>%
