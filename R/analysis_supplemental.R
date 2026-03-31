@@ -8,6 +8,7 @@ cores <- 4 # number of cores for running stan models (should be 4 if running in 
 
 # Dependencies
 library(tidyverse)
+library(ggh4x)
 
 source("R/helper_scripts/cholera_utilities.R")
 source("R/helper_scripts/figure_functions.R")
